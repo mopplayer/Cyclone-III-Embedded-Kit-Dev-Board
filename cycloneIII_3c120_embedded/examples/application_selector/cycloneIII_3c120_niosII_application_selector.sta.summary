@@ -1,0 +1,2513 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'n/a'
+Slack : 0.304
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.388
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.412
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ddr_mimic'
+Slack : 0.713
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ddr_mimic'
+Slack : 0.736
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.772
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_tDQSS'
+Slack : 1.144
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_tDQSS'
+Slack : 1.170
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'TX_CLK'
+Slack : 1.171
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_tDQSS'
+Slack : 1.209
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_tDQSS'
+Slack : 1.253
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'top_clkin_50'
+Slack : 1.279
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 1.486
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_tDSS'
+Slack : 1.522
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_tDSS'
+Slack : 1.553
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_tDSS'
+Slack : 1.587
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_tDSS'
+Slack : 1.636
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'RX_CLK'
+Slack : 1.786
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 1.967
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 1.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 2.235
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 2.240
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_ac_fall'
+Slack : 2.978
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_ac_fall'
+Slack : 3.000
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.007
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_ac_fall'
+Slack : 3.043
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_ac_fall'
+Slack : 3.083
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 3.564
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 3.800
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 4.123
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'top_clkin_125'
+Slack : 6.949
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 8.396
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'tck'
+Slack : 17.198
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'altera_reserved_tck'
+Slack : 42.598
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.271
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'RX_CLK'
+Slack : 0.292
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'TX_CLK'
+Slack : 0.293
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.296
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.350
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'top_clkin_50'
+Slack : 0.372
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 0.377
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 0.379
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'altera_reserved_tck'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'tck'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 0.407
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.409
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'top_clkin_125'
+Slack : 0.428
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 0.429
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 0.431
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.433
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_tDQSS'
+Slack : 1.227
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_tDQSS'
+Slack : 1.257
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_tDQSS'
+Slack : 1.302
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_tDQSS'
+Slack : 1.313
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ddr_mimic'
+Slack : 1.477
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_tDSS'
+Slack : 1.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ddr_mimic'
+Slack : 1.500
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_tDSS'
+Slack : 1.525
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_tDSS'
+Slack : 1.567
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_tDSS'
+Slack : 1.581
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_ac_fall'
+Slack : 1.686
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_ac_fall'
+Slack : 1.726
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_ac_fall'
+Slack : 1.761
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_ac_fall'
+Slack : 1.782
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'n/a'
+Slack : 4.592
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.123
+TNS   : -6.885
+
+Type  : Slow 1200mV 85C Model Recovery 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 1.909
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 2.086
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 2.763
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'RX_CLK'
+Slack : 3.061
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'TX_CLK'
+Slack : 3.393
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 3.688
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 4.346
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 4.595
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 4.786
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 4.811
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 6.977
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 10.687
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 11.065
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'top_clkin_50'
+Slack : 11.844
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 24.261
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'altera_reserved_tck'
+Slack : 45.901
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'tck'
+Slack : 45.901
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -1.910
+TNS   : -163.120
+
+Type  : Slow 1200mV 85C Model Removal 'altera_reserved_tck'
+Slack : 0.990
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'tck'
+Slack : 0.990
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'top_clkin_50'
+Slack : 0.993
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 1.014
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 1.017
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 1.020
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 1.021
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'RX_CLK'
+Slack : 1.041
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 1.204
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 1.225
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 1.233
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 1.235
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 1.474
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'TX_CLK'
+Slack : 1.500
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 2.232
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 2.458
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 4.857
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 2.804
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 2.807
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 2.807
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 2.948
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 2.949
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 2.949
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 2.951
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 2.952
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_10'
+Slack : 2.952
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_11'
+Slack : 2.952
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_12'
+Slack : 2.952
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_13'
+Slack : 2.952
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_14'
+Slack : 2.952
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_15'
+Slack : 2.952
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_16'
+Slack : 2.952
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_2'
+Slack : 2.952
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_3'
+Slack : 2.952
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_4'
+Slack : 2.952
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_5'
+Slack : 2.952
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_6'
+Slack : 2.952
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_7'
+Slack : 2.952
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_8'
+Slack : 2.952
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_9'
+Slack : 2.952
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_6'
+Slack : 2.953
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_1'
+Slack : 2.953
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_12'
+Slack : 2.958
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_13'
+Slack : 2.958
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_14'
+Slack : 2.958
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_15'
+Slack : 2.958
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_17'
+Slack : 2.958
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_2'
+Slack : 2.958
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_1'
+Slack : 2.959
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_11'
+Slack : 2.959
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_16'
+Slack : 2.959
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_3'
+Slack : 2.959
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_4'
+Slack : 2.959
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_5'
+Slack : 2.959
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_7'
+Slack : 2.959
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_8'
+Slack : 2.959
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_9'
+Slack : 2.959
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_ac_fall'
+Slack : 2.989
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_ac_rise'
+Slack : 2.989
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_tDQSS'
+Slack : 2.989
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_tDSS'
+Slack : 2.989
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_ac_fall'
+Slack : 2.989
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_ac_rise'
+Slack : 2.989
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_tDQSS'
+Slack : 2.989
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_tDSS'
+Slack : 2.989
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_ac_fall'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_ac_rise'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_tDQSS'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_tDSS'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_ac_fall'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_ac_rise'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_tDQSS'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_tDSS'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_top_ddr2_ck_p[1]_mimic_launch_clock'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_top_ddr2_ck_p[0]_mimic_launch_clock'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ddr_capture'
+Slack : 2.994
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ddr_mimic'
+Slack : 2.994
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ddr_capture'
+Slack : 2.994
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ddr_mimic'
+Slack : 2.994
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_17'
+Slack : 3.003
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_18'
+Slack : 3.003
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_19'
+Slack : 3.003
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_20'
+Slack : 3.003
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_21'
+Slack : 3.003
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_22'
+Slack : 3.003
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_23'
+Slack : 3.003
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_24'
+Slack : 3.003
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_25'
+Slack : 3.003
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_26'
+Slack : 3.003
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_27'
+Slack : 3.003
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_28'
+Slack : 3.003
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_29'
+Slack : 3.003
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_30'
+Slack : 3.003
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_32'
+Slack : 3.003
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_23'
+Slack : 3.004
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_31'
+Slack : 3.004
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_31'
+Slack : 3.009
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_32'
+Slack : 3.009
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_10'
+Slack : 3.010
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_18'
+Slack : 3.010
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_19'
+Slack : 3.010
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_20'
+Slack : 3.010
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_21'
+Slack : 3.010
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_22'
+Slack : 3.010
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_24'
+Slack : 3.010
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_25'
+Slack : 3.010
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_26'
+Slack : 3.010
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_27'
+Slack : 3.010
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_28'
+Slack : 3.010
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_29'
+Slack : 3.010
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_30'
+Slack : 3.010
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'top_clkin_125'
+Slack : 3.598
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'RX_CLK'
+Slack : 3.631
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'TX_CLK'
+Slack : 3.634
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.619
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 5.454
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 6.183
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 8.025
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'top_clkin_50'
+Slack : 9.522
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 11.944
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 49.622
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'tck'
+Slack : 49.622
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.314
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ddr_mimic'
+Slack : 0.762
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ddr_mimic'
+Slack : 0.782
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'n/a'
+Slack : 1.086
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 1.135
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_tDQSS'
+Slack : 1.179
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_tDQSS'
+Slack : 1.205
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_tDQSS'
+Slack : 1.239
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_tDQSS'
+Slack : 1.283
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 1.349
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'TX_CLK'
+Slack : 1.417
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_tDSS'
+Slack : 1.547
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_tDSS'
+Slack : 1.573
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_tDSS'
+Slack : 1.607
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'top_clkin_50'
+Slack : 1.616
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_tDSS'
+Slack : 1.651
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 1.789
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'RX_CLK'
+Slack : 2.112
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 2.264
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 2.337
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 2.339
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 2.634
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_ac_fall'
+Slack : 3.171
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_ac_fall'
+Slack : 3.194
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_ac_fall'
+Slack : 3.231
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_ac_fall'
+Slack : 3.272
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.337
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 3.878
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 4.081
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 4.284
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'top_clkin_125'
+Slack : 7.043
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 8.308
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'tck'
+Slack : 17.695
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'altera_reserved_tck'
+Slack : 43.099
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'RX_CLK'
+Slack : 0.151
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.277
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.281
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'TX_CLK'
+Slack : 0.296
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.318
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'top_clkin_50'
+Slack : 0.327
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.331
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 0.345
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'altera_reserved_tck'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'tck'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 0.357
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.367
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 0.394
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'top_clkin_125'
+Slack : 0.397
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.399
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_tDQSS'
+Slack : 1.251
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_tDQSS'
+Slack : 1.282
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_tDQSS'
+Slack : 1.323
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_tDQSS'
+Slack : 1.337
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ddr_mimic'
+Slack : 1.457
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ddr_mimic'
+Slack : 1.476
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_tDSS'
+Slack : 1.528
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_tDSS'
+Slack : 1.559
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_tDSS'
+Slack : 1.600
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_tDSS'
+Slack : 1.614
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_ac_fall'
+Slack : 1.623
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_ac_fall'
+Slack : 1.661
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_ac_fall'
+Slack : 1.695
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_ac_fall'
+Slack : 1.716
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'n/a'
+Slack : 4.002
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.512
+TNS   : -40.432
+
+Type  : Slow 1200mV 0C Model Recovery 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 2.274
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 2.392
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.074
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'RX_CLK'
+Slack : 3.530
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'TX_CLK'
+Slack : 3.726
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 3.944
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 4.513
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 4.741
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 4.955
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 4.980
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 7.385
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 11.219
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 11.271
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'top_clkin_50'
+Slack : 12.477
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 24.431
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 46.326
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'tck'
+Slack : 46.326
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -1.452
+TNS   : -124.594
+
+Type  : Slow 1200mV 0C Model Removal 'altera_reserved_tck'
+Slack : 0.892
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'tck'
+Slack : 0.892
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'top_clkin_50'
+Slack : 0.908
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 0.921
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 0.926
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.927
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.927
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'RX_CLK'
+Slack : 0.947
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 1.109
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 1.127
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 1.134
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 1.136
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 1.360
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'TX_CLK'
+Slack : 1.366
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 2.075
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 2.237
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 4.373
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 2.848
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 2.851
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 2.851
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 2.950
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 2.951
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 2.954
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 2.954
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_6'
+Slack : 2.954
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 2.954
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_8'
+Slack : 2.954
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_10'
+Slack : 2.955
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_11'
+Slack : 2.955
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_12'
+Slack : 2.955
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_13'
+Slack : 2.955
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_14'
+Slack : 2.955
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_15'
+Slack : 2.955
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_16'
+Slack : 2.955
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_2'
+Slack : 2.955
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_3'
+Slack : 2.955
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_4'
+Slack : 2.955
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_5'
+Slack : 2.955
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_6'
+Slack : 2.955
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_7'
+Slack : 2.955
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_9'
+Slack : 2.955
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_13'
+Slack : 2.956
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_14'
+Slack : 2.956
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_15'
+Slack : 2.956
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_16'
+Slack : 2.956
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_17'
+Slack : 2.956
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_1'
+Slack : 2.956
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_1'
+Slack : 2.957
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_11'
+Slack : 2.957
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_12'
+Slack : 2.957
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_2'
+Slack : 2.957
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_3'
+Slack : 2.957
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_4'
+Slack : 2.957
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_5'
+Slack : 2.957
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_7'
+Slack : 2.957
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_8'
+Slack : 2.957
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_9'
+Slack : 2.957
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_ac_fall'
+Slack : 2.989
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_ac_rise'
+Slack : 2.989
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_tDQSS'
+Slack : 2.989
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_tDSS'
+Slack : 2.989
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_ac_fall'
+Slack : 2.989
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_ac_rise'
+Slack : 2.989
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_tDQSS'
+Slack : 2.989
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_tDSS'
+Slack : 2.989
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_ac_fall'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_ac_rise'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_tDQSS'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_tDSS'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_ac_fall'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_ac_rise'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_tDQSS'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_tDSS'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ddr_capture'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ddr_mimic'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_top_ddr2_ck_p[1]_mimic_launch_clock'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ddr_capture'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ddr_mimic'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_top_ddr2_ck_p[0]_mimic_launch_clock'
+Slack : 2.992
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_23'
+Slack : 2.998
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_28'
+Slack : 2.998
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_17'
+Slack : 2.999
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_18'
+Slack : 2.999
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_19'
+Slack : 2.999
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_20'
+Slack : 2.999
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_21'
+Slack : 2.999
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_22'
+Slack : 2.999
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_23'
+Slack : 2.999
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_24'
+Slack : 2.999
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_25'
+Slack : 2.999
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_26'
+Slack : 2.999
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_27'
+Slack : 2.999
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_29'
+Slack : 2.999
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_30'
+Slack : 2.999
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_32'
+Slack : 2.999
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_10'
+Slack : 3.000
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_20'
+Slack : 3.000
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_30'
+Slack : 3.000
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_31'
+Slack : 3.000
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_32'
+Slack : 3.000
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_31'
+Slack : 3.000
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_18'
+Slack : 3.001
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_19'
+Slack : 3.001
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_21'
+Slack : 3.001
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_22'
+Slack : 3.001
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_24'
+Slack : 3.001
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_25'
+Slack : 3.001
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_26'
+Slack : 3.001
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_27'
+Slack : 3.001
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_28'
+Slack : 3.001
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_29'
+Slack : 3.001
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'top_clkin_125'
+Slack : 3.604
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'RX_CLK'
+Slack : 3.628
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'TX_CLK'
+Slack : 3.630
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.652
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 5.471
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 6.180
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 8.018
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'top_clkin_50'
+Slack : 9.587
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 11.973
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 49.566
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'tck'
+Slack : 49.566
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_tDQSS'
+Slack : 1.325
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_tDQSS'
+Slack : 1.332
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 1.336
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_tDQSS'
+Slack : 1.357
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_tDQSS'
+Slack : 1.367
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ddr_mimic'
+Slack : 1.487
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ddr_mimic'
+Slack : 1.495
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_tDSS'
+Slack : 1.654
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_tDSS'
+Slack : 1.661
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_tDSS'
+Slack : 1.685
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_tDSS'
+Slack : 1.695
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'TX_CLK'
+Slack : 2.138
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 2.255
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'top_clkin_50'
+Slack : 2.347
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'RX_CLK'
+Slack : 2.539
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 2.743
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 2.745
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 3.049
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 3.596
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_ac_fall'
+Slack : 3.603
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_ac_fall'
+Slack : 3.610
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_ac_fall'
+Slack : 3.629
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_ac_fall'
+Slack : 3.639
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.660
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 4.654
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 5.057
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 5.165
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 5.249
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'n/a'
+Slack : 5.333
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 5.360
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'top_clkin_125'
+Slack : 7.507
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 8.640
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'tck'
+Slack : 23.118
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'altera_reserved_tck'
+Slack : 46.338
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'top_clkin_50'
+Slack : 0.077
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.094
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'RX_CLK'
+Slack : 0.103
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'TX_CLK'
+Slack : 0.106
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.107
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.120
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.140
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 0.146
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 0.156
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'altera_reserved_tck'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'tck'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 0.183
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.189
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 0.190
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'top_clkin_125'
+Slack : 0.190
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.192
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'n/a'
+Slack : 0.672
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ddr_mimic'
+Slack : 0.810
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ddr_mimic'
+Slack : 0.816
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_tDQSS'
+Slack : 1.367
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_tDQSS'
+Slack : 1.369
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_tDQSS'
+Slack : 1.382
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_tDQSS'
+Slack : 1.396
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_ac_fall'
+Slack : 1.431
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_ac_fall'
+Slack : 1.433
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_ac_fall'
+Slack : 1.453
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_ac_fall'
+Slack : 1.467
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_tDSS'
+Slack : 1.685
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_tDSS'
+Slack : 1.687
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_tDSS'
+Slack : 1.699
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_tDSS'
+Slack : 1.713
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.094
+TNS   : -3.895
+
+Type  : Fast 1200mV 0C Model Recovery 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 3.440
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 4.019
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 4.449
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 4.970
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'RX_CLK'
+Slack : 5.333
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 5.393
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'TX_CLK'
+Slack : 5.455
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 5.530
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 5.632
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 5.647
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 9.691
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 12.015
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 13.393
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'top_clkin_50'
+Slack : 15.699
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 25.112
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 48.010
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'tck'
+Slack : 48.010
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -1.401
+TNS   : -122.007
+
+Type  : Fast 1200mV 0C Model Removal 'top_clkin_50'
+Slack : 0.465
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 0.481
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'altera_reserved_tck'
+Slack : 0.483
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.483
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'tck'
+Slack : 0.483
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.485
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 0.485
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'RX_CLK'
+Slack : 0.497
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 0.559
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 0.569
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 0.571
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.572
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.696
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'TX_CLK'
+Slack : 0.712
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 1.133
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 1.175
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 2.512
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 3.008
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 3.008
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.009
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_10'
+Slack : 3.022
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_9'
+Slack : 3.022
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 3.023
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.023
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 3.023
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 3.023
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_1'
+Slack : 3.023
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_11'
+Slack : 3.023
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_12'
+Slack : 3.023
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_13'
+Slack : 3.023
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_14'
+Slack : 3.023
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_15'
+Slack : 3.023
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_16'
+Slack : 3.023
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_2'
+Slack : 3.023
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_3'
+Slack : 3.023
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_5'
+Slack : 3.023
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_8'
+Slack : 3.023
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[4]'
+Slack : 3.024
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_4'
+Slack : 3.024
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_6'
+Slack : 3.024
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_7'
+Slack : 3.024
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_6'
+Slack : 3.025
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_12'
+Slack : 3.026
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_14'
+Slack : 3.026
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_2'
+Slack : 3.026
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_1'
+Slack : 3.027
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_11'
+Slack : 3.027
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_13'
+Slack : 3.027
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_15'
+Slack : 3.027
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_16'
+Slack : 3.027
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_17'
+Slack : 3.027
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_3'
+Slack : 3.027
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_4'
+Slack : 3.027
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_5'
+Slack : 3.027
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_7'
+Slack : 3.027
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_8'
+Slack : 3.027
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_9'
+Slack : 3.027
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ddr_capture'
+Slack : 3.028
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ddr_mimic'
+Slack : 3.028
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ddr_capture'
+Slack : 3.028
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ddr_mimic'
+Slack : 3.028
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_10'
+Slack : 3.029
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_18'
+Slack : 3.029
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_19'
+Slack : 3.029
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_20'
+Slack : 3.029
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_21'
+Slack : 3.029
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_22'
+Slack : 3.029
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_24'
+Slack : 3.029
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_25'
+Slack : 3.029
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_26'
+Slack : 3.029
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_28'
+Slack : 3.029
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_30'
+Slack : 3.029
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_32'
+Slack : 3.029
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_17'
+Slack : 3.029
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_25'
+Slack : 3.029
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_27'
+Slack : 3.029
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_27'
+Slack : 3.030
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_29'
+Slack : 3.030
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_31'
+Slack : 3.030
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_20'
+Slack : 3.030
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_21'
+Slack : 3.030
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_22'
+Slack : 3.030
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_23'
+Slack : 3.030
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_24'
+Slack : 3.030
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_26'
+Slack : 3.030
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_28'
+Slack : 3.030
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_29'
+Slack : 3.030
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_30'
+Slack : 3.030
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_31'
+Slack : 3.030
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_32'
+Slack : 3.030
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_dq_23'
+Slack : 3.031
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_18'
+Slack : 3.031
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_dq_19'
+Slack : 3.031
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_ac_fall'
+Slack : 3.164
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_ac_rise'
+Slack : 3.164
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_tDQSS'
+Slack : 3.164
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_n_top_ddr2_ck_n[0]_tDSS'
+Slack : 3.164
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_ac_fall'
+Slack : 3.164
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_ac_rise'
+Slack : 3.164
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_tDQSS'
+Slack : 3.164
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_ck_p_top_ddr2_ck_p[0]_tDSS'
+Slack : 3.164
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_ac_fall'
+Slack : 3.167
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_ac_rise'
+Slack : 3.167
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_tDQSS'
+Slack : 3.167
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_n_top_ddr2_ck_n[1]_tDSS'
+Slack : 3.167
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_ac_fall'
+Slack : 3.167
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_ac_rise'
+Slack : 3.167
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_tDQSS'
+Slack : 3.167
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_ck_p_top_ddr2_ck_p[1]_tDSS'
+Slack : 3.167
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_top_ddr2_ck_p[1]_mimic_launch_clock'
+Slack : 3.167
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_top_ddr2_ck_p[0]_mimic_launch_clock'
+Slack : 3.167
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'RX_CLK'
+Slack : 3.378
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'TX_CLK'
+Slack : 3.378
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'top_clkin_125'
+Slack : 3.796
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.750
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram_1|application_selector_ddr2_sdram_1_controller_phy_inst|application_selector_ddr2_sdram_1_phy_inst|application_selector_ddr2_sdram_1_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 5.444
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 6.255
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|pll|the_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 8.084
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'top_clkin_50'
+Slack : 9.596
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'application_selector_instance|ddr2_sdram|application_selector_ddr2_sdram_controller_phy_inst|application_selector_ddr2_sdram_phy_inst|application_selector_ddr2_sdram_phy_alt_mem_phy_inst|clk|scan_clk|q_clock'
+Slack : 11.917
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 49.477
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'tck'
+Slack : 49.477
+TNS   : 0.000
+
+------------------------------------------------------------

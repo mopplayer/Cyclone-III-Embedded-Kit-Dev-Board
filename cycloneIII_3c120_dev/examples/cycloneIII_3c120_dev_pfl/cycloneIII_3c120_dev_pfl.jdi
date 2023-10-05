@@ -1,0 +1,95 @@
+<sld_project_info>
+  <file_info>
+    <file checksum="0x00594797" device="EP3C120F780C7" path="cycloneIII_3c120_dev_pfl.sof" usercode="0xFFFFFFFF"/>
+    <file path="cycloneIII_3c120_dev_pfl.ttf"/>
+  </file_info>
+  <hub_info ir_width="5" node_count="1"/>
+  <node_info>
+    <node hpath="pfl:inst|altparallel_flash_loader:altparallel_flash_loader_component|alt_pfl:\PFL_CFI:pfl_cfi_inst|alt_pfl_pgm:\PGM1:DEFAULT_PGM:pgm|sld_virtual_jtag_basic:vjtag|sld_virtual_jtag_impl:sld_virtual_jtag_impl_inst" instance_id="0" mfg_id="110" node_id="5" sld_node_info="0x30286E00" version="6">
+      <parameters>
+        <parameter name="sld_mfg_id" type="dec" value="110"/>
+        <parameter name="sld_type_id" type="dec" value="5"/>
+        <parameter name="sld_version" type="dec" value="6"/>
+        <parameter name="sld_instance_index" type="dec" value="0"/>
+        <parameter name="sld_auto_instance_index" type="string" value="YES"/>
+        <parameter name="sld_ir_width" type="dec" value="5"/>
+        <parameter name="SLD_NODE_INFO" type="dec" value="807955968"/>
+      </parameters>
+      <inputs>
+        <port name="usr_tdo" source="pfl:inst|altparallel_flash_loader:altparallel_flash_loader_component|alt_pfl:\PFL_CFI:pfl_cfi_inst|alt_pfl_pgm:\PGM1:DEFAULT_PGM:pgm|sld_virtual_jtag_basic:vjtag|tdo"/>
+        <port name="usr_ir_out[0]" source="pfl:inst|altparallel_flash_loader:altparallel_flash_loader_component|alt_pfl:\PFL_CFI:pfl_cfi_inst|alt_pfl_pgm:\PGM1:DEFAULT_PGM:pgm|sld_virtual_jtag_basic:vjtag|ir_out[0]"/>
+        <port name="usr_ir_out[1]" source="pfl:inst|altparallel_flash_loader:altparallel_flash_loader_component|alt_pfl:\PFL_CFI:pfl_cfi_inst|alt_pfl_pgm:\PGM1:DEFAULT_PGM:pgm|sld_virtual_jtag_basic:vjtag|ir_out[1]"/>
+        <port name="usr_ir_out[2]" source="pfl:inst|altparallel_flash_loader:altparallel_flash_loader_component|alt_pfl:\PFL_CFI:pfl_cfi_inst|alt_pfl_pgm:\PGM1:DEFAULT_PGM:pgm|sld_virtual_jtag_basic:vjtag|ir_out[2]"/>
+        <port name="usr_ir_out[3]" source="pfl:inst|altparallel_flash_loader:altparallel_flash_loader_component|alt_pfl:\PFL_CFI:pfl_cfi_inst|alt_pfl_pgm:\PGM1:DEFAULT_PGM:pgm|sld_virtual_jtag_basic:vjtag|ir_out[3]"/>
+        <port name="usr_ir_out[4]" source="pfl:inst|altparallel_flash_loader:altparallel_flash_loader_component|alt_pfl:\PFL_CFI:pfl_cfi_inst|alt_pfl_pgm:\PGM1:DEFAULT_PGM:pgm|sld_virtual_jtag_basic:vjtag|ir_out[4]"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_raw_tck" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_raw_tck"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_raw_tms" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_raw_tms"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_tdi" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_tdi"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_tlr" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_tlr"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_rti" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_rti"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_sdrs" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_sdrs"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_cdr" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_cdr"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_sdr" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_sdr"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_e1dr" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_e1dr"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_pdr" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_pdr"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_e2dr" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_e2dr"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_udr" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_udr"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_sirs" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_sirs"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_cir" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_cir"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_sir" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_sir"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_e1ir" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_e1ir"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_pir" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_pir"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_e2ir" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_e2ir"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_uir" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_jtag_state_uir"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_usr1" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_usr1"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_clr" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_clr"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_ena" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_ena"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_ir_in_0_" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_ir_in_0_"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_ir_in_1_" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_ir_in_1_"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_ir_in_2_" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_ir_in_2_"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_ir_in_3_" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_ir_in_3_"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_ir_in_4_" source="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_ir_in_4_"/>
+      </inputs>
+      <outputs>
+        <port name="usr_tck"/>
+        <port name="usr_tdi"/>
+        <port name="usr_ir_in[0]"/>
+        <port name="usr_ir_in[1]"/>
+        <port name="usr_ir_in[2]"/>
+        <port name="usr_ir_in[3]"/>
+        <port name="usr_ir_in[4]"/>
+        <port name="usr_virtual_state_cdr"/>
+        <port name="usr_virtual_state_sdr"/>
+        <port name="usr_virtual_state_e1dr"/>
+        <port name="usr_virtual_state_pdr"/>
+        <port name="usr_virtual_state_e2dr"/>
+        <port name="usr_virtual_state_udr"/>
+        <port name="usr_virtual_state_cir"/>
+        <port name="usr_virtual_state_uir"/>
+        <port name="usr_tms"/>
+        <port name="usr_jtag_state_tlr"/>
+        <port name="usr_jtag_state_rti"/>
+        <port name="usr_jtag_state_sdrs"/>
+        <port name="usr_jtag_state_cdr"/>
+        <port name="usr_jtag_state_sdr"/>
+        <port name="usr_jtag_state_e1dr"/>
+        <port name="usr_jtag_state_pdr"/>
+        <port name="usr_jtag_state_e2dr"/>
+        <port name="usr_jtag_state_udr"/>
+        <port name="usr_jtag_state_sirs"/>
+        <port name="usr_jtag_state_cir"/>
+        <port name="usr_jtag_state_sir"/>
+        <port name="usr_jtag_state_e1ir"/>
+        <port name="usr_jtag_state_pir"/>
+        <port name="usr_jtag_state_e2ir"/>
+        <port name="usr_jtag_state_uir"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_tdo"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_ir_out_0_"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_ir_out_1_"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_ir_out_2_"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_ir_out_3_"/>
+        <port name="jtag.bp.inst_altparallel_flash_loader_component__PFL_CFI_pfl_cfi_inst__PGM1_DEFAULT_PGM_pgm_vjtag_sld_virtual_jtag_impl_inst_ir_out_4_"/>
+      </outputs>
+    </node>
+  </node_info>
+</sld_project_info>

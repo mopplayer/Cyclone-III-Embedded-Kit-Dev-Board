@@ -1,0 +1,183 @@
+|cycloneIII_3c120_dev_my_first_fpga_top
+user_pb[0] => mux_zero:inst2.sel
+clkin_50 => pll:inst1.inclk0
+
+
+|cycloneIII_3c120_dev_my_first_fpga_top|lpm_inv0:inst4
+data[0] => data[0].IN1
+data[1] => data[1].IN1
+data[2] => data[2].IN1
+data[3] => data[3].IN1
+data[4] => data[4].IN1
+data[5] => data[5].IN1
+data[6] => data[6].IN1
+data[7] => data[7].IN1
+
+
+|cycloneIII_3c120_dev_my_first_fpga_top|lpm_inv0:inst4|lpm_inv:lpm_inv_component
+data[0] => result[0].IN0
+data[1] => result[1].IN0
+data[2] => result[2].IN0
+data[3] => result[3].IN0
+data[4] => result[4].IN0
+data[5] => result[5].IN0
+data[6] => result[6].IN0
+data[7] => result[7].IN0
+
+
+|cycloneIII_3c120_dev_my_first_fpga_top|mux_zero:inst2
+data0x[0] => sub_wire2[0].IN1
+data0x[1] => sub_wire2[1].IN1
+data0x[2] => sub_wire2[2].IN1
+data0x[3] => sub_wire2[3].IN1
+data0x[4] => sub_wire2[4].IN1
+data0x[5] => sub_wire2[5].IN1
+data0x[6] => sub_wire2[6].IN1
+data0x[7] => sub_wire2[7].IN1
+data1x[0] => sub_wire2[8].IN1
+data1x[1] => sub_wire2[9].IN1
+data1x[2] => sub_wire2[10].IN1
+data1x[3] => sub_wire2[11].IN1
+data1x[4] => sub_wire2[12].IN1
+data1x[5] => sub_wire2[13].IN1
+data1x[6] => sub_wire2[14].IN1
+data1x[7] => sub_wire2[15].IN1
+sel => sub_wire5.IN1
+
+
+|cycloneIII_3c120_dev_my_first_fpga_top|mux_zero:inst2|lpm_mux:LPM_MUX_component
+data[0][0] => mux_5qc:auto_generated.data[0]
+data[0][1] => mux_5qc:auto_generated.data[1]
+data[0][2] => mux_5qc:auto_generated.data[2]
+data[0][3] => mux_5qc:auto_generated.data[3]
+data[0][4] => mux_5qc:auto_generated.data[4]
+data[0][5] => mux_5qc:auto_generated.data[5]
+data[0][6] => mux_5qc:auto_generated.data[6]
+data[0][7] => mux_5qc:auto_generated.data[7]
+data[1][0] => mux_5qc:auto_generated.data[8]
+data[1][1] => mux_5qc:auto_generated.data[9]
+data[1][2] => mux_5qc:auto_generated.data[10]
+data[1][3] => mux_5qc:auto_generated.data[11]
+data[1][4] => mux_5qc:auto_generated.data[12]
+data[1][5] => mux_5qc:auto_generated.data[13]
+data[1][6] => mux_5qc:auto_generated.data[14]
+data[1][7] => mux_5qc:auto_generated.data[15]
+sel[0] => mux_5qc:auto_generated.sel[0]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+
+
+|cycloneIII_3c120_dev_my_first_fpga_top|mux_zero:inst2|lpm_mux:LPM_MUX_component|mux_5qc:auto_generated
+data[0] => result_node[0].IN1
+data[1] => result_node[1].IN1
+data[2] => result_node[2].IN1
+data[3] => result_node[3].IN1
+data[4] => result_node[4].IN1
+data[5] => result_node[5].IN1
+data[6] => result_node[6].IN1
+data[7] => result_node[7].IN1
+data[8] => result_node[0].IN1
+data[9] => result_node[1].IN1
+data[10] => result_node[2].IN1
+data[11] => result_node[3].IN1
+data[12] => result_node[4].IN1
+data[13] => result_node[5].IN1
+data[14] => result_node[6].IN1
+data[15] => result_node[7].IN1
+sel[0] => result_node[7].IN0
+sel[0] => _.IN0
+sel[0] => result_node[6].IN0
+sel[0] => _.IN0
+sel[0] => result_node[5].IN0
+sel[0] => _.IN0
+sel[0] => result_node[4].IN0
+sel[0] => _.IN0
+sel[0] => result_node[3].IN0
+sel[0] => _.IN0
+sel[0] => result_node[2].IN0
+sel[0] => _.IN0
+sel[0] => result_node[1].IN0
+sel[0] => _.IN0
+sel[0] => result_node[0].IN0
+sel[0] => _.IN0
+
+
+|cycloneIII_3c120_dev_my_first_fpga_top|simple_counter:inst
+clock => counter_out[0]~reg0.CLK
+clock => counter_out[1]~reg0.CLK
+clock => counter_out[2]~reg0.CLK
+clock => counter_out[3]~reg0.CLK
+clock => counter_out[4]~reg0.CLK
+clock => counter_out[5]~reg0.CLK
+clock => counter_out[6]~reg0.CLK
+clock => counter_out[7]~reg0.CLK
+clock => counter_out[8]~reg0.CLK
+clock => counter_out[9]~reg0.CLK
+clock => counter_out[10]~reg0.CLK
+clock => counter_out[11]~reg0.CLK
+clock => counter_out[12]~reg0.CLK
+clock => counter_out[13]~reg0.CLK
+clock => counter_out[14]~reg0.CLK
+clock => counter_out[15]~reg0.CLK
+clock => counter_out[16]~reg0.CLK
+clock => counter_out[17]~reg0.CLK
+clock => counter_out[18]~reg0.CLK
+clock => counter_out[19]~reg0.CLK
+clock => counter_out[20]~reg0.CLK
+clock => counter_out[21]~reg0.CLK
+clock => counter_out[22]~reg0.CLK
+clock => counter_out[23]~reg0.CLK
+clock => counter_out[24]~reg0.CLK
+clock => counter_out[25]~reg0.CLK
+clock => counter_out[26]~reg0.CLK
+clock => counter_out[27]~reg0.CLK
+clock => counter_out[28]~reg0.CLK
+clock => counter_out[29]~reg0.CLK
+clock => counter_out[30]~reg0.CLK
+clock => counter_out[31]~reg0.CLK
+
+
+|cycloneIII_3c120_dev_my_first_fpga_top|pll:inst1
+inclk0 => sub_wire3[0].IN1
+
+
+|cycloneIII_3c120_dev_my_first_fpga_top|pll:inst1|altpll:altpll_component
+inclk[0] => pll_altpll:auto_generated.inclk[0]
+inclk[1] => pll_altpll:auto_generated.inclk[1]
+fbin => ~NO_FANOUT~
+pllena => ~NO_FANOUT~
+clkswitch => ~NO_FANOUT~
+areset => ~NO_FANOUT~
+pfdena => ~NO_FANOUT~
+clkena[0] => ~NO_FANOUT~
+clkena[1] => ~NO_FANOUT~
+clkena[2] => ~NO_FANOUT~
+clkena[3] => ~NO_FANOUT~
+clkena[4] => ~NO_FANOUT~
+clkena[5] => ~NO_FANOUT~
+extclkena[0] => ~NO_FANOUT~
+extclkena[1] => ~NO_FANOUT~
+extclkena[2] => ~NO_FANOUT~
+extclkena[3] => ~NO_FANOUT~
+scanclk => ~NO_FANOUT~
+scanclkena => ~NO_FANOUT~
+scanaclr => ~NO_FANOUT~
+scanread => ~NO_FANOUT~
+scanwrite => ~NO_FANOUT~
+scandata => ~NO_FANOUT~
+phasecounterselect[0] => ~NO_FANOUT~
+phasecounterselect[1] => ~NO_FANOUT~
+phasecounterselect[2] => ~NO_FANOUT~
+phasecounterselect[3] => ~NO_FANOUT~
+phaseupdown => ~NO_FANOUT~
+phasestep => ~NO_FANOUT~
+configupdate => ~NO_FANOUT~
+fbmimicbidir <> <GND>
+
+
+|cycloneIII_3c120_dev_my_first_fpga_top|pll:inst1|altpll:altpll_component|pll_altpll:auto_generated
+inclk[0] => pll1.CLK
+inclk[1] => pll1.CLK1
+
+

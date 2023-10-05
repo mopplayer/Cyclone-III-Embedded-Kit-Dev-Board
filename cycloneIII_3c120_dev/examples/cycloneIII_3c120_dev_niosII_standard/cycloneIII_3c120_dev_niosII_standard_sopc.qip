@@ -1,0 +1,32 @@
+# clk
+# osc_clk
+# cpu
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) cpu.sdc]
+set_global_assignment -name SOURCE_FILE [file join $::quartus(qip_path) cpu.ocp]
+# onchip_ram
+# ext_flash
+# flash_tristate_bridge
+# lcd_display
+# led_pio
+# button_pio
+# sys_clk_timer
+# high_res_timer
+# sysid
+# sys_pll
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) sys_pll.sdc]
+# jtag_uart
+# altmemddr_bridge
+# altmemddr
+# osc_clk_1
+# sgdma_tx
+# sgdma_rx
+# tse_mac
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) tse_mac_constraints.sdc]
+set_global_assignment -name QIP_FILE [file join $::quartus(qip_path) tse_mac.qip]
+# descriptor_memory
+# null
+set_global_assignment -name SDC_FILE [file join $::quartus(ip_rootpath) altera/sopc_builder_ip/altera_avalon_clock_adapter/altera_avalon_clock_adapter.sdc]
+set_global_assignment -name SOPC_BUILDER_SIGNATURE_ID "BC305BDE2E6800000133903F1CAB"
+set_global_assignment -entity "cycloneIII_3c120_dev_niosII_standard_sopc" -name IP_TOOL_NAME "sopc"
+set_global_assignment -entity "cycloneIII_3c120_dev_niosII_standard_sopc" -name IP_TOOL_VERSION "11.1"
+set_global_assignment -entity "cycloneIII_3c120_dev_niosII_standard_sopc" -name IP_TOOL_ENV "sopc"

@@ -1,0 +1,78 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 0 0 152 192)
+	(text "clk_mux" (rect 51 0 112 21)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 173 25 188)(font "Arial" ))
+	(port
+		(pt 0 64)
+		(input)
+		(text "data0" (rect 0 0 31 18)(font "Arial" (font_size 8)))
+		(text "data0" (rect 4 46 30 63)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 56 64))
+	)
+	(port
+		(pt 0 88)
+		(input)
+		(text "data1" (rect 0 0 31 18)(font "Arial" (font_size 8)))
+		(text "data1" (rect 4 70 26 87)(font "Arial" (font_size 8)))
+		(line (pt 0 88)(pt 56 88))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "data2" (rect 0 0 31 18)(font "Arial" (font_size 8)))
+		(text "data2" (rect 4 94 30 111)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 56 112))
+	)
+	(port
+		(pt 0 136)
+		(input)
+		(text "data3" (rect 0 0 31 18)(font "Arial" (font_size 8)))
+		(text "data3" (rect 4 118 30 135)(font "Arial" (font_size 8)))
+		(line (pt 0 136)(pt 56 136))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "sel[1..0]" (rect 0 0 44 18)(font "Arial" (font_size 8)))
+		(text "sel[1..0]" (rect 4 142 38 159)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 56 160)(line_width 3))
+	)
+	(port
+		(pt 152 64)
+		(output)
+		(text "result" (rect 0 0 31 18)(font "Arial" (font_size 8)))
+		(text "result" (rect 122 46 147 63)(font "Arial" (font_size 8)))
+		(line (pt 152 64)(pt 112 64))
+	)
+	(drawing
+		(line (pt 0 0)(pt 154 0))
+		(line (pt 154 0)(pt 154 194))
+		(line (pt 0 194)(pt 154 194))
+		(line (pt 0 0)(pt 0 194))
+		(line (pt 56 40)(pt 112 40))
+		(line (pt 112 40)(pt 112 176))
+		(line (pt 56 176)(pt 112 176))
+		(line (pt 56 40)(pt 56 176))
+	)
+)

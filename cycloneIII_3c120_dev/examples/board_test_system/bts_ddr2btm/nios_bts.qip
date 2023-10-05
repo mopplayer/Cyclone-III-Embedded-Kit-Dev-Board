@@ -1,0 +1,49 @@
+# clk_0
+# cpu_0
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) cpu_0.sdc]
+set_global_assignment -name SOURCE_FILE [file join $::quartus(qip_path) cpu_0.ocp]
+# onchip_memory2_0
+# jtag_uart_0
+# sc_inf_0
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) bts_gui_comp/sc_inf_hw.tcl]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) bts_gui_comp/sc_inf.vhd]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) sc_inf_0.vhd]
+# product_info_0
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) bts_gui_comp/product_info_hw.tcl]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) bts_gui_comp/product_info.vhd]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) product_info_0.vhd]
+# heartbeat_0
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) bts_gui_comp/heartbeat_hw.tcl]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) bts_gui_comp/heartbeat.vhd]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) heartbeat_0.vhd]
+# jtag_avalon_master_0
+set_global_assignment -name TCL_FILE [file join $::quartus(ip_rootpath) altera/sopc_builder_ip/altera_jtag_avalon_master/altera_jtag_avalon_master_hw.tcl]
+set_global_assignment -library "lib_jtag_avalon_master_0" -name VERILOG_FILE [file join $::quartus(qip_path) jtag_avalon_master_0.v]
+set_global_assignment -library "lib_jtag_avalon_master_0" -name VERILOG_FILE [file join $::quartus(qip_path) jtag_avalon_master_0/altera_jtag_avalon_master/jtag_avalon_master_0_jtag_avalon_master_0.v]
+set_global_assignment -library "lib_jtag_avalon_master_0" -name VERILOG_FILE [file join $::quartus(qip_path) jtag_avalon_master_0/altera_jtag_dc_streaming/altera_avalon_st_jtag_interface.v]
+set_global_assignment -library "lib_jtag_avalon_master_0" -name VERILOG_FILE [file join $::quartus(qip_path) jtag_avalon_master_0/altera_jtag_dc_streaming/altera_jtag_dc_streaming.v]
+set_global_assignment -library "lib_jtag_avalon_master_0" -name VERILOG_FILE [file join $::quartus(qip_path) jtag_avalon_master_0/altera_jtag_dc_streaming/altera_jtag_sld_node.v]
+set_global_assignment -library "lib_jtag_avalon_master_0" -name VERILOG_FILE [file join $::quartus(qip_path) jtag_avalon_master_0/altera_jtag_dc_streaming/altera_jtag_streaming.v]
+set_global_assignment -library "lib_jtag_avalon_master_0" -name VERILOG_FILE [file join $::quartus(qip_path) jtag_avalon_master_0/altera_jtag_dc_streaming/altera_pli_streaming.v]
+set_global_assignment -library "lib_jtag_avalon_master_0" -name VERILOG_FILE [file join $::quartus(qip_path) jtag_avalon_master_0/altera_jtag_dc_streaming/altera_avalon_st_clock_crosser.v]
+set_global_assignment -library "lib_jtag_avalon_master_0" -name VERILOG_FILE [file join $::quartus(qip_path) jtag_avalon_master_0/altera_jtag_dc_streaming/altera_avalon_st_pipeline_base.v]
+set_global_assignment -library "lib_jtag_avalon_master_0" -name VERILOG_FILE [file join $::quartus(qip_path) jtag_avalon_master_0/altera_jtag_dc_streaming/altera_avalon_st_idle_remover.v]
+set_global_assignment -library "lib_jtag_avalon_master_0" -name VERILOG_FILE [file join $::quartus(qip_path) jtag_avalon_master_0/altera_jtag_dc_streaming/altera_avalon_st_idle_inserter.v]
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) jtag_avalon_master_0/altera_jtag_dc_streaming/altera_avalon_st_jtag_interface.sdc]
+set_global_assignment -library "lib_jtag_avalon_master_0" -name VERILOG_FILE [file join $::quartus(qip_path) jtag_avalon_master_0/timing_adapter/jtag_avalon_master_0_timing_adt.v]
+set_global_assignment -library "lib_jtag_avalon_master_0" -name VERILOG_FILE [file join $::quartus(qip_path) jtag_avalon_master_0/altera_avalon_sc_fifo/altera_avalon_sc_fifo.v]
+set_global_assignment -library "lib_jtag_avalon_master_0" -name VERILOG_FILE [file join $::quartus(qip_path) jtag_avalon_master_0/altera_avalon_st_bytes_to_packets/altera_avalon_st_bytes_to_packets.v]
+set_global_assignment -library "lib_jtag_avalon_master_0" -name VERILOG_FILE [file join $::quartus(qip_path) jtag_avalon_master_0/altera_avalon_st_packets_to_bytes/altera_avalon_st_packets_to_bytes.v]
+set_global_assignment -library "lib_jtag_avalon_master_0" -name VERILOG_FILE [file join $::quartus(qip_path) jtag_avalon_master_0/altera_avalon_packets_to_master/altera_avalon_packets_to_master.v]
+set_global_assignment -library "lib_jtag_avalon_master_0" -name VERILOG_FILE [file join $::quartus(qip_path) jtag_avalon_master_0/channel_adapter/jtag_avalon_master_0_b2p_adapter.v]
+set_global_assignment -library "lib_jtag_avalon_master_0" -name VERILOG_FILE [file join $::quartus(qip_path) jtag_avalon_master_0/channel_adapter/jtag_avalon_master_0_p2b_adapter.v]
+# timer_0
+# nios_bts_port_ddr2_x32_0
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) nios_bts_port_ddr2_x32_hw.tcl]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) nios_bts_port_ddr2_x32.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) nios_bts_port_ddr2_x32_0.v]
+# null
+set_global_assignment -name SOPC_BUILDER_SIGNATURE_ID "0023AEEC323800000133560EBEB0"
+set_global_assignment -entity "nios_bts" -name IP_TOOL_NAME "sopc"
+set_global_assignment -entity "nios_bts" -name IP_TOOL_VERSION "11.1"
+set_global_assignment -entity "nios_bts" -name IP_TOOL_ENV "sopc"

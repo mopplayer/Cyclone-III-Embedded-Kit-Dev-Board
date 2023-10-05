@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="lcd_ta_fifo_to_dfa">
+		<CBX_INST_ENTRY INSTANCE_NAME="|lcd_ta_fifo_to_dfa|lcd_ta_fifo_to_dfa_fifo:lcd_ta_fifo_to_dfa_fifo|altsyncram:mem" CBX_FILE_NAME="altsyncram_kmg1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,25 @@
+# cpu
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) cpu.sdc]
+set_global_assignment -name SOURCE_FILE [file join $::quartus(qip_path) cpu.ocp]
+# flash_tristate_bridge
+# jtag_uart
+# led_pio
+# sys_clk_timer
+# high_res_timer
+# sysid
+# osc_clk
+# ext_flash
+# sgdma_tx
+# sgdma_rx
+# tse_mac
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) tse_mac_constraints.sdc]
+set_global_assignment -name QIP_FILE [file join $::quartus(qip_path) tse_mac.qip]
+# descriptor_memory
+# ssram
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) ip/ssram32/ssram32_hw.tcl]
+# lcd
+# null
+set_global_assignment -name SOPC_BUILDER_SIGNATURE_ID "00219BFE481000000133560C9FBA"
+set_global_assignment -entity "bup_3c120_fpga_sopc" -name IP_TOOL_NAME "sopc"
+set_global_assignment -entity "bup_3c120_fpga_sopc" -name IP_TOOL_VERSION "11.1"
+set_global_assignment -entity "bup_3c120_fpga_sopc" -name IP_TOOL_ENV "sopc"

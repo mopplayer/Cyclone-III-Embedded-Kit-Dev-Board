@@ -1,0 +1,22 @@
+Quartus II Archive log --	D:/Cabs/Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_pfl/cycloneIII_3c120_dev_pfl.qarlog
+
+Archive:	D:/Cabs/Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_pfl/cycloneIII_3c120_dev_pfl.qar
+Date:		Wed Jun 30 13:59:54 2010
+Quartus II		9.1 Build 350 03/24/2010 SP 2 SJ Full Version
+
+	=========== Files Selected: ===========
+D:/Cabs/Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_pfl/cycloneIII_3c120_dev_pfl.jdi
+D:/Cabs/Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_pfl/cycloneIII_3c120_dev_pfl.qpf
+D:/Cabs/Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_pfl/cycloneIII_3c120_dev_pfl.qsf
+D:/Cabs/Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_pfl/cycloneIII_3c120_dev_pfl.sof
+D:/Cabs/Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_pfl/cycloneIII_3c120_dev_pfl.ttf
+D:/Cabs/Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_pfl/cycloneIII_3c120_dev_pfl_assignment_defaults.qdf
+D:/Cabs/Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_pfl/cycloneIII_3c120_dev_pfl_top.bdf
+D:/Cabs/Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_pfl/pfl.bsf
+D:/Cabs/Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_pfl/pfl.qip
+D:/Cabs/Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_pfl/pfl.v
+D:/Cabs/Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_pfl/pfl_bb.v
+	======= Total: 11 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

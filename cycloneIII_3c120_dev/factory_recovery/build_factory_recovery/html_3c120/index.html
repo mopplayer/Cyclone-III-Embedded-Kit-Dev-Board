@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html xmlns=".w3.org/1999/xhtml"><head><title>Board Update Portal: Cyclone III FPGA Development Kit</title>
+<meta http-equiv="Content-Type" content="text/html; charset=unicode"><link 
+media=all href="style.css" type=text/css rel=stylesheet>
+<script src="AC_RunActiveContent.js" type="text/javascript"></script>
+
+<script src="progress.js" type="text/javascript"></script>
+
+<meta content="MSHTML 6.00.6000.17023" name="GENERATOR"></head>
+<body class="body-container"><!-- begin webcast or popup top banner --><!-- begin top banner -->
+<div class="bup-header"><img 
+style="PADDING-RIGHT: 0px; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 15px; PADDING-TOP: 15px" 
+alt="Altera Logo" src="altera-logo.gif"> 
+<div class="bup-header-right"><span>Board Update Portal</span><br>Cyclone 
+III&nbsp;FPGA Development Kit<sup>®</sup> </div></div><!-- end top banner --><!-- end top webcast or popup top banner --><!-- begin content -->
+<div class="bup-content"><!--start bup-form-->
+<div class="bup-form">
+<p>This Board Update Portal web page is being served by a design running in the 
+FPGA on your development board. This page, in coordination with the FPGA design 
+serving it, allows you to write new FPGA images to the flash on your board and 
+provides links to useful information on the Altera® website. The FPGA design 
+contains a Nios® II CPU and the Triple-Speed Ethernet MAC MegaCore® function. 
+When you install the development kit design files on your system, the design 
+files for the Board Update Portal FPGA design are installed in the 
+<strong><br>.../kits/cycloneIII_3c120_fpga/examples/board_update_portal</strong> 
+directory. This design is one example of how to remotely update an FPGA system 
+over Ethernet. Remote Update can be accomplished without a web server, and it 
+can also be used to update just the firmware of an embedded FPGA system. Please 
+see application note <a 
+href="http://www.altera.com/literature/an/an429.pdf">AN429</a> to learn more 
+about Remote Update.</p>
+<p>Instructions on preparing your own .sof/.elf files for uploading to flash via 
+the Board Update Portal are available <a 
+onclick="window.open('instructions.html','popup','width=730,height=600,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=no,left=50,top=0'); return false" 
+href="instructions.html">here</a>. <!--start form--></p>
+<div class="box" id="form">
+<div class="box" id="form-content">
+<form onsubmit="startProgress(); return true;" action="/reset_system.html" 
+method=post encType=multipart/form-data>
+<table class="bup-table" cellpadding="0" width="550">
+  <tbody>
+  <tr>
+    <th scope="col" colspan="3"><strong>Upload a New Design to 
+Flash</strong></th></tr>
+  <tr>
+    <td width="200"><strong>Hardware File Name:</strong><br><input 
+      class=adjust_font type=file size=16 name=hw_filename></td>
+    <td width="200"><strong>Software File Name:</strong><br><input 
+      class=adjust_font type=file size=16 name=sw_filename></td>
+    <td width="80">&nbsp;<br><input class="adjust_font" type="submit" value="Upload" name="upload_image"></td></tr></tbody></table></form><!--begin progress-->
+<div id="progressbar"></div>
+<div 
+id=tp>&nbsp;</div><!--end of progress--></div><!--end of form-content--></div><!--end of form--></div><!--end of bup-form--><!--bup-links-->
+<div class="bup-links">
+<h4>Kit-Specific Resources</h4>
+<ul>
+  <li><a 
+  href="http://www.altera.com/products/devkits/altera/kit-cyc3.html">Cyclone III 
+  FPGA Development&nbsp;Kit</a> 
+  <li><a 
+  href="http://www.altera.com/products/devices/cyclone3/cy3-index.jsp">Cyclone 
+  III FPGAs</a> <!--    <li><a href="__KIT_LINK_ERRATA_TITLE__">__KIT_LINK_ERRATA_TITLE__</a></li>	--></li></ul>
+<h4>General Design Resources</h4>
+<ul>
+  <li><a 
+  href="http://www.altera.com/technology/signal/board-design-guidelines/sgl-bdg-index.html">Board 
+  Design Resource Center</a> 
+  <li><a 
+  href="https://www.altera.com/support/software/download/sof-download_center.html">Software 
+  Download Center</a> 
+  <li><a href="http://www.altera.com/support/spt-index.html">Technical Support 
+  Center</a> 
+  <li><a 
+  href="http://www.altera.com/products/devkits/kit-index.html">Development 
+  Kits</a> 
+  <li><a href="http://www.altera.com/embedded">Embedded Processing</a> 
+  <li><a href="http://www.alteraforum.com">Altera Forum</a> 
+  <li><a href="http://www.alteraforum.com/forum/forumdisplay.php?f=37">Nios 
+  Forum</a> </li></ul></div><!--end of bup-links--><!--bup-board-photo-->
+<div class="bup-board-photo"><span 
+style="WIDTH: 680px; HEIGHT: 40px"><strong>Cyclone III&nbsp;FPGA 
+Development&nbsp;Kit </strong><br></span> <!-- flash file--><span 
+class=dev-kit-flash><span id="dev-kit-photo" 
+style="WIDTH: 681px; HEIGHT: 437px"><img style="WIDTH: 470px; HEIGHT: 427px" 
+height=0 hspace=0 src="board-photo.png" width=0 border=0></a></span>
+<script type="text/javascript"><!-- //
+//--></script>
+ </div><!--end of dev-kit-flash--></div><!--end of bup-board-photo-->
+<div></div><!-- end popup content --><!-- begin footer --><!-- begin gray gutter --><!-- end gray gutter --><!-- begin footer -->
+<div class="footer-gutter"></div>
+<div class="footer-container-blur">
+<div class="footer-container-shadow">
+<div class="footer-container" id="footer">
+<div class="footer-copyright" id="footerCopyright">
+<p style="FONT-SIZE: 9px; WIDTH: 900px" align="center">Copyright © 2010 Altera 
+Corporation. All Rights Reserved.<br>ALTERA, ARRIA, CYCLONE, HARDCOPY, MAX, 
+MEGACORE, NIOS, QUARTUS &amp; STRATIX are Reg. U.S. Pat. &amp; Tm. Off. and 
+Altera marks in and outside the U.S.</p></div></div></div></div><!-- end footer --></span></body></html>

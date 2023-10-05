@@ -1,0 +1,157 @@
+# Copyright (C) 1991-2007 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+
+# The default values for assignments are stored in the file
+#		cycloneIII_3c120_dev_pfl_assignment_defaults.qdf
+# If this file doesn't exist, and for assignments not listed, see file
+#		assignment_defaults.qdf
+
+# Altera recommends that you do not modify this file. This
+# file is updated automatically by the Quartus II software
+# and any changes you make may be lost or overwritten.
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C120F780C7
+set_global_assignment -name TOP_LEVEL_ENTITY cycloneIII_3c120_dev_pfl_top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 7.2
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:22:06  OCTOBER 02, 2007"
+set_global_assignment -name LAST_QUARTUS_VERSION 11.1
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_palace
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[24]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[23]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[22]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[21]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[20]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[19]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[18]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[17]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[16]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[15]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[14]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[13]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[12]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[11]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[10]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[9]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[8]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[7]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[6]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[5]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[4]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[3]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[2]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[1]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_addr[0]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_data[15]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_data[14]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_data[13]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_data[12]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_data[11]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_data[10]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_data[9]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_data[8]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_data[7]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_data[6]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_data[5]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_data[4]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_data[3]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_data[2]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_data[1]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_data[0]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_nce
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_noe
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_nreset
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_nwe
+set_instance_assignment -name IO_STANDARD "2.5 V" -to pfl_flash_access_granted
+set_instance_assignment -name IO_STANDARD "2.5 V" -to pfl_flash_access_request
+set_instance_assignment -name IO_STANDARD "2.5 V" -to pfl_nreset
+set_location_assignment PIN_AH15 -to clkin_50
+set_instance_assignment -name IO_STANDARD "1.8 V" -to clkin_50
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ~ALTERA_DCLK~
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ~ALTERA_DATA0~
+set_location_assignment PIN_AG25 -to flash_rdybsyn
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_rdybsyn
+set_location_assignment PIN_AB7 -to flash_addr[24]
+set_location_assignment PIN_AE16 -to flash_addr[23]
+set_location_assignment PIN_AG3 -to flash_addr[22]
+set_location_assignment PIN_Y19 -to flash_addr[21]
+set_location_assignment PIN_AB18 -to flash_addr[20]
+set_location_assignment PIN_AG12 -to flash_addr[19]
+set_location_assignment PIN_AF23 -to flash_addr[18]
+set_location_assignment PIN_AB14 -to flash_addr[17]
+set_location_assignment PIN_AF13 -to flash_addr[16]
+set_location_assignment PIN_AE8 -to flash_addr[15]
+set_location_assignment PIN_AC22 -to flash_addr[14]
+set_location_assignment PIN_AA8 -to flash_addr[13]
+set_location_assignment PIN_AF9 -to flash_addr[12]
+set_location_assignment PIN_AD24 -to flash_addr[11]
+set_location_assignment PIN_AH6 -to flash_addr[10]
+set_location_assignment PIN_AG26 -to flash_addr[9]
+set_location_assignment PIN_AD8 -to flash_addr[8]
+set_location_assignment PIN_AF4 -to flash_addr[7]
+set_location_assignment PIN_AF26 -to flash_addr[6]
+set_location_assignment PIN_AF22 -to flash_addr[5]
+set_location_assignment PIN_Y15 -to flash_addr[4]
+set_location_assignment PIN_AC10 -to flash_addr[3]
+set_location_assignment PIN_AA13 -to flash_addr[2]
+set_location_assignment PIN_AH10 -to flash_addr[1]
+set_location_assignment PIN_AC11 -to flash_addr[0]
+set_location_assignment PIN_G9 -to flash_data[15]
+set_location_assignment PIN_H21 -to flash_data[14]
+set_location_assignment PIN_E24 -to flash_data[13]
+set_location_assignment PIN_D11 -to flash_data[12]
+set_location_assignment PIN_F12 -to flash_data[11]
+set_location_assignment PIN_G22 -to flash_data[10]
+set_location_assignment PIN_G16 -to flash_data[9]
+set_location_assignment PIN_D18 -to flash_data[8]
+set_location_assignment PIN_C18 -to flash_data[7]
+set_location_assignment PIN_H17 -to flash_data[6]
+set_location_assignment PIN_C6 -to flash_data[5]
+set_location_assignment PIN_F18 -to flash_data[4]
+set_location_assignment PIN_G7 -to flash_data[3]
+set_location_assignment PIN_J17 -to flash_data[2]
+set_location_assignment PIN_D6 -to flash_data[1]
+set_location_assignment PIN_J14 -to flash_data[0]
+set_location_assignment PIN_Y16 -to flash_nce
+set_location_assignment PIN_Y17 -to flash_noe
+set_location_assignment PIN_AB20 -to flash_nreset
+set_location_assignment PIN_AA21 -to flash_nwe
+set_global_assignment -name LL_ROOT_REGION ON -entity pfl -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -entity pfl -section_id "Root Region"
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 2147039 -section_id Top
+set_global_assignment -name CYCLONEIII_CONFIGURATION_SCHEME "PASSIVE SERIAL"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_DATA0_AFTER_CONFIGURATION "AS INPUT TRI-STATED"
+set_global_assignment -name RESERVE_DATA1_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_FLASH_NCE_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 780
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 7
+set_global_assignment -name STRATIXIII_CONFIGURATION_SCHEME "FAST PASSIVE PARALLEL"
+set_global_assignment -name GENERATE_TTF_FILE ON
+set_global_assignment -name RESERVE_DATA7_THROUGH_DATA1_AFTER_CONFIGURATION "AS INPUT TRI-STATED"
+set_global_assignment -name SMART_RECOMPILE ON
+set_global_assignment -name VERILOG_FILE pfl.v
+set_global_assignment -name BDF_FILE cycloneIII_3c120_dev_pfl_top.bdf
+set_global_assignment -name QIP_FILE pfl.qip
+set_global_assignment -name MISC_FILE kits/cycloneIII_3c120_dev/Copy_of_examples/cycloneIII_3c120_dev_pfl_DONE/cycloneIII_3c120_dev_pfl.dpf
+set_global_assignment -name SEARCH_PATH kits/cycloneIII_3c120_dev/Copy_of_examples/cycloneIII_3c120_dev_pfl_DONE/ -tag from_archive
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

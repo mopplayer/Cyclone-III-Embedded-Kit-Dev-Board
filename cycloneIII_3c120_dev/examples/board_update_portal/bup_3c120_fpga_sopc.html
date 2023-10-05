@@ -1,0 +1,1582 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title>Report</title>
+  <style type="text/css">
+body { font-family:arial ;}
+a { text-decoration:underline ; color:#003000 ;}
+a:hover { text-decoration:underline ; color:0030f0 ;}
+td { padding : 5px ;}
+table.topTitle { width:100% ;}
+table.topTitle td.l { text-align:left ; font-weight: bold ; font-size:30px ;}
+table.topTitle td.r { text-align:right ; font-weight: bold ; font-size:16px ;}
+table.blueBar { width : 100% ; border-spacing : 0px ;}
+table.blueBar td { background:#0036ff ; font-size:12px ; color : white ; text-align : left ; font-weight : bold ;}
+table.blueBar td.l { text-align : left ;}
+table.blueBar td.r { text-align : right ;}
+table.items { width:100% ; border-collapse:collapse ;}
+table.items td.label { font-weight:bold ; font-size:16px ; vertical-align:top ;}
+table.items td.mono { font-family:courier ; font-size:12px ; white-space:pre ;}
+div.label { font-weight:bold ; font-size:16px ; vertical-align:top ; text-align:center ;}
+table.grid { border-collapse:collapse ;}
+table.grid td { border:1px solid #bbb ; font-size:12px ;}
+body { font-family:arial ;}
+table.x { font-family:courier ; border-collapse:collapse ; padding:2px ;}
+table.x td { border:1px solid #bbb ;}
+td.tableTitle { font-weight:bold ; text-align:center ;}
+table.grid { border-collapse:collapse ;}
+table.grid td { border:1px solid #bbb ;}
+table.grid td.tableTitle { font-weight:bold ; text-align:center ;}
+table.mmap { border-collapse:collapse ; text-size:11px ; border:1px solid #d8d8d8 ;}
+table.mmap td { border-color:#d8d8d8 ; border-width:1px ; border-style:solid ;}
+table.mmap td.empty { border-style:none ; background-color:#f0f0f0 ;}
+table.mmap td.slavemodule { text-align:left ; font-size:11px ; border-style:solid solid none solid ;}
+table.mmap td.slavem { text-align:right ; font-size:9px ; font-style:italic ; border-style:none solid none solid ;}
+table.mmap td.slaveb { text-align:right ; font-size:9px ; font-style:italic ; border-style:none solid solid solid ;}
+table.mmap td.mastermodule { text-align:center ; font-size:11px ; border-style:solid solid none solid ;}
+table.mmap td.masterlr { text-align:center ; font-size:9px ; font-style:italic ; border-style:none solid solid solid ;}
+table.mmap td.masterl { text-align:center ; font-size:9px ; font-style:italic ; border-style:none none solid solid ;}
+table.mmap td.masterm { text-align:center ; font-size:9px ; font-style:italic ; border-style:none none solid none ;}
+table.mmap td.masterr { text-align:center ; font-size:9px ; font-style:italic ; border-style:none solid solid none ;}
+table.mmap td.addr { font-family:courier ; font-size:9px ; text-align:right ;}
+table.connectionboxes { border-collapse:separate ; border-spacing:0px ; font-family:arial ;}
+table.connectionboxes td.from { border-bottom:1px solid black ; font-size:9px ; font-style:italic ; vertical-align:bottom ; text-align:left ;}
+table.connectionboxes td.to { font-size:9px ; font-style:italic ; vertical-align:top ; text-align:right ;}
+table.connectionboxes td.lefthandwire { border-bottom:1px solid black ; font-size:9px ; font-style:italic ; vertical-align:bottom ; text-align:right ;}
+table.connectionboxes td.righthandwire { border-bottom:1px solid black ; font-size:9px ; font-style:italic ; vertical-align:bottom ; text-align:left ;}
+table.connectionboxes td.righthandlabel { font-size:11px ; vertical-align:bottom ; text-align:left ;}
+table.connectionboxes td.neighbor { padding:3px ; border:1px solid black ; font-size: 11px ; background:#e8e8e8 ; vertical-align:center ; text-align:center ;}
+table.connectionboxes td.main { padding:8px ; border:1px solid black ; font-size: 14px ; font-weight:bold ; background:#ffffff ; vertical-align:center ; text-align:center ;}
+.parametersbox { border:1px solid #d0d0d0 ; display:inline-block ; max-height:160px ; overflow:auto ; width:360px ; font-size:10px ;}
+.flowbox { display:inline-block ;}
+.parametersbox table { font-size:10px ;}
+td.parametername { font-style:italic ;}
+td.parametervalue { font-weight:bold ;}
+div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; border-top:1px solid #707070 ; border-bottom:1px solid #707070 ; padding:20px ; margin:20px ; width:auto ;}</style>
+ </head>
+ <body>
+  <table class="topTitle">
+   <tr>
+    <td class="l">bup_3c120_fpga_sopc</td>
+    <td class="r">bup_3c120_fpga_sopc
+     <br/>1.0
+     <br/>
+    </td>
+   </tr>
+  </table>
+  <table class="blueBar">
+   <tr>
+    <td class="l">2011.11.09.10:56:02</td>
+    <td class="r">Generation Report</td>
+   </tr>
+  </table>
+  <table class="items">
+   <tr>
+    <td class="label">Output Directory</td>
+    <td class="mono">D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/</td>
+   </tr>
+   <tr>
+    <td class="label">Files</td>
+    <td class="mono">D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/bup_3c120_fpga_sopc.v (699982 bytes VERILOG)
+     <br/>
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_jtag_uart.v (24995 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_jtag_uart_input_mutex.dat (3 bytes OTHER)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_jtag_uart_input_stream.dat (10 bytes OTHER)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_jtag_uart_output_stream.dat (0 bytes OTHER)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_led_pio.v (2372 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_sys_clk_timer.v (7136 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_high_res_timer.v (7144 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_sgdma_tx.v (98166 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_sgdma_rx.v (95885 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_tse_mac.v (17405 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_tse_mac_constraints.sdc (31336 bytes SDC)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_tse_mac_constraints.tcl (14703 bytes OTHER)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_tse_mac_loopback.v (3764 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_align_sync.v (5944 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_alt2gxb_arriagx.v (20936 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_alt2gxb_basic.v (21836 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_alt2gxb_gige.v (26480 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_alt2gxb_gige_wo_rmfifo.v (26566 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_alt4gxb_gige.v (76156 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_alt4gxb_gige_wo_rmfifo.v (76191 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_altgx_civgx_gige.v (60400 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_altgx_civgx_gige_wo_rmfifo.v (60466 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_altshifttaps.v (1696 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_altsyncram_dpm_fifo.v (2888 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_a_fifo_13.v (7656 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_a_fifo_24.v (6736 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_a_fifo_34.v (6152 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_a_fifo_opt_1246.v (13488 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_a_fifo_opt_14_44.v (11520 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_a_fifo_opt_36_10.v (14536 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_bin_cnt.v (2448 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_carrier_sense.v (3392 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_clk_cntl.v (4104 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_clk_gen.v (1168 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_colision_detect.v (3520 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_crc328checker.v (3808 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_crc328generator.v (2696 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_crc32ctl8.v (1848 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_crc32galois8.v (6976 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_dc_fifo.v (7920 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_dec10b8b.v (6304 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_dec_func.v (45008 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_dpram_16x32.v (9720 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_dpram_8x32.v (9712 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_enc8b10b.v (12248 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_fifoless_mac_rx.v (118424 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_fifoless_mac_tx.v (95408 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_fifoless_retransmit_cntl.v (27544 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_geth_pcs_wo_ratematch.v (20424 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_gige_reset_ctrl.v (21928 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_gmii_io.v (5704 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_gray_cnt.v (4136 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_gxb_aligned_rxsync.v (11835 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_gxb_gige_inst.v (15351 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_gxb_gige_phyip_inst.v (8683 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_hashing.v (3816 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_host_control.v (11984 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_host_control_small.v (10984 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_lb_read_cntl.v (2816 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_lb_wrt_cntl.v (3312 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_lfsr_10.v (3224 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_loopback_ff.v (6224 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_lvds_reset_sequencer.v (4447 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_mac.v (17960 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_mac_control.v (44032 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_mac_pcs.v (20711 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_mac_pcs_gige_woff.v (24408 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_mac_pcs_pma.v (18042 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_mac_pcs_pma_ena.v (20328 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_mac_pcs_pma_gige.v (20742 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_mac_pcs_pma_gige_phyip.v (19542 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_mac_pcs_pma_strx_gx_ena.v (20848 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_mac_pcs_woff.v (23904 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_mac_rx.v (110792 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_mac_tx.v (84104 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_mac_woff.ocp (1744 bytes unknown type)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_mac_woff.v (54384 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_magic_detection.v (17104 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_mdio.v (16952 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_mdio_clk_gen.v (2576 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_mdio_cntl.v (8424 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_mdio_reg.v (25144 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_mii_rx_if.v (7328 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_mii_rx_if_pcs.v (6776 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_mii_tx_if.v (5312 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_mii_tx_if_pcs.v (3528 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_multi_channel_arbiter.v (8960 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_multi_mac.v (180844 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_multi_mac_pcs.v (141670 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_multi_mac_pcs_pma.v (251314 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_multi_mac_pcs_pma_gige.v (324239 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_multi_mac_pcs_pma_gige_phyip.v (274075 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_pcs.v (7088 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_pcs_control.v (6048 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_pcs_host_control.v (12216 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_pcs_pma.v (12261 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_pcs_pma_gige.v (15243 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_pcs_pma_gige_phyip.v (13468 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_pma_lvds_rx.v (12598 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_pma_lvds_tx.v (8490 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_quad_16x32.v (8032 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_quad_8x32.v (8024 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_register_map.v (82256 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_register_map_small.v (75064 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_reset_ctrl_lego.sv (10161 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_reset_sequencer.sv (8400 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_reset_synchronizer.v (3349 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_retransmit_cntl.v (25304 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_rgmii_in1.v (4277 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_rgmii_in4.v (4192 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_rgmii_module.v (7700 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_rgmii_out1.v (4468 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_rgmii_out4.v (4352 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_rx_converter.v (6856 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_rx_counter_cntl.v (20736 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_rx_encapsulation.v (20944 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_rx_encapsulation_strx_gx.v (26144 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_rx_ff.v (21968 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_rx_ff_cntrl.v (19976 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_rx_ff_cntrl_32.v (21560 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_rx_ff_cntrl_32_shift16.v (29992 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_rx_ff_length.v (3112 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_rx_fifo_rd.v (3976 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_rx_min_ff.v (27856 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_rx_stat_extract.v (14984 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_rx_sync.v (11224 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_sdpm_altsyncram.v (2984 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_sdpm_gen.v (1712 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_sgmii_clk_cntl.v (3864 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_sgmii_clk_div.v (2152 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_sgmii_clk_enable.v (2904 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_sgmii_clk_scheduler.v (3688 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_shared_mac_control.v (29840 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_shared_register_map.v (77432 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_timing_adapter32.v (4704 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_timing_adapter8.v (4512 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_timing_adapter_fifo32.v (11360 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_timing_adapter_fifo8.v (11352 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_1000_base_x.ocp (1688 bytes unknown type)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_1000_base_x.v (13824 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_1000_base_x_strx_gx.ocp (1664 bytes unknown type)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_1000_base_x_strx_gx.v (12920 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_1geth.v (29688 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_autoneg.v (23888 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_fifoless_1geth.v (30000 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_gen_host.ocp (1672 bytes unknown type)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_gen_host.v (63680 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_mdio.v (6280 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_multi_mac.v (278640 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_multi_mac_pcs.v (235456 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_multi_mac_pcs_gige.v (244528 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_pcs.v (6440 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_pcs_strx_gx.v (6624 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_rx.v (5752 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_rx_converter.v (9552 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_sgmii.v (8136 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_sgmii_strx_gx.v (8440 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_tx.v (4704 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_tx_converter.v (9880 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_wo_fifo.v (30040 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_wo_fifo_10_100_1000.v (39592 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_w_fifo.v (48784 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_top_w_fifo_10_100_1000.v (45800 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_tx_converter.v (6496 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_tx_counter_cntl.v (15520 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_tx_encapsulation.v (14944 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_tx_ff.v (43256 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_tx_ff_cntrl.v (9664 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_tx_ff_cntrl_32.v (11448 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_tx_ff_cntrl_32_shift16.v (15872 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_tx_ff_length.v (2320 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_tx_ff_read_cntl.v (9144 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_tx_min_ff.v (27160 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_tx_stat_extract.v (13512 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tse_xcvr_resync.v (2673 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_descriptor_memory.hex (21517 bytes HEX)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_descriptor_memory.v (4211 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_lcd.v (2403 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_cpu.ocp (864 bytes OTHER)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_cpu.sdc (4824 bytes SDC)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_cpu.v (321376 bytes VERILOG_ENCRYPT)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_cpu_ic_tag_ram.mif (7769 bytes MIF)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_cpu_jtag_debug_module_sysclk.v (7286 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_cpu_jtag_debug_module_tck.v (8704 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_cpu_jtag_debug_module_wrapper.v (10757 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_cpu_mult_cell.v (6362 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_cpu_ociram_default_contents.mif (5714 bytes MIF)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_cpu_oci_test_bench.v (1545 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_cpu_rf_ram_a.mif (600 bytes MIF)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_cpu_rf_ram_b.mif (600 bytes MIF)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_cpu_test_bench.v (29734 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_sysid.v (1458 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_flash_tristate_bridge_bridge_0.sv (8511 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_flash_tristate_bridge_pinSharer_0.v (7761 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_flash_tristate_bridge_pinSharer_0_pin_sharer.sv (7457 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_merlin_std_arbitrator_core.sv (8937 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_flash_tristate_bridge_pinSharer_0_arbiter.sv (2985 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_ssram.v (28342 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tristate_controller_translator.sv (7099 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_merlin_slave_translator.sv (16040 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_tristate_controller_aggregator.sv (9382 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_ext_flash.v (28118 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_merlin_master_translator.sv (16799 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_merlin_master_agent.sv (8683 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_merlin_slave_agent.sv (19129 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_merlin_burst_uncompressor.sv (10370 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_avalon_sc_fifo.v (32228 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_addr_router.sv (6760 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_addr_router_001.sv (6502 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_addr_router_002.sv (9594 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_addr_router_003.sv (6077 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_id_router.sv (6073 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_id_router_001.sv (6255 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_id_router_002.sv (6255 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_id_router_003.sv (6003 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_id_router_011.sv (6343 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_merlin_traffic_limiter.sv (12799 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_avalon_st_pipeline_base.v (4716 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_merlin_burst_adapter.sv (37061 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_reset_controller.v (3592 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_reset_synchronizer.v (3561 bytes VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_reset_controller.sdc (1179 bytes SDC)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_cmd_xbar_demux.sv (4777 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_001.sv (4140 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_002.sv (11158 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_003.sv (3511 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_005.sv (3506 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_007.sv (4148 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_merlin_arbitrator.sv (9460 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_cmd_xbar_mux.sv (11863 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_cmd_xbar_mux_001.sv (13573 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_cmd_xbar_mux_011.sv (14424 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_rsp_xbar_demux_001.sv (5408 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_rsp_xbar_demux_011.sv (6042 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_rsp_xbar_mux.sv (12067 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_rsp_xbar_mux_001.sv (11268 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_rsp_xbar_mux_002.sv (20225 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_merlin_width_adapter.sv (35858 bytes SYSTEM_VERILOG)
+     <br/>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/bup_3c120_fpga_sopc_irq_mapper.sv (2088 bytes SYSTEM_VERILOG)
+     <br/>
+    </td>
+   </tr>
+   <tr>
+    <td class="label">Instantiations</td>
+    <td class="mono">
+     <table class="grid">
+      <tr>
+       <td><b>bup_3c120_fpga_sopc</b>
+        <br/>bup_3c120_fpga_sopc v1.0</td>
+       <td><b>bup_3c120_fpga_sopc_jtag_uart</b> as jtag_uart
+        <br/><b>bup_3c120_fpga_sopc_led_pio</b> as led_pio
+        <br/><b>bup_3c120_fpga_sopc_sys_clk_timer</b> as sys_clk_timer
+        <br/><b>bup_3c120_fpga_sopc_high_res_timer</b> as high_res_timer
+        <br/><b>bup_3c120_fpga_sopc_sgdma_tx</b> as sgdma_tx
+        <br/><b>bup_3c120_fpga_sopc_sgdma_rx</b> as sgdma_rx
+        <br/><b>bup_3c120_fpga_sopc_tse_mac</b> as tse_mac
+        <br/><b>bup_3c120_fpga_sopc_descriptor_memory</b> as descriptor_memory
+        <br/><b>bup_3c120_fpga_sopc_lcd</b> as lcd
+        <br/><b>bup_3c120_fpga_sopc_cpu</b> as cpu
+        <br/><b>bup_3c120_fpga_sopc_sysid</b> as sysid
+        <br/><b>bup_3c120_fpga_sopc_flash_tristate_bridge_bridge_0</b> as flash_tristate_bridge_bridge_0
+        <br/><b>bup_3c120_fpga_sopc_flash_tristate_bridge_pinSharer_0</b> as flash_tristate_bridge_pinSharer_0
+        <br/><b>bup_3c120_fpga_sopc_ssram</b> as ssram
+        <br/><b>bup_3c120_fpga_sopc_ext_flash</b> as ext_flash
+        <br/><b>altera_merlin_master_translator</b> as cpu_instruction_master_translator, sgdma_rx_m_write_translator, cpu_data_master_translator, sgdma_tx_m_read_translator, sgdma_tx_descriptor_read_translator, sgdma_rx_descriptor_read_translator, sgdma_rx_descriptor_write_translator, sgdma_tx_descriptor_write_translator
+        <br/><b>altera_merlin_slave_translator</b> as cpu_jtag_debug_module_translator, ssram_uas_translator, ext_flash_uas_translator, sys_clk_timer_s1_translator, high_res_timer_s1_translator, jtag_uart_avalon_jtag_slave_translator, led_pio_s1_translator, sysid_control_slave_translator, sgdma_tx_csr_translator, sgdma_rx_csr_translator, tse_mac_control_port_translator, descriptor_memory_s1_translator, lcd_control_slave_translator
+        <br/><b>altera_merlin_master_agent</b> as sgdma_rx_m_write_translator_avalon_universal_master_0_agent, cpu_instruction_master_translator_avalon_universal_master_0_agent, cpu_data_master_translator_avalon_universal_master_0_agent, sgdma_tx_descriptor_read_translator_avalon_universal_master_0_agent, sgdma_rx_descriptor_read_translator_avalon_universal_master_0_agent, sgdma_tx_descriptor_write_translator_avalon_universal_master_0_agent, sgdma_rx_descriptor_write_translator_avalon_universal_master_0_agent, sgdma_tx_m_read_translator_avalon_universal_master_0_agent
+        <br/><b>altera_merlin_slave_agent</b> as lcd_control_slave_translator_avalon_universal_slave_0_agent, sgdma_tx_csr_translator_avalon_universal_slave_0_agent, jtag_uart_avalon_jtag_slave_translator_avalon_universal_slave_0_agent, high_res_timer_s1_translator_avalon_universal_slave_0_agent, sysid_control_slave_translator_avalon_universal_slave_0_agent, descriptor_memory_s1_translator_avalon_universal_slave_0_agent, sys_clk_timer_s1_translator_avalon_universal_slave_0_agent, tse_mac_control_port_translator_avalon_universal_slave_0_agent, sgdma_rx_csr_translator_avalon_universal_slave_0_agent, led_pio_s1_translator_avalon_universal_slave_0_agent, ssram_uas_translator_avalon_universal_slave_0_agent, cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent, ext_flash_uas_translator_avalon_universal_slave_0_agent
+        <br/><b>altera_avalon_sc_fifo</b> as lcd_control_slave_translator_avalon_universal_slave_0_agent_rsp_fifo, sgdma_tx_csr_translator_avalon_universal_slave_0_agent_rsp_fifo, jtag_uart_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo, high_res_timer_s1_translator_avalon_universal_slave_0_agent_rsp_fifo, sysid_control_slave_translator_avalon_universal_slave_0_agent_rsp_fifo, descriptor_memory_s1_translator_avalon_universal_slave_0_agent_rsp_fifo, sys_clk_timer_s1_translator_avalon_universal_slave_0_agent_rsp_fifo, tse_mac_control_port_translator_avalon_universal_slave_0_agent_rsp_fifo, sgdma_rx_csr_translator_avalon_universal_slave_0_agent_rsp_fifo, led_pio_s1_translator_avalon_universal_slave_0_agent_rsp_fifo, ssram_uas_translator_avalon_universal_slave_0_agent_rsp_fifo, cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo, ext_flash_uas_translator_avalon_universal_slave_0_agent_rsp_fifo
+        <br/><b>bup_3c120_fpga_sopc_addr_router</b> as addr_router
+        <br/><b>bup_3c120_fpga_sopc_addr_router_001</b> as addr_router_001, addr_router_007
+        <br/><b>bup_3c120_fpga_sopc_addr_router_002</b> as addr_router_002
+        <br/><b>bup_3c120_fpga_sopc_addr_router_003</b> as addr_router_003, addr_router_004, addr_router_005, addr_router_006
+        <br/><b>bup_3c120_fpga_sopc_id_router</b> as id_router
+        <br/><b>bup_3c120_fpga_sopc_id_router_001</b> as id_router_001
+        <br/><b>bup_3c120_fpga_sopc_id_router_002</b> as id_router_002
+        <br/><b>bup_3c120_fpga_sopc_id_router_003</b> as id_router_003, id_router_004, id_router_005, id_router_006, id_router_007, id_router_008, id_router_009, id_router_010, id_router_012
+        <br/><b>bup_3c120_fpga_sopc_id_router_011</b> as id_router_011
+        <br/><b>altera_merlin_traffic_limiter</b> as limiter, limiter_001, limiter_002, limiter_003
+        <br/><b>altera_merlin_burst_adapter</b> as burst_adapter
+        <br/><b>altera_reset_controller</b> as rst_controller
+        <br/><b>bup_3c120_fpga_sopc_cmd_xbar_demux</b> as cmd_xbar_demux
+        <br/><b>bup_3c120_fpga_sopc_cmd_xbar_demux_001</b> as cmd_xbar_demux_001, rsp_xbar_demux
+        <br/><b>bup_3c120_fpga_sopc_cmd_xbar_demux_002</b> as cmd_xbar_demux_002
+        <br/><b>bup_3c120_fpga_sopc_cmd_xbar_demux_003</b> as cmd_xbar_demux_003, cmd_xbar_demux_004
+        <br/><b>bup_3c120_fpga_sopc_cmd_xbar_demux_005</b> as cmd_xbar_demux_005, cmd_xbar_demux_006, rsp_xbar_demux_003, rsp_xbar_demux_004, rsp_xbar_demux_005, rsp_xbar_demux_006, rsp_xbar_demux_007, rsp_xbar_demux_008, rsp_xbar_demux_009, rsp_xbar_demux_010, rsp_xbar_demux_012
+        <br/><b>bup_3c120_fpga_sopc_cmd_xbar_demux_007</b> as cmd_xbar_demux_007
+        <br/><b>bup_3c120_fpga_sopc_cmd_xbar_mux</b> as cmd_xbar_mux
+        <br/><b>bup_3c120_fpga_sopc_cmd_xbar_mux_001</b> as cmd_xbar_mux_001, cmd_xbar_mux_002
+        <br/><b>bup_3c120_fpga_sopc_cmd_xbar_mux_011</b> as cmd_xbar_mux_011
+        <br/><b>bup_3c120_fpga_sopc_rsp_xbar_demux_001</b> as rsp_xbar_demux_001, rsp_xbar_demux_002
+        <br/><b>bup_3c120_fpga_sopc_rsp_xbar_demux_011</b> as rsp_xbar_demux_011
+        <br/><b>bup_3c120_fpga_sopc_rsp_xbar_mux</b> as rsp_xbar_mux
+        <br/><b>bup_3c120_fpga_sopc_rsp_xbar_mux_001</b> as rsp_xbar_mux_001, rsp_xbar_mux_007
+        <br/><b>bup_3c120_fpga_sopc_rsp_xbar_mux_002</b> as rsp_xbar_mux_002
+        <br/><b>altera_merlin_width_adapter</b> as width_adapter, width_adapter_001
+        <br/><b>bup_3c120_fpga_sopc_irq_mapper</b> as irq_mapper
+        <br/>
+       </td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_jtag_uart</b>
+        <br/>altera_avalon_jtag_uart v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_led_pio</b>
+        <br/>altera_avalon_pio v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_sys_clk_timer</b>
+        <br/>altera_avalon_timer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_high_res_timer</b>
+        <br/>altera_avalon_timer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_sgdma_tx</b>
+        <br/>altera_avalon_sgdma v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_sgdma_rx</b>
+        <br/>altera_avalon_sgdma v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_tse_mac</b>
+        <br/>triple_speed_ethernet v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_descriptor_memory</b>
+        <br/>altera_avalon_onchip_memory2 v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_lcd</b>
+        <br/>altera_avalon_lcd_16207 v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_cpu</b>
+        <br/>altera_nios2_qsys v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_sysid</b>
+        <br/>altera_avalon_sysid_qsys v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_flash_tristate_bridge_bridge_0</b>
+        <br/>altera_tristate_conduit_bridge v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_flash_tristate_bridge_pinSharer_0</b>
+        <br/>altera_tristate_conduit_pin_sharer v11.1</td>
+       <td><b>bup_3c120_fpga_sopc_flash_tristate_bridge_pinSharer_0_pin_sharer</b> as pin_sharer
+        <br/><b>bup_3c120_fpga_sopc_flash_tristate_bridge_pinSharer_0_arbiter</b> as arbiter
+        <br/>
+       </td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_ssram</b>
+        <br/>altera_generic_tristate_controller v11.1</td>
+       <td><b>altera_tristate_controller_translator</b> as tdt
+        <br/><b>altera_merlin_slave_translator</b> as slave_translator
+        <br/><b>altera_tristate_controller_aggregator</b> as tda
+        <br/>
+       </td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_ext_flash</b>
+        <br/>altera_generic_tristate_controller v11.1</td>
+       <td><b>altera_tristate_controller_translator</b> as tdt
+        <br/><b>altera_merlin_slave_translator</b> as slave_translator
+        <br/><b>altera_tristate_controller_aggregator</b> as tda
+        <br/>
+       </td>
+      </tr>
+      <tr>
+       <td><b>altera_merlin_master_translator</b>
+        <br/>altera_merlin_master_translator v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>altera_merlin_slave_translator</b>
+        <br/>altera_merlin_slave_translator v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>altera_merlin_master_agent</b>
+        <br/>altera_merlin_master_agent v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>altera_merlin_slave_agent</b>
+        <br/>altera_merlin_slave_agent v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>altera_avalon_sc_fifo</b>
+        <br/>altera_avalon_sc_fifo v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_addr_router</b>
+        <br/>altera_merlin_router v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_addr_router_001</b>
+        <br/>altera_merlin_router v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_addr_router_002</b>
+        <br/>altera_merlin_router v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_addr_router_003</b>
+        <br/>altera_merlin_router v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_id_router</b>
+        <br/>altera_merlin_router v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_id_router_001</b>
+        <br/>altera_merlin_router v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_id_router_002</b>
+        <br/>altera_merlin_router v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_id_router_003</b>
+        <br/>altera_merlin_router v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_id_router_011</b>
+        <br/>altera_merlin_router v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>altera_merlin_traffic_limiter</b>
+        <br/>altera_merlin_traffic_limiter v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>altera_merlin_burst_adapter</b>
+        <br/>altera_merlin_burst_adapter v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>altera_reset_controller</b>
+        <br/>altera_reset_controller v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_cmd_xbar_demux</b>
+        <br/>altera_merlin_demultiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_cmd_xbar_demux_001</b>
+        <br/>altera_merlin_demultiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_cmd_xbar_demux_002</b>
+        <br/>altera_merlin_demultiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_cmd_xbar_demux_003</b>
+        <br/>altera_merlin_demultiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_cmd_xbar_demux_005</b>
+        <br/>altera_merlin_demultiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_cmd_xbar_demux_007</b>
+        <br/>altera_merlin_demultiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_cmd_xbar_mux</b>
+        <br/>altera_merlin_multiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_cmd_xbar_mux_001</b>
+        <br/>altera_merlin_multiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_cmd_xbar_mux_011</b>
+        <br/>altera_merlin_multiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_rsp_xbar_demux_001</b>
+        <br/>altera_merlin_demultiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_rsp_xbar_demux_011</b>
+        <br/>altera_merlin_demultiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_rsp_xbar_mux</b>
+        <br/>altera_merlin_multiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_rsp_xbar_mux_001</b>
+        <br/>altera_merlin_multiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_rsp_xbar_mux_002</b>
+        <br/>altera_merlin_multiplexer v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>altera_merlin_width_adapter</b>
+        <br/>altera_merlin_width_adapter v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_irq_mapper</b>
+        <br/>altera_irq_mapper v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_flash_tristate_bridge_pinSharer_0_pin_sharer</b>
+        <br/>altera_tristate_conduit_pin_sharer_core v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>bup_3c120_fpga_sopc_flash_tristate_bridge_pinSharer_0_arbiter</b>
+        <br/>altera_merlin_std_arbitrator v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>altera_tristate_controller_translator</b>
+        <br/>altera_tristate_controller_translator v11.1</td>
+       <td></td>
+      </tr>
+      <tr>
+       <td><b>altera_tristate_controller_aggregator</b>
+        <br/>altera_tristate_controller_aggregator v11.1</td>
+       <td></td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+  </table>
+  <div style="width:100% ;  height:10px"> </div>
+  <div class="label">Generation Messages</div>
+  <div style="white-space:pre ; font-family:courier">2011.11.09.10:54:02 [Warning] bup_3c120_fpga_sopc.descriptor_memory: This memory is not initialized during device programming.
+2011.11.09.10:53:39 [Debug] bup_3c120_fpga_sopc.altera_nios2_qsys: When a generate simulation callback is defined a synthesis generation callback should also be defined
+2011.11.09.10:54:01 [Info] bup_3c120_fpga_sopc.cpu: CPUID control register value is 0. Please manually assign CPUID if creating multiple Nios II system
+2011.11.09.10:54:02 [Debug] bup_3c120_fpga_sopc.cpu: Timing: VAL:1/0.048s ELA:1/0.007s
+2011.11.09.10:54:02 [Info] bup_3c120_fpga_sopc.sysid: System ID will no longer be automatically assigned.
+2011.11.09.10:54:02 [Info] bup_3c120_fpga_sopc.sysid: Time stamp will be automatically updated when this component is generated.
+2011.11.09.10:54:02 [Debug] bup_3c120_fpga_sopc.sysid: Timing: VAL:2/0.000s/0.000s
+2011.11.09.10:54:02 [Debug] bup_3c120_fpga_sopc.flash_tristate_bridge_bridge_0: Timing: ELA:1/0.006s
+2011.11.09.10:54:01 [Debug] bup_3c120_fpga_sopc.flash_tristate_bridge_pinSharer_0.clock: Timing: ELA:2/0.000s/0.001s
+2011.11.09.10:54:01 [Debug] bup_3c120_fpga_sopc.flash_tristate_bridge_pinSharer_0.reset: Timing: ELA:2/0.000s/0.001s
+2011.11.09.10:54:01 [Debug] bup_3c120_fpga_sopc.flash_tristate_bridge_pinSharer_0.pin_sharer: Timing: ELA:9/0.012s/0.023s
+2011.11.09.10:54:01 [Debug] bup_3c120_fpga_sopc.flash_tristate_bridge_pinSharer_0.arbiter: Timing: ELA:2/0.001s/0.001s
+2011.11.09.10:54:02 [Debug] bup_3c120_fpga_sopc.flash_tristate_bridge_pinSharer_0: Timing: COM:1/0.138s
+2011.11.09.10:54:02 [Debug] bup_3c120_fpga_sopc.ssram.clk: Timing: ELA:2/0.000s/0.000s
+2011.11.09.10:54:02 [Debug] bup_3c120_fpga_sopc.ssram.reset: Timing: ELA:2/0.000s/0.001s
+2011.11.09.10:54:02 [Debug] bup_3c120_fpga_sopc.ssram.tdt: Timing: ELA:4/0.002s/0.006s
+2011.11.09.10:54:02 [Debug] bup_3c120_fpga_sopc.ssram.slave_translator: Timing: ELA:5/0.004s/0.005s
+2011.11.09.10:54:02 [Debug] bup_3c120_fpga_sopc.ssram.tda: Timing: ELA:4/0.003s/0.004s
+2011.11.09.10:54:02 [Debug] bup_3c120_fpga_sopc.ssram: Timing: COM:1/0.007s
+2011.11.09.10:54:02 [Debug] bup_3c120_fpga_sopc.ext_flash.clk: Timing: ELA:2/0.000s/0.001s
+2011.11.09.10:54:02 [Debug] bup_3c120_fpga_sopc.ext_flash.reset: Timing: ELA:2/0.001s/0.001s
+2011.11.09.10:54:02 [Debug] bup_3c120_fpga_sopc.ext_flash.tdt: Timing: ELA:4/0.003s/0.007s
+2011.11.09.10:54:02 [Debug] bup_3c120_fpga_sopc.ext_flash.slave_translator: Timing: ELA:5/0.004s/0.004s
+2011.11.09.10:54:02 [Debug] bup_3c120_fpga_sopc.ext_flash.tda: Timing: ELA:4/0.003s/0.004s
+2011.11.09.10:54:02 [Debug] bup_3c120_fpga_sopc.ext_flash: Timing: COM:1/0.007s
+2011.11.09.10:54:02 [Info] bup_3c120_fpga_sopc: Generating <b>bup_3c120_fpga_sopc</b> "<b>bup_3c120_fpga_sopc</b>" for QUARTUS_SYNTH
+2011.11.09.10:54:02 [Debug] bup_3c120_fpga_sopc: queue size: 0 starting:bup_3c120_fpga_sopc "bup_3c120_fpga_sopc"
+2011.11.09.10:54:03 [Debug] Transform: PipelineBridgeSwap
+2011.11.09.10:54:03 [Info] pipeline_bridge_swap_transform: After transform: <b>16</b> modules, <b>81</b> connections
+2011.11.09.10:54:03 [Debug] Transform: ClockCrossingBridgeSwap
+2011.11.09.10:54:03 [Debug] Transform: QsysBetaIPSwap
+2011.11.09.10:54:03 [Debug] Transform: CustomInstructionTransform
+2011.11.09.10:54:03 [Info] No custom instruction connections, skipping transform 
+2011.11.09.10:54:03 [Debug] Transform: TristateConduitUpgradeTransform
+2011.11.09.10:54:03 [Debug] Transform: TranslatorTransform
+2011.11.09.10:54:03 [Progress] min: 0
+2011.11.09.10:54:03 [Progress] max: 1
+2011.11.09.10:54:03 [Progress] current: 1
+2011.11.09.10:54:03 [Progress] min: 0
+2011.11.09.10:54:03 [Progress] max: 1
+2011.11.09.10:54:03 [Progress] current: 1
+2011.11.09.10:54:03 [Progress] min: 0
+2011.11.09.10:54:03 [Progress] max: 1
+2011.11.09.10:54:03 [Progress] current: 1
+2011.11.09.10:54:03 [Progress] min: 0
+2011.11.09.10:54:03 [Progress] max: 1
+2011.11.09.10:54:03 [Progress] current: 1
+2011.11.09.10:54:03 [Progress] min: 0
+2011.11.09.10:54:03 [Progress] max: 1
+2011.11.09.10:54:03 [Progress] current: 1
+2011.11.09.10:54:03 [Progress] min: 0
+2011.11.09.10:54:03 [Progress] max: 1
+2011.11.09.10:54:03 [Progress] current: 1
+2011.11.09.10:54:03 [Progress] min: 0
+2011.11.09.10:54:03 [Progress] max: 1
+2011.11.09.10:54:03 [Progress] current: 1
+2011.11.09.10:54:03 [Progress] min: 0
+2011.11.09.10:54:03 [Progress] max: 1
+2011.11.09.10:54:03 [Progress] current: 1
+2011.11.09.10:54:03 [Progress] min: 0
+2011.11.09.10:54:03 [Progress] max: 1
+2011.11.09.10:54:03 [Progress] current: 1
+2011.11.09.10:54:03 [Progress] min: 0
+2011.11.09.10:54:03 [Progress] max: 1
+2011.11.09.10:54:03 [Progress] current: 1
+2011.11.09.10:54:03 [Progress] min: 0
+2011.11.09.10:54:03 [Progress] max: 1
+2011.11.09.10:54:03 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Info] merlin_translator_transform: After transform: <b>37</b> modules, <b>165</b> connections
+2011.11.09.10:54:04 [Debug] Transform: DomainTransform
+2011.11.09.10:54:04 [Debug] Transform merlin_domain_transform not run on matched interfaces cpu.instruction_master and cpu_instruction_master_translator.avalon_anti_master_0
+2011.11.09.10:54:04 [Debug] Transform merlin_domain_transform not run on matched interfaces sgdma_rx.m_write and sgdma_rx_m_write_translator.avalon_anti_master_0
+2011.11.09.10:54:04 [Debug] Transform merlin_domain_transform not run on matched interfaces cpu.data_master and cpu_data_master_translator.avalon_anti_master_0
+2011.11.09.10:54:04 [Debug] Transform merlin_domain_transform not run on matched interfaces sgdma_tx.m_read and sgdma_tx_m_read_translator.avalon_anti_master_0
+2011.11.09.10:54:04 [Debug] Transform merlin_domain_transform not run on matched interfaces sgdma_tx.descriptor_read and sgdma_tx_descriptor_read_translator.avalon_anti_master_0
+2011.11.09.10:54:04 [Debug] Transform merlin_domain_transform not run on matched interfaces sgdma_rx.descriptor_read and sgdma_rx_descriptor_read_translator.avalon_anti_master_0
+2011.11.09.10:54:04 [Debug] Transform merlin_domain_transform not run on matched interfaces sgdma_rx.descriptor_write and sgdma_rx_descriptor_write_translator.avalon_anti_master_0
+2011.11.09.10:54:04 [Debug] Transform merlin_domain_transform not run on matched interfaces sgdma_tx.descriptor_write and sgdma_tx_descriptor_write_translator.avalon_anti_master_0
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Debug] Transform merlin_domain_transform not run on matched interfaces cpu_jtag_debug_module_translator.avalon_anti_slave_0 and cpu.jtag_debug_module
+2011.11.09.10:54:04 [Debug] Transform merlin_domain_transform not run on matched interfaces ssram_uas_translator.avalon_anti_slave_0 and ssram.uas
+2011.11.09.10:54:04 [Debug] Transform merlin_domain_transform not run on matched interfaces ext_flash_uas_translator.avalon_anti_slave_0 and ext_flash.uas
+2011.11.09.10:54:04 [Debug] Transform merlin_domain_transform not run on matched interfaces sys_clk_timer_s1_translator.avalon_anti_slave_0 and sys_clk_timer.s1
+2011.11.09.10:54:04 [Debug] Transform merlin_domain_transform not run on matched interfaces high_res_timer_s1_translator.avalon_anti_slave_0 and high_res_timer.s1
+2011.11.09.10:54:04 [Debug] Transform merlin_domain_transform not run on matched interfaces jtag_uart_avalon_jtag_slave_translator.avalon_anti_slave_0 and jtag_uart.avalon_jtag_slave
+2011.11.09.10:54:04 [Debug] Transform merlin_domain_transform not run on matched interfaces led_pio_s1_translator.avalon_anti_slave_0 and led_pio.s1
+2011.11.09.10:54:04 [Debug] Transform merlin_domain_transform not run on matched interfaces sysid_control_slave_translator.avalon_anti_slave_0 and sysid.control_slave
+2011.11.09.10:54:04 [Debug] Transform merlin_domain_transform not run on matched interfaces sgdma_tx_csr_translator.avalon_anti_slave_0 and sgdma_tx.csr
+2011.11.09.10:54:04 [Debug] Transform merlin_domain_transform not run on matched interfaces sgdma_rx_csr_translator.avalon_anti_slave_0 and sgdma_rx.csr
+2011.11.09.10:54:04 [Debug] Transform merlin_domain_transform not run on matched interfaces tse_mac_control_port_translator.avalon_anti_slave_0 and tse_mac.control_port
+2011.11.09.10:54:04 [Debug] Transform merlin_domain_transform not run on matched interfaces descriptor_memory_s1_translator.avalon_anti_slave_0 and descriptor_memory.s1
+2011.11.09.10:54:04 [Debug] Transform merlin_domain_transform not run on matched interfaces lcd_control_slave_translator.avalon_anti_slave_0 and lcd.control_slave
+2011.11.09.10:54:04 [Info] merlin_domain_transform: After transform: <b>72</b> modules, <b>408</b> connections
+2011.11.09.10:54:04 [Debug] Transform: RouterTransform
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Info] merlin_router_transform: After transform: <b>93</b> modules, <b>492</b> connections
+2011.11.09.10:54:04 [Debug] Transform: TrafficLimiterTransform
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:04 [Progress] min: 0
+2011.11.09.10:54:04 [Progress] max: 1
+2011.11.09.10:54:04 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Info] merlin_traffic_limiter_transform: After transform: <b>97</b> modules, <b>512</b> connections
+2011.11.09.10:54:05 [Debug] Transform: BurstTransform
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Info] merlin_burst_transform: After transform: <b>98</b> modules, <b>516</b> connections
+2011.11.09.10:54:05 [Debug] Transform: ResetAdaptation
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Info] reset_adaptation_transform: After transform: <b>99</b> modules, <b>402</b> connections
+2011.11.09.10:54:05 [Debug] Transform: NetworkToSwitchTransform
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Info] merlin_network_to_switch_transform: After transform: <b>140</b> modules, <b>492</b> connections
+2011.11.09.10:54:05 [Debug] Transform: WidthTransform
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Info] merlin_width_transform: After transform: <b>142</b> modules, <b>498</b> connections
+2011.11.09.10:54:05 [Debug] Transform: RouterTableTransform
+2011.11.09.10:54:05 [Debug] Transform: ClockCrossingTransform
+2011.11.09.10:54:05 [Debug] Transform: TrafficLimiterUpdateTransform
+2011.11.09.10:54:05 [Info] limiter_update_transform: After transform: <b>142</b> modules, <b>502</b> connections
+2011.11.09.10:54:05 [Debug] Transform: InterruptMapperTransform
+2011.11.09.10:54:05 [Progress] min: 0
+2011.11.09.10:54:05 [Progress] max: 1
+2011.11.09.10:54:05 [Progress] current: 1
+2011.11.09.10:54:05 [Info] merlin_interrupt_mapper_transform: After transform: <b>143</b> modules, <b>505</b> connections
+2011.11.09.10:54:05 [Debug] Transform: InterruptSyncTransform
+2011.11.09.10:54:05 [Debug] Transform: InterruptFanoutTransform
+2011.11.09.10:54:07 [Warning] system: "No matching role found for jtag_uart:avalon_jtag_slave:dataavailable (dataavailable)"
+2011.11.09.10:54:07 [Warning] system: "No matching role found for jtag_uart:avalon_jtag_slave:readyfordata (readyfordata)"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_avalon_jtag_uart</b> "<b>submodules/bup_3c120_fpga_sopc_jtag_uart</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_avalon_pio</b> "<b>submodules/bup_3c120_fpga_sopc_led_pio</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_avalon_timer</b> "<b>submodules/bup_3c120_fpga_sopc_sys_clk_timer</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_avalon_timer</b> "<b>submodules/bup_3c120_fpga_sopc_high_res_timer</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_avalon_sgdma</b> "<b>submodules/bup_3c120_fpga_sopc_sgdma_tx</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_avalon_sgdma</b> "<b>submodules/bup_3c120_fpga_sopc_sgdma_rx</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>triple_speed_ethernet</b> "<b>submodules/bup_3c120_fpga_sopc_tse_mac</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_avalon_onchip_memory2</b> "<b>submodules/bup_3c120_fpga_sopc_descriptor_memory</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_avalon_lcd_16207</b> "<b>submodules/bup_3c120_fpga_sopc_lcd</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_nios2_qsys</b> "<b>submodules/bup_3c120_fpga_sopc_cpu</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_avalon_sysid_qsys</b> "<b>submodules/bup_3c120_fpga_sopc_sysid</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_tristate_conduit_bridge</b> "<b>submodules/bup_3c120_fpga_sopc_flash_tristate_bridge_bridge_0</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_tristate_conduit_pin_sharer</b> "<b>submodules/bup_3c120_fpga_sopc_flash_tristate_bridge_pinSharer_0</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_generic_tristate_controller</b> "<b>submodules/bup_3c120_fpga_sopc_ssram</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_generic_tristate_controller</b> "<b>submodules/bup_3c120_fpga_sopc_ext_flash</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_master_translator</b> "<b>submodules/altera_merlin_master_translator</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_master_translator</b> "<b>submodules/altera_merlin_master_translator</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_master_translator</b> "<b>submodules/altera_merlin_master_translator</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_master_translator</b> "<b>submodules/altera_merlin_master_translator</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_master_translator</b> "<b>submodules/altera_merlin_master_translator</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_master_translator</b> "<b>submodules/altera_merlin_master_translator</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_master_translator</b> "<b>submodules/altera_merlin_master_translator</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_master_translator</b> "<b>submodules/altera_merlin_master_translator</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_master_agent</b> "<b>submodules/altera_merlin_master_agent</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_master_agent</b> "<b>submodules/altera_merlin_master_agent</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_master_agent</b> "<b>submodules/altera_merlin_master_agent</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_master_agent</b> "<b>submodules/altera_merlin_master_agent</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_master_agent</b> "<b>submodules/altera_merlin_master_agent</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_master_agent</b> "<b>submodules/altera_merlin_master_agent</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_master_agent</b> "<b>submodules/altera_merlin_master_agent</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_master_agent</b> "<b>submodules/altera_merlin_master_agent</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_slave_agent</b> "<b>submodules/altera_merlin_slave_agent</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_avalon_sc_fifo</b> "<b>submodules/altera_avalon_sc_fifo</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_router</b> "<b>submodules/bup_3c120_fpga_sopc_addr_router</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_router</b> "<b>submodules/bup_3c120_fpga_sopc_addr_router_001</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_router</b> "<b>submodules/bup_3c120_fpga_sopc_addr_router_002</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_router</b> "<b>submodules/bup_3c120_fpga_sopc_addr_router_003</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_router</b> "<b>submodules/bup_3c120_fpga_sopc_addr_router_003</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_router</b> "<b>submodules/bup_3c120_fpga_sopc_addr_router_003</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_router</b> "<b>submodules/bup_3c120_fpga_sopc_addr_router_003</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_router</b> "<b>submodules/bup_3c120_fpga_sopc_addr_router_001</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_router</b> "<b>submodules/bup_3c120_fpga_sopc_id_router</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_router</b> "<b>submodules/bup_3c120_fpga_sopc_id_router_001</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_router</b> "<b>submodules/bup_3c120_fpga_sopc_id_router_002</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_router</b> "<b>submodules/bup_3c120_fpga_sopc_id_router_003</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_router</b> "<b>submodules/bup_3c120_fpga_sopc_id_router_003</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_router</b> "<b>submodules/bup_3c120_fpga_sopc_id_router_003</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_router</b> "<b>submodules/bup_3c120_fpga_sopc_id_router_003</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_router</b> "<b>submodules/bup_3c120_fpga_sopc_id_router_003</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_router</b> "<b>submodules/bup_3c120_fpga_sopc_id_router_003</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_router</b> "<b>submodules/bup_3c120_fpga_sopc_id_router_003</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_router</b> "<b>submodules/bup_3c120_fpga_sopc_id_router_003</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_router</b> "<b>submodules/bup_3c120_fpga_sopc_id_router_011</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_router</b> "<b>submodules/bup_3c120_fpga_sopc_id_router_003</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_traffic_limiter</b> "<b>submodules/altera_merlin_traffic_limiter</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_traffic_limiter</b> "<b>submodules/altera_merlin_traffic_limiter</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_traffic_limiter</b> "<b>submodules/altera_merlin_traffic_limiter</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_traffic_limiter</b> "<b>submodules/altera_merlin_traffic_limiter</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_burst_adapter</b> "<b>submodules/altera_merlin_burst_adapter</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_reset_controller</b> "<b>submodules/altera_reset_controller</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_cmd_xbar_demux</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_001</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_002</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_003</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_003</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_005</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_005</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_007</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_multiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_cmd_xbar_mux</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_multiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_cmd_xbar_mux_001</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_multiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_cmd_xbar_mux_001</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_multiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_cmd_xbar_mux_011</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_001</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_rsp_xbar_demux_001</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_rsp_xbar_demux_001</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_005</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_005</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_005</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_005</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_005</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_005</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_005</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_005</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_rsp_xbar_demux_011</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_demultiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_005</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_multiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_rsp_xbar_mux</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_multiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_rsp_xbar_mux_001</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_multiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_rsp_xbar_mux_002</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_multiplexer</b> "<b>submodules/bup_3c120_fpga_sopc_rsp_xbar_mux_001</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_width_adapter</b> "<b>submodules/altera_merlin_width_adapter</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_merlin_width_adapter</b> "<b>submodules/altera_merlin_width_adapter</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: "<b>bup_3c120_fpga_sopc</b>" reuses <b>altera_irq_mapper</b> "<b>submodules/bup_3c120_fpga_sopc_irq_mapper</b>"
+2011.11.09.10:54:07 [Debug] bup_3c120_fpga_sopc: queue size: 128 starting:altera_avalon_jtag_uart "submodules/bup_3c120_fpga_sopc_jtag_uart"
+2011.11.09.10:54:07 [Info] Starting classic module elaboration.
+2011.11.09.10:54:09 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0001_sopclgen  --no_splash --refresh C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0001_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2011.11.09.10:54:11 [Info] Finished elaborating classic module.
+2011.11.09.10:54:11 [Progress] Executing: C:/altera/11.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0001_sopclgen/yysystem.ptf
+2011.11.09.10:54:11 [Info] Running sopc_builder...
+2011.11.09.10:54:13 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0001_sopclgen  --generate C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0001_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2011.11.09.10:54:14 [Progress] No .sopc_builder configuration file(!)
+2011.11.09.10:54:14 [Progress] .
+2011.11.09.10:54:16 [Progress] # 2011.11.09 10:54:15 (*) Success: sopc_builder finished.
+2011.11.09.10:54:16 [Info] jtag_uart: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_avalon_jtag_uart</b> "<b>jtag_uart</b>"
+2011.11.09.10:54:16 [Debug] bup_3c120_fpga_sopc: queue size: 127 starting:altera_avalon_pio "submodules/bup_3c120_fpga_sopc_led_pio"
+2011.11.09.10:54:16 [Info] Starting classic module elaboration.
+2011.11.09.10:54:18 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0002_sopclgen  --no_splash --refresh C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0002_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2011.11.09.10:54:20 [Info] Finished elaborating classic module.
+2011.11.09.10:54:20 [Progress] Executing: C:/altera/11.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0002_sopclgen/yysystem.ptf
+2011.11.09.10:54:20 [Info] Running sopc_builder...
+2011.11.09.10:54:23 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0002_sopclgen  --generate C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0002_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2011.11.09.10:54:25 [Progress] No .sopc_builder configuration file(!)
+2011.11.09.10:54:25 [Progress] .
+2011.11.09.10:54:26 [Progress] # 2011.11.09 10:54:26 (*) Success: sopc_builder finished.
+2011.11.09.10:54:27 [Info] led_pio: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_avalon_pio</b> "<b>led_pio</b>"
+2011.11.09.10:54:27 [Debug] bup_3c120_fpga_sopc: queue size: 126 starting:altera_avalon_timer "submodules/bup_3c120_fpga_sopc_sys_clk_timer"
+2011.11.09.10:54:27 [Info] Starting classic module elaboration.
+2011.11.09.10:54:29 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0003_sopclgen  --no_splash --refresh C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0003_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2011.11.09.10:54:31 [Info] Finished elaborating classic module.
+2011.11.09.10:54:31 [Progress] Executing: C:/altera/11.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0003_sopclgen/yysystem.ptf
+2011.11.09.10:54:31 [Info] Running sopc_builder...
+2011.11.09.10:54:33 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0003_sopclgen  --generate C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0003_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2011.11.09.10:54:35 [Progress] No .sopc_builder configuration file(!)
+2011.11.09.10:54:35 [Progress] .
+2011.11.09.10:54:36 [Progress] # 2011.11.09 10:54:36 (*) Success: sopc_builder finished.
+2011.11.09.10:54:37 [Info] sys_clk_timer: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_avalon_timer</b> "<b>sys_clk_timer</b>"
+2011.11.09.10:54:37 [Debug] bup_3c120_fpga_sopc: queue size: 125 starting:altera_avalon_timer "submodules/bup_3c120_fpga_sopc_high_res_timer"
+2011.11.09.10:54:37 [Info] Starting classic module elaboration.
+2011.11.09.10:54:39 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0004_sopclgen  --no_splash --refresh C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0004_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2011.11.09.10:54:40 [Info] Finished elaborating classic module.
+2011.11.09.10:54:40 [Progress] Executing: C:/altera/11.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0004_sopclgen/yysystem.ptf
+2011.11.09.10:54:40 [Info] Running sopc_builder...
+2011.11.09.10:54:42 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0004_sopclgen  --generate C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0004_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2011.11.09.10:54:44 [Progress] No .sopc_builder configuration file(!)
+2011.11.09.10:54:44 [Progress] .
+2011.11.09.10:54:45 [Progress] # 2011.11.09 10:54:45 (*) Success: sopc_builder finished.
+2011.11.09.10:54:46 [Info] high_res_timer: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_avalon_timer</b> "<b>high_res_timer</b>"
+2011.11.09.10:54:46 [Debug] bup_3c120_fpga_sopc: queue size: 124 starting:altera_avalon_sgdma "submodules/bup_3c120_fpga_sopc_sgdma_tx"
+2011.11.09.10:54:46 [Info] Starting classic module elaboration.
+2011.11.09.10:54:48 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0005_sopclgen  --no_splash --refresh C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0005_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2011.11.09.10:54:49 [Info] Finished elaborating classic module.
+2011.11.09.10:54:49 [Progress] Executing: C:/altera/11.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0005_sopclgen/yysystem.ptf
+2011.11.09.10:54:49 [Info] Running sopc_builder...
+2011.11.09.10:54:51 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0005_sopclgen  --generate C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0005_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2011.11.09.10:54:53 [Progress] No .sopc_builder configuration file(!)
+2011.11.09.10:54:53 [Progress] .
+2011.11.09.10:54:57 [Progress] # 2011.11.09 10:54:57 (*) Success: sopc_builder finished.
+2011.11.09.10:54:57 [Info] sgdma_tx: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_avalon_sgdma</b> "<b>sgdma_tx</b>"
+2011.11.09.10:54:57 [Debug] bup_3c120_fpga_sopc: queue size: 123 starting:altera_avalon_sgdma "submodules/bup_3c120_fpga_sopc_sgdma_rx"
+2011.11.09.10:54:57 [Info] Starting classic module elaboration.
+2011.11.09.10:54:59 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0006_sopclgen  --no_splash --refresh C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0006_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2011.11.09.10:55:01 [Info] Finished elaborating classic module.
+2011.11.09.10:55:01 [Progress] Executing: C:/altera/11.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0006_sopclgen/yysystem.ptf
+2011.11.09.10:55:01 [Info] Running sopc_builder...
+2011.11.09.10:55:03 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0006_sopclgen  --generate C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0006_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2011.11.09.10:55:05 [Progress] No .sopc_builder configuration file(!)
+2011.11.09.10:55:05 [Progress] .
+2011.11.09.10:55:08 [Progress] # 2011.11.09 10:55:08 (*) Success: sopc_builder finished.
+2011.11.09.10:55:09 [Info] sgdma_rx: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_avalon_sgdma</b> "<b>sgdma_rx</b>"
+2011.11.09.10:55:09 [Debug] bup_3c120_fpga_sopc: queue size: 122 starting:triple_speed_ethernet "submodules/bup_3c120_fpga_sopc_tse_mac"
+2011.11.09.10:55:09 [Info] tse_mac: HDL generated
+2011.11.09.10:55:10 [Info] tse_mac: Variation name : bup_3c120_fpga_sopc_tse_mac
+2011.11.09.10:55:10 [Info] tse_mac: Variation language : Verilog HDL
+2011.11.09.10:55:10 [Info] tse_mac: Output directory : C:\Users\lmong\AppData\Local\Temp\alt5287_8248251154482743981.dir\0007_iptb_gen
+2011.11.09.10:55:10 [Info] tse_mac: Generating HDL... 
+2011.11.09.10:55:10 [Info] tse_mac: Updating user's project directory...
+2011.11.09.10:55:09 [Info] tse_mac: HDL generated
+2011.11.09.10:55:11 [Info] tse_mac: Generation successful.
+2011.11.09.10:55:12 [Info] tse_mac: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>triple_speed_ethernet</b> "<b>tse_mac</b>"
+2011.11.09.10:55:12 [Debug] bup_3c120_fpga_sopc: queue size: 121 starting:altera_avalon_onchip_memory2 "submodules/bup_3c120_fpga_sopc_descriptor_memory"
+2011.11.09.10:55:12 [Info] Starting classic module elaboration.
+2011.11.09.10:55:14 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0008_sopclgen  --no_splash --refresh C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0008_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2011.11.09.10:55:16 [Info] Finished elaborating classic module.
+2011.11.09.10:55:16 [Progress] Executing: C:/altera/11.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0008_sopclgen/yysystem.ptf
+2011.11.09.10:55:16 [Info] Running sopc_builder...
+2011.11.09.10:55:18 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0008_sopclgen  --generate C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0008_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2011.11.09.10:55:20 [Progress] No .sopc_builder configuration file(!)
+2011.11.09.10:55:20 [Progress] .
+2011.11.09.10:55:23 [Progress] # 2011.11.09 10:55:23 (*) Success: sopc_builder finished.
+2011.11.09.10:55:23 [Info] descriptor_memory: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_avalon_onchip_memory2</b> "<b>descriptor_memory</b>"
+2011.11.09.10:55:23 [Debug] bup_3c120_fpga_sopc: queue size: 120 starting:altera_avalon_lcd_16207 "submodules/bup_3c120_fpga_sopc_lcd"
+2011.11.09.10:55:23 [Info] Starting classic module elaboration.
+2011.11.09.10:55:26 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0009_sopclgen  --no_splash --refresh C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0009_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2011.11.09.10:55:28 [Info] Finished elaborating classic module.
+2011.11.09.10:55:28 [Progress] Executing: C:/altera/11.1/quartus//sopc_builder/bin/sopc_builder --classic --generate C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0009_sopclgen/yysystem.ptf
+2011.11.09.10:55:28 [Info] Running sopc_builder...
+2011.11.09.10:55:31 [Progress] "c:/altera/11.1/quartus/bin/jre/bin/java.exe" -Xmx512M -classpath "c:/altera/11.1/quartus/sopc_builder/bin/sopc_builder.jar;c:/altera/11.1/quartus/sopc_builder/bin/PinAssigner.jar;c:/altera/11.1/quartus/sopc_builder/bin/sopc_wizard.jar;c:/altera/11.1/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"c:/altera/11.1/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpathC:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0009_sopclgen  --generate C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0009_sopclgen/yysystem.v --quartus_dir="c:/altera/11.1/quartus" --sopc_perl="c:/altera/11.1/quartus/bin/perl" --sopc_lib_path="++c:/altera/11.1/quartus/../ip/altera/sopc_builder_ip+c:/altera/11.1/quartus/../ip/altera/nios2_ip"
+2011.11.09.10:55:33 [Progress] No .sopc_builder configuration file(!)
+2011.11.09.10:55:33 [Progress] .
+2011.11.09.10:55:34 [Progress] # 2011.11.09 10:55:34 (*) Success: sopc_builder finished.
+2011.11.09.10:55:35 [Info] lcd: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_avalon_lcd_16207</b> "<b>lcd</b>"
+2011.11.09.10:55:35 [Debug] bup_3c120_fpga_sopc: queue size: 119 starting:altera_nios2_qsys "submodules/bup_3c120_fpga_sopc_cpu"
+2011.11.09.10:55:35 [Info] cpu: Starting RTL generation for module 'bup_3c120_fpga_sopc_cpu'
+2011.11.09.10:55:35 [Info] cpu:   Generation command is [exec C:/altera/11.1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I C:/altera/11.1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/11.1/quartus/sopc_builder/bin/europa -I C:/altera/11.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/11.1/quartus/sopc_builder/bin -I C:/altera/11.1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/11.1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/11.1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/11.1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/11.1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=bup_3c120_fpga_sopc_cpu --dir=C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0010_cpu_gen/ --quartus_dir=C:/altera/11.1/quartus --verilog --config=C:/Users/lmong/AppData/Local/Temp/alt5287_8248251154482743981.dir/0010_cpu_gen//bup_3c120_fpga_sopc_cpu_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+2011.11.09.10:55:59 [Info] cpu: # 2011.11.09 10:55:37 (*) Starting Nios II generation
+2011.11.09.10:55:59 [Info] cpu: # 2011.11.09 10:55:37 (*)   Checking for encrypted license (non-evaluation).
+2011.11.09.10:55:59 [Info] cpu: # 2011.11.09 10:55:52 (*)   Encrypted license found.  SOF will not be time-limited.
+2011.11.09.10:55:59 [Info] cpu: # 2011.11.09 10:55:52 (*)   Elaborating CPU configuration settings
+2011.11.09.10:55:59 [Info] cpu: # 2011.11.09 10:55:52 (*)   Creating all objects for CPU
+2011.11.09.10:55:59 [Info] cpu: # 2011.11.09 10:55:53 (*)     Pipeline frontend
+2011.11.09.10:55:59 [Info] cpu: # 2011.11.09 10:55:55 (*)   Generating RTL from CPU objects
+2011.11.09.10:55:59 [Info] cpu: # 2011.11.09 10:55:58 (*)   Creating encrypted RTL
+2011.11.09.10:55:59 [Info] cpu: # 2011.11.09 10:55:59 (*) Done Nios II generation
+2011.11.09.10:55:59 [Info] cpu: Done RTL generation for module 'bup_3c120_fpga_sopc_cpu'
+2011.11.09.10:55:59 [Info] cpu: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_nios2_qsys</b> "<b>cpu</b>"
+2011.11.09.10:56:00 [Debug] bup_3c120_fpga_sopc: queue size: 118 starting:altera_avalon_sysid_qsys "submodules/bup_3c120_fpga_sopc_sysid"
+2011.11.09.10:56:00 [Info] sysid: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_avalon_sysid_qsys</b> "<b>sysid</b>"
+2011.11.09.10:56:00 [Debug] bup_3c120_fpga_sopc: queue size: 117 starting:altera_tristate_conduit_bridge "submodules/bup_3c120_fpga_sopc_flash_tristate_bridge_bridge_0"
+2011.11.09.10:56:00 [Info] flash_tristate_bridge_bridge_0: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_tristate_conduit_bridge</b> "<b>flash_tristate_bridge_bridge_0</b>"
+2011.11.09.10:56:00 [Debug] bup_3c120_fpga_sopc: queue size: 116 starting:altera_tristate_conduit_pin_sharer "submodules/bup_3c120_fpga_sopc_flash_tristate_bridge_pinSharer_0"
+2011.11.09.10:56:00 [Info] flash_tristate_bridge_pinSharer_0: Running transform <b>AvalonTransform</b>
+2011.11.09.10:56:00 [Debug] Transform: PipelineBridgeSwap
+2011.11.09.10:56:00 [Info] pipeline_bridge_swap_transform: After transform: <b>4</b> modules, <b>8</b> connections
+2011.11.09.10:56:00 [Debug] Transform: ClockCrossingBridgeSwap
+2011.11.09.10:56:00 [Debug] Transform: QsysBetaIPSwap
+2011.11.09.10:56:00 [Debug] Transform: CustomInstructionTransform
+2011.11.09.10:56:00 [Info] No custom instruction connections, skipping transform 
+2011.11.09.10:56:00 [Debug] Transform: TristateConduitUpgradeTransform
+2011.11.09.10:56:00 [Debug] Transform: TranslatorTransform
+2011.11.09.10:56:00 [Info] No Avalon connections, skipping transform 
+2011.11.09.10:56:00 [Debug] Transform: DomainTransform
+2011.11.09.10:56:00 [Debug] Transform: RouterTransform
+2011.11.09.10:56:00 [Debug] Transform: TrafficLimiterTransform
+2011.11.09.10:56:00 [Debug] Transform: BurstTransform
+2011.11.09.10:56:00 [Debug] Transform: ResetAdaptation
+2011.11.09.10:56:00 [Debug] Transform: NetworkToSwitchTransform
+2011.11.09.10:56:00 [Debug] Transform: WidthTransform
+2011.11.09.10:56:00 [Debug] Transform: RouterTableTransform
+2011.11.09.10:56:00 [Debug] Transform: ClockCrossingTransform
+2011.11.09.10:56:00 [Debug] Transform: TrafficLimiterUpdateTransform
+2011.11.09.10:56:00 [Debug] Transform: InterruptMapperTransform
+2011.11.09.10:56:00 [Debug] Transform: InterruptSyncTransform
+2011.11.09.10:56:00 [Debug] Transform: InterruptFanoutTransform
+2011.11.09.10:56:00 [Info] flash_tristate_bridge_pinSharer_0: Running transform <b>AvalonTransform</b> took 0.139s
+2011.11.09.10:56:00 [Debug] flash_tristate_bridge_pinSharer_0: "<b>flash_tristate_bridge_pinSharer_0</b>" reuses <b>altera_tristate_conduit_pin_sharer_core</b> "<b>submodules/bup_3c120_fpga_sopc_flash_tristate_bridge_pinSharer_0_pin_sharer</b>"
+2011.11.09.10:56:00 [Debug] flash_tristate_bridge_pinSharer_0: "<b>flash_tristate_bridge_pinSharer_0</b>" reuses <b>altera_merlin_std_arbitrator</b> "<b>submodules/bup_3c120_fpga_sopc_flash_tristate_bridge_pinSharer_0_arbiter</b>"
+2011.11.09.10:56:00 [Info] flash_tristate_bridge_pinSharer_0: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_tristate_conduit_pin_sharer</b> "<b>flash_tristate_bridge_pinSharer_0</b>"
+2011.11.09.10:56:00 [Debug] bup_3c120_fpga_sopc: queue size: 117 starting:altera_generic_tristate_controller "submodules/bup_3c120_fpga_sopc_ssram"
+2011.11.09.10:56:00 [Info] ssram: Running transform <b>AvalonTransform</b>
+2011.11.09.10:56:00 [Debug] Transform: PipelineBridgeSwap
+2011.11.09.10:56:00 [Info] pipeline_bridge_swap_transform: After transform: <b>5</b> modules, <b>10</b> connections
+2011.11.09.10:56:00 [Debug] Transform: ClockCrossingBridgeSwap
+2011.11.09.10:56:00 [Debug] Transform: QsysBetaIPSwap
+2011.11.09.10:56:00 [Debug] Transform: CustomInstructionTransform
+2011.11.09.10:56:00 [Info] No custom instruction connections, skipping transform 
+2011.11.09.10:56:00 [Debug] Transform: TristateConduitUpgradeTransform
+2011.11.09.10:56:00 [Debug] Transform: TranslatorTransform
+2011.11.09.10:56:00 [Debug] Transform merlin_translator_transform not run on matched interfaces tdt.avalon_universal_master_0 and slave_translator.avalon_universal_slave_0
+2011.11.09.10:56:00 [Debug] Transform merlin_translator_transform not run on matched interfaces slave_translator.avalon_anti_slave_0 and tda.avalon_slave_0
+2011.11.09.10:56:00 [Debug] Transform: DomainTransform
+2011.11.09.10:56:00 [Debug] Transform merlin_domain_transform not run on matched interfaces tdt.avalon_universal_master_0 and slave_translator.avalon_universal_slave_0
+2011.11.09.10:56:00 [Debug] Transform merlin_domain_transform not run on matched interfaces slave_translator.avalon_anti_slave_0 and tda.avalon_slave_0
+2011.11.09.10:56:00 [Debug] Transform: RouterTransform
+2011.11.09.10:56:00 [Debug] Transform: TrafficLimiterTransform
+2011.11.09.10:56:00 [Debug] Transform: BurstTransform
+2011.11.09.10:56:00 [Debug] Transform: ResetAdaptation
+2011.11.09.10:56:00 [Debug] Transform: NetworkToSwitchTransform
+2011.11.09.10:56:00 [Debug] Transform: WidthTransform
+2011.11.09.10:56:00 [Debug] Transform: RouterTableTransform
+2011.11.09.10:56:00 [Debug] Transform: ClockCrossingTransform
+2011.11.09.10:56:00 [Debug] Transform: TrafficLimiterUpdateTransform
+2011.11.09.10:56:00 [Debug] Transform: InterruptMapperTransform
+2011.11.09.10:56:00 [Debug] Transform: InterruptSyncTransform
+2011.11.09.10:56:00 [Debug] Transform: InterruptFanoutTransform
+2011.11.09.10:56:00 [Info] ssram: Running transform <b>AvalonTransform</b> took 0.120s
+2011.11.09.10:56:00 [Debug] ssram: "<b>ssram</b>" reuses <b>altera_tristate_controller_translator</b> "<b>submodules/altera_tristate_controller_translator</b>"
+2011.11.09.10:56:00 [Debug] ssram: "<b>ssram</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2011.11.09.10:56:00 [Debug] ssram: "<b>ssram</b>" reuses <b>altera_tristate_controller_aggregator</b> "<b>submodules/altera_tristate_controller_aggregator</b>"
+2011.11.09.10:56:00 [Info] ssram: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_generic_tristate_controller</b> "<b>ssram</b>"
+2011.11.09.10:56:00 [Debug] bup_3c120_fpga_sopc: queue size: 119 starting:altera_generic_tristate_controller "submodules/bup_3c120_fpga_sopc_ext_flash"
+2011.11.09.10:56:00 [Info] ext_flash: Running transform <b>AvalonTransform</b>
+2011.11.09.10:56:00 [Debug] Transform: PipelineBridgeSwap
+2011.11.09.10:56:00 [Info] pipeline_bridge_swap_transform: After transform: <b>5</b> modules, <b>10</b> connections
+2011.11.09.10:56:00 [Debug] Transform: ClockCrossingBridgeSwap
+2011.11.09.10:56:00 [Debug] Transform: QsysBetaIPSwap
+2011.11.09.10:56:00 [Debug] Transform: CustomInstructionTransform
+2011.11.09.10:56:00 [Info] No custom instruction connections, skipping transform 
+2011.11.09.10:56:00 [Debug] Transform: TristateConduitUpgradeTransform
+2011.11.09.10:56:00 [Debug] Transform: TranslatorTransform
+2011.11.09.10:56:00 [Debug] Transform merlin_translator_transform not run on matched interfaces tdt.avalon_universal_master_0 and slave_translator.avalon_universal_slave_0
+2011.11.09.10:56:00 [Debug] Transform merlin_translator_transform not run on matched interfaces slave_translator.avalon_anti_slave_0 and tda.avalon_slave_0
+2011.11.09.10:56:00 [Debug] Transform: DomainTransform
+2011.11.09.10:56:00 [Debug] Transform merlin_domain_transform not run on matched interfaces tdt.avalon_universal_master_0 and slave_translator.avalon_universal_slave_0
+2011.11.09.10:56:00 [Debug] Transform merlin_domain_transform not run on matched interfaces slave_translator.avalon_anti_slave_0 and tda.avalon_slave_0
+2011.11.09.10:56:00 [Debug] Transform: RouterTransform
+2011.11.09.10:56:00 [Debug] Transform: TrafficLimiterTransform
+2011.11.09.10:56:00 [Debug] Transform: BurstTransform
+2011.11.09.10:56:00 [Debug] Transform: ResetAdaptation
+2011.11.09.10:56:00 [Debug] Transform: NetworkToSwitchTransform
+2011.11.09.10:56:00 [Debug] Transform: WidthTransform
+2011.11.09.10:56:00 [Debug] Transform: RouterTableTransform
+2011.11.09.10:56:00 [Debug] Transform: ClockCrossingTransform
+2011.11.09.10:56:00 [Debug] Transform: TrafficLimiterUpdateTransform
+2011.11.09.10:56:00 [Debug] Transform: InterruptMapperTransform
+2011.11.09.10:56:00 [Debug] Transform: InterruptSyncTransform
+2011.11.09.10:56:00 [Debug] Transform: InterruptFanoutTransform
+2011.11.09.10:56:00 [Info] ext_flash: Running transform <b>AvalonTransform</b> took 0.123s
+2011.11.09.10:56:00 [Debug] ext_flash: "<b>ext_flash</b>" reuses <b>altera_tristate_controller_translator</b> "<b>submodules/altera_tristate_controller_translator</b>"
+2011.11.09.10:56:00 [Debug] ext_flash: "<b>ext_flash</b>" reuses <b>altera_merlin_slave_translator</b> "<b>submodules/altera_merlin_slave_translator</b>"
+2011.11.09.10:56:00 [Debug] ext_flash: "<b>ext_flash</b>" reuses <b>altera_tristate_controller_aggregator</b> "<b>submodules/altera_tristate_controller_aggregator</b>"
+2011.11.09.10:56:00 [Info] ext_flash: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_generic_tristate_controller</b> "<b>ext_flash</b>"
+2011.11.09.10:56:00 [Debug] bup_3c120_fpga_sopc: queue size: 121 starting:altera_merlin_master_translator "submodules/altera_merlin_master_translator"
+2011.11.09.10:56:00 [Info] cpu_instruction_master_translator: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_master_translator</b> "<b>cpu_instruction_master_translator</b>"
+2011.11.09.10:56:00 [Debug] bup_3c120_fpga_sopc: queue size: 113 starting:altera_merlin_slave_translator "submodules/altera_merlin_slave_translator"
+2011.11.09.10:56:00 [Info] cpu_jtag_debug_module_translator: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_slave_translator</b> "<b>cpu_jtag_debug_module_translator</b>"
+2011.11.09.10:56:00 [Debug] bup_3c120_fpga_sopc: queue size: 100 starting:altera_merlin_master_agent "submodules/altera_merlin_master_agent"
+2011.11.09.10:56:00 [Info] sgdma_rx_m_write_translator_avalon_universal_master_0_agent: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_master_agent</b> "<b>sgdma_rx_m_write_translator_avalon_universal_master_0_agent</b>"
+2011.11.09.10:56:00 [Debug] bup_3c120_fpga_sopc: queue size: 99 starting:altera_merlin_slave_agent "submodules/altera_merlin_slave_agent"
+2011.11.09.10:56:00 [Info] lcd_control_slave_translator_avalon_universal_slave_0_agent: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_slave_agent</b> "<b>lcd_control_slave_translator_avalon_universal_slave_0_agent</b>"
+2011.11.09.10:56:00 [Debug] bup_3c120_fpga_sopc: queue size: 98 starting:altera_avalon_sc_fifo "submodules/altera_avalon_sc_fifo"
+2011.11.09.10:56:00 [Info] lcd_control_slave_translator_avalon_universal_slave_0_agent_rsp_fifo: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_avalon_sc_fifo</b> "<b>lcd_control_slave_translator_avalon_universal_slave_0_agent_rsp_fifo</b>"
+2011.11.09.10:56:00 [Debug] bup_3c120_fpga_sopc: queue size: 66 starting:altera_merlin_router "submodules/bup_3c120_fpga_sopc_addr_router"
+2011.11.09.10:56:00 [Info] addr_router: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_router</b> "<b>addr_router</b>"
+2011.11.09.10:56:00 [Debug] bup_3c120_fpga_sopc: queue size: 65 starting:altera_merlin_router "submodules/bup_3c120_fpga_sopc_addr_router_001"
+2011.11.09.10:56:00 [Info] addr_router_001: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_router</b> "<b>addr_router_001</b>"
+2011.11.09.10:56:00 [Debug] bup_3c120_fpga_sopc: queue size: 64 starting:altera_merlin_router "submodules/bup_3c120_fpga_sopc_addr_router_002"
+2011.11.09.10:56:00 [Info] addr_router_002: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_router</b> "<b>addr_router_002</b>"
+2011.11.09.10:56:00 [Debug] bup_3c120_fpga_sopc: queue size: 63 starting:altera_merlin_router "submodules/bup_3c120_fpga_sopc_addr_router_003"
+2011.11.09.10:56:00 [Info] addr_router_003: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_router</b> "<b>addr_router_003</b>"
+2011.11.09.10:56:00 [Debug] bup_3c120_fpga_sopc: queue size: 58 starting:altera_merlin_router "submodules/bup_3c120_fpga_sopc_id_router"
+2011.11.09.10:56:00 [Info] id_router: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_router</b> "<b>id_router</b>"
+2011.11.09.10:56:00 [Debug] bup_3c120_fpga_sopc: queue size: 57 starting:altera_merlin_router "submodules/bup_3c120_fpga_sopc_id_router_001"
+2011.11.09.10:56:00 [Info] id_router_001: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_router</b> "<b>id_router_001</b>"
+2011.11.09.10:56:00 [Debug] bup_3c120_fpga_sopc: queue size: 56 starting:altera_merlin_router "submodules/bup_3c120_fpga_sopc_id_router_002"
+2011.11.09.10:56:00 [Info] id_router_002: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_router</b> "<b>id_router_002</b>"
+2011.11.09.10:56:00 [Debug] bup_3c120_fpga_sopc: queue size: 55 starting:altera_merlin_router "submodules/bup_3c120_fpga_sopc_id_router_003"
+2011.11.09.10:56:00 [Info] id_router_003: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_router</b> "<b>id_router_003</b>"
+2011.11.09.10:56:00 [Debug] bup_3c120_fpga_sopc: queue size: 47 starting:altera_merlin_router "submodules/bup_3c120_fpga_sopc_id_router_011"
+2011.11.09.10:56:00 [Info] id_router_011: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_router</b> "<b>id_router_011</b>"
+2011.11.09.10:56:00 [Debug] bup_3c120_fpga_sopc: queue size: 45 starting:altera_merlin_traffic_limiter "submodules/altera_merlin_traffic_limiter"
+2011.11.09.10:56:00 [Info] limiter: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_traffic_limiter</b> "<b>limiter</b>"
+2011.11.09.10:56:00 [Debug] bup_3c120_fpga_sopc: queue size: 41 starting:altera_merlin_burst_adapter "submodules/altera_merlin_burst_adapter"
+2011.11.09.10:56:00 [Info] burst_adapter: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_burst_adapter</b> "<b>burst_adapter</b>"
+2011.11.09.10:56:00 [Debug] bup_3c120_fpga_sopc: queue size: 40 starting:altera_reset_controller "submodules/altera_reset_controller"
+2011.11.09.10:56:00 [Info] rst_controller: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_reset_controller</b> "<b>rst_controller</b>"
+2011.11.09.10:56:00 [Debug] bup_3c120_fpga_sopc: queue size: 39 starting:altera_merlin_demultiplexer "submodules/bup_3c120_fpga_sopc_cmd_xbar_demux"
+2011.11.09.10:56:01 [Info] cmd_xbar_demux: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_demultiplexer</b> "<b>cmd_xbar_demux</b>"
+2011.11.09.10:56:01 [Debug] bup_3c120_fpga_sopc: queue size: 38 starting:altera_merlin_demultiplexer "submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_001"
+2011.11.09.10:56:01 [Info] cmd_xbar_demux_001: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_demultiplexer</b> "<b>cmd_xbar_demux_001</b>"
+2011.11.09.10:56:01 [Debug] bup_3c120_fpga_sopc: queue size: 37 starting:altera_merlin_demultiplexer "submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_002"
+2011.11.09.10:56:01 [Info] cmd_xbar_demux_002: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_demultiplexer</b> "<b>cmd_xbar_demux_002</b>"
+2011.11.09.10:56:01 [Debug] bup_3c120_fpga_sopc: queue size: 36 starting:altera_merlin_demultiplexer "submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_003"
+2011.11.09.10:56:01 [Info] cmd_xbar_demux_003: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_demultiplexer</b> "<b>cmd_xbar_demux_003</b>"
+2011.11.09.10:56:01 [Debug] bup_3c120_fpga_sopc: queue size: 34 starting:altera_merlin_demultiplexer "submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_005"
+2011.11.09.10:56:01 [Info] cmd_xbar_demux_005: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_demultiplexer</b> "<b>cmd_xbar_demux_005</b>"
+2011.11.09.10:56:01 [Debug] bup_3c120_fpga_sopc: queue size: 32 starting:altera_merlin_demultiplexer "submodules/bup_3c120_fpga_sopc_cmd_xbar_demux_007"
+2011.11.09.10:56:01 [Info] cmd_xbar_demux_007: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_demultiplexer</b> "<b>cmd_xbar_demux_007</b>"
+2011.11.09.10:56:01 [Debug] bup_3c120_fpga_sopc: queue size: 31 starting:altera_merlin_multiplexer "submodules/bup_3c120_fpga_sopc_cmd_xbar_mux"
+2011.11.09.10:56:01 [Info] cmd_xbar_mux: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_multiplexer</b> "<b>cmd_xbar_mux</b>"
+2011.11.09.10:56:01 [Debug] bup_3c120_fpga_sopc: queue size: 30 starting:altera_merlin_multiplexer "submodules/bup_3c120_fpga_sopc_cmd_xbar_mux_001"
+2011.11.09.10:56:01 [Info] cmd_xbar_mux_001: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_multiplexer</b> "<b>cmd_xbar_mux_001</b>"
+2011.11.09.10:56:01 [Info] Reusing file <b>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_merlin_arbitrator.sv</b>
+2011.11.09.10:56:01 [Debug] bup_3c120_fpga_sopc: queue size: 28 starting:altera_merlin_multiplexer "submodules/bup_3c120_fpga_sopc_cmd_xbar_mux_011"
+2011.11.09.10:56:01 [Info] cmd_xbar_mux_011: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_multiplexer</b> "<b>cmd_xbar_mux_011</b>"
+2011.11.09.10:56:01 [Info] Reusing file <b>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_merlin_arbitrator.sv</b>
+2011.11.09.10:56:01 [Debug] bup_3c120_fpga_sopc: queue size: 26 starting:altera_merlin_demultiplexer "submodules/bup_3c120_fpga_sopc_rsp_xbar_demux_001"
+2011.11.09.10:56:01 [Info] rsp_xbar_demux_001: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_demultiplexer</b> "<b>rsp_xbar_demux_001</b>"
+2011.11.09.10:56:01 [Debug] bup_3c120_fpga_sopc: queue size: 16 starting:altera_merlin_demultiplexer "submodules/bup_3c120_fpga_sopc_rsp_xbar_demux_011"
+2011.11.09.10:56:01 [Info] rsp_xbar_demux_011: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_demultiplexer</b> "<b>rsp_xbar_demux_011</b>"
+2011.11.09.10:56:01 [Debug] bup_3c120_fpga_sopc: queue size: 14 starting:altera_merlin_multiplexer "submodules/bup_3c120_fpga_sopc_rsp_xbar_mux"
+2011.11.09.10:56:01 [Info] rsp_xbar_mux: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_multiplexer</b> "<b>rsp_xbar_mux</b>"
+2011.11.09.10:56:01 [Info] Reusing file <b>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_merlin_arbitrator.sv</b>
+2011.11.09.10:56:01 [Debug] bup_3c120_fpga_sopc: queue size: 13 starting:altera_merlin_multiplexer "submodules/bup_3c120_fpga_sopc_rsp_xbar_mux_001"
+2011.11.09.10:56:01 [Info] rsp_xbar_mux_001: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_multiplexer</b> "<b>rsp_xbar_mux_001</b>"
+2011.11.09.10:56:01 [Info] Reusing file <b>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_merlin_arbitrator.sv</b>
+2011.11.09.10:56:01 [Debug] bup_3c120_fpga_sopc: queue size: 12 starting:altera_merlin_multiplexer "submodules/bup_3c120_fpga_sopc_rsp_xbar_mux_002"
+2011.11.09.10:56:01 [Info] rsp_xbar_mux_002: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_multiplexer</b> "<b>rsp_xbar_mux_002</b>"
+2011.11.09.10:56:01 [Info] Reusing file <b>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_merlin_arbitrator.sv</b>
+2011.11.09.10:56:01 [Debug] bup_3c120_fpga_sopc: queue size: 10 starting:altera_merlin_width_adapter "submodules/altera_merlin_width_adapter"
+2011.11.09.10:56:01 [Info] width_adapter: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_merlin_width_adapter</b> "<b>width_adapter</b>"
+2011.11.09.10:56:01 [Info] Reusing file <b>D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/board_update_portal/bup_3c120_fpga_sopc/synthesis/submodules/altera_merlin_burst_uncompressor.sv</b>
+2011.11.09.10:56:01 [Debug] bup_3c120_fpga_sopc: queue size: 8 starting:altera_irq_mapper "submodules/bup_3c120_fpga_sopc_irq_mapper"
+2011.11.09.10:56:01 [Info] irq_mapper: "<b>bup_3c120_fpga_sopc</b>" instantiated <b>altera_irq_mapper</b> "<b>irq_mapper</b>"
+2011.11.09.10:56:01 [Debug] bup_3c120_fpga_sopc: queue size: 7 starting:altera_tristate_conduit_pin_sharer_core "submodules/bup_3c120_fpga_sopc_flash_tristate_bridge_pinSharer_0_pin_sharer"
+2011.11.09.10:56:01 [Info] pin_sharer: "<b>flash_tristate_bridge_pinSharer_0</b>" instantiated <b>altera_tristate_conduit_pin_sharer_core</b> "<b>pin_sharer</b>"
+2011.11.09.10:56:01 [Debug] bup_3c120_fpga_sopc: queue size: 6 starting:altera_merlin_std_arbitrator "submodules/bup_3c120_fpga_sopc_flash_tristate_bridge_pinSharer_0_arbiter"
+2011.11.09.10:56:01 [Info] arbiter: "<b>flash_tristate_bridge_pinSharer_0</b>" instantiated <b>altera_merlin_std_arbitrator</b> "<b>arbiter</b>"
+2011.11.09.10:56:01 [Debug] bup_3c120_fpga_sopc: queue size: 5 starting:altera_tristate_controller_translator "submodules/altera_tristate_controller_translator"
+2011.11.09.10:56:01 [Info] tdt: "<b>ssram</b>" instantiated <b>altera_tristate_controller_translator</b> "<b>tdt</b>"
+2011.11.09.10:56:01 [Debug] bup_3c120_fpga_sopc: queue size: 3 starting:altera_tristate_controller_aggregator "submodules/altera_tristate_controller_aggregator"
+2011.11.09.10:56:01 [Info] tda: "<b>ssram</b>" instantiated <b>altera_tristate_controller_aggregator</b> "<b>tda</b>"
+2011.11.09.10:56:01 [Info] bup_3c120_fpga_sopc: Done <b>bup_3c120_fpga_sopc</b>" with 53 modules, 343 files, 8121355 bytes
+</div>
+  <div style="width:100% ; background:#eee ; height:10px"> </div>
+ </body>
+</html>

@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at alt_pfl_pgm_verify.v(57): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at alt_pfl_pgm_verify.v(68): always construct contains both blocking and non-blocking assignments

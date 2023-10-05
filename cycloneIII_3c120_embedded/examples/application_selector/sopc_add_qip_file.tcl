@@ -1,0 +1,3 @@
+project_open -current_revision "D:/WL/Project/QII_RTA/results/linux64/cycloneIII_3c120_embedded/examples/application_selector/cycloneIII_3c120_niosII_application_selector.qpf"
+set_global_assignment -name QIP_FILE "cycloneIII_3c120_niosII_application_selector_sopc.qip"
+project_close

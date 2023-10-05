@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Sep 28 10:16:49 2011
+Quartus II 64-Bit Version : 11.0 Build 157 04/27/2011 SJ Full Version
+Revision Name : cycloneIII_3c120_dev_my_first_fpga
+Top-level Entity Name : cycloneIII_3c120_dev_my_first_fpga_top
+Family : Cyclone III
+Device : EP3C120F780C6
+Timing Models : Final
+Total logic elements : 39 / 119,088 ( < 1 % )
+    Total combinational functions : 39 / 119,088 ( < 1 % )
+    Dedicated logic registers : 31 / 119,088 ( < 1 % )
+Total registers : 31
+Total pins : 10 / 532 ( 2 % )
+Total virtual pins : 0
+Total memory bits : 0 / 3,981,312 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 576 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )

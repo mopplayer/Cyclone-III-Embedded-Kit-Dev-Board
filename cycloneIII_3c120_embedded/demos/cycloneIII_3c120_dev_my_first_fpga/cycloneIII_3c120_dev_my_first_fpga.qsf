@@ -1,0 +1,96 @@
+# Copyright (C) 1991-2008 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+
+# The default values for assignments are stored in the file
+#		cycloneIII_3c120_dev_my_first_fpga_assignment_defaults.qdf
+# If this file doesn't exist, and for assignments not listed, see file
+#		assignment_defaults.qdf
+
+# Altera recommends that you do not modify this file. This
+# file is updated automatically by the Quartus II software
+# and any changes you make may be lost or overwritten.
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C120F780C6
+set_global_assignment -name TOP_LEVEL_ENTITY cycloneIII_3c120_dev_my_first_fpga_top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 8.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:31:08  AUGUST 05, 2008"
+set_global_assignment -name LAST_QUARTUS_VERSION 11.0
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 780
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name CYCLONEIII_CONFIGURATION_SCHEME "PASSIVE SERIAL"
+set_global_assignment -name GENERATE_TTF_FILE OFF
+set_global_assignment -name ON_CHIP_BITSTREAM_DECOMPRESSION OFF
+set_global_assignment -name ENABLE_ADVANCED_IO_TIMING ON
+set_global_assignment -name FORCE_CONFIGURATION_VCCIO ON
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name RESERVE_DATA0_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_instance_assignment -name IO_STANDARD "1.8 V" -to clkin_50
+set_instance_assignment -name IO_STANDARD "1.8 V" -to clkin_125
+set_instance_assignment -name IO_STANDARD "1.8 V" -to clkin_sma
+set_instance_assignment -name IO_STANDARD "1.8 V" -to clkout_sma
+set_location_assignment PIN_AH15 -to clkin_50
+set_location_assignment PIN_A14 -to clkin_125
+set_location_assignment PIN_AH14 -to clkin_sma
+set_location_assignment PIN_AE23 -to clkout_sma
+set_location_assignment PIN_P3 -to ~ALTERA_DCLK~
+set_location_assignment PIN_N7 -to ~ALTERA_DATA0~
+set_location_assignment PIN_AA17 -to termination_blk0~_rup_pad
+set_location_assignment PIN_AB17 -to termination_blk0~_rdn_pad
+set_location_assignment PIN_F19 -to termination_blk1~_rup_pad
+set_location_assignment PIN_E19 -to termination_blk1~_rdn_pad
+set_location_assignment PIN_U7 -to termination_blk2~_rup_pad
+set_location_assignment PIN_U8 -to termination_blk2~_rdn_pad
+set_location_assignment PIN_AA22 -to termination_blk3~_rup_pad
+set_location_assignment PIN_AB23 -to termination_blk3~_rdn_pad
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_led
+set_location_assignment IOBANK_4 -to user_led
+set_location_assignment PIN_AD15 -to user_led[0]
+set_location_assignment PIN_AE20 -to user_led[1]
+set_location_assignment PIN_AF18 -to user_led[2]
+set_location_assignment PIN_AD19 -to user_led[3]
+set_location_assignment PIN_AE15 -to user_led[4]
+set_location_assignment PIN_AC17 -to user_led[5]
+set_location_assignment PIN_AG19 -to user_led[6]
+set_location_assignment PIN_AF19 -to user_led[7]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_dipsw
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_pb
+set_location_assignment PIN_AD7 -to user_pb[0]
+set_location_assignment PIN_AC12 -to user_pb[1]
+set_location_assignment PIN_AH3 -to user_pb[2]
+set_location_assignment PIN_AA12 -to user_pb[3]
+set_location_assignment PIN_AC14 -to user_dipsw[0]
+set_location_assignment PIN_AD18 -to user_dipsw[1]
+set_location_assignment PIN_AG23 -to user_dipsw[2]
+set_location_assignment PIN_AC19 -to user_dipsw[3]
+set_location_assignment PIN_AD14 -to user_dipsw[4]
+set_location_assignment PIN_G20 -to user_dipsw[5]
+set_location_assignment PIN_AB15 -to user_dipsw[6]
+set_location_assignment PIN_AF25 -to user_dipsw[7]
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 14622752 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name SEARCH_PATH kits/cycloneIII_3c120_dev/Copy_of_examples/cycloneIII_3c120_dev_my_first_fpga_DONE/ -tag from_archive
+set_global_assignment -name SDC_FILE cycloneIII_3c120_dev_my_first_fpga.sdc
+set_global_assignment -name BDF_FILE cycloneIII_3c120_dev_my_first_fpga_top.bdf
+set_global_assignment -name QIP_FILE mux_zero.qip
+set_global_assignment -name QIP_FILE pll.qip
+set_global_assignment -name QIP_FILE lpm_inv0.qip
+set_global_assignment -name MISC_FILE kits/cycloneIII_3c120_dev/Copy_of_examples/cycloneIII_3c120_dev_my_first_fpga_DONE/cycloneIII_3c120_dev_my_first_fpga.dpf
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

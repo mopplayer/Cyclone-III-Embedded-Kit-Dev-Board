@@ -1,0 +1,322 @@
+#board_class=altera_nios_dev_board_cyclone_3c120_DB
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 9.1 Build 221 10/14/2009 SJ Full Version
+# Date created = 00:31:16  October 22, 2009
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		bup_3c120_fpga_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C120F780C7
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "00:31:16  OCTOBER 22, 2009"
+set_global_assignment -name LAST_QUARTUS_VERSION 11.1
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name CYCLONEIII_CONFIGURATION_SCHEME "PASSIVE SERIAL"
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name ON_CHIP_BITSTREAM_DECOMPRESSION OFF
+set_global_assignment -name STRATIX_JTAG_USER_CODE DEADBEEF
+set_location_assignment PIN_N8 -to enet_mdc
+set_location_assignment PIN_L5 -to enet_mdio
+set_location_assignment PIN_B14 -to enet_rx_clk
+set_location_assignment PIN_AA7 -to enet_tx_en
+set_location_assignment PIN_T8 -to enet_gtx_clk
+set_location_assignment PIN_AH15 -to clkin_50
+set_location_assignment PIN_A14 -to clkin_125 -disable
+set_location_assignment PIN_W8 -to enet_rxd[0]
+set_location_assignment PIN_AA6 -to enet_rxd[1]
+set_location_assignment PIN_W7 -to enet_rxd[2]
+set_location_assignment PIN_Y6 -to enet_rxd[3]
+set_location_assignment PIN_W4 -to enet_txd[0]
+set_location_assignment PIN_AA5 -to enet_txd[1]
+set_location_assignment PIN_Y5 -to enet_txd[2]
+set_location_assignment PIN_W3 -to enet_txd[3]
+set_location_assignment PIN_Y17 -to flash_oen
+set_location_assignment PIN_AA21 -to flash_wen
+set_location_assignment PIN_AF20 -to sram_ben[0]
+set_location_assignment PIN_AH26 -to sram_ben[1]
+set_location_assignment PIN_AE22 -to sram_ben[2]
+set_location_assignment PIN_AB21 -to sram_ben[3]
+set_location_assignment PIN_AB19 -to sram_csn
+set_location_assignment PIN_AD25 -to sram_oen
+set_location_assignment PIN_AE25 -to sram_wen
+set_location_assignment IOBANK_4 -to user_led
+set_location_assignment PIN_AD7 -to user_pb[0] -disable
+set_location_assignment PIN_AC12 -to user_pb[1] -disable
+set_location_assignment PIN_AH3 -to user_pb[2] -disable
+set_location_assignment PIN_AA12 -to user_pb[3] -disable
+set_location_assignment PIN_AD15 -to user_led[0]
+set_location_assignment PIN_AE20 -to user_led[1]
+set_location_assignment PIN_AF18 -to user_led[2]
+set_location_assignment PIN_AD19 -to user_led[3]
+set_location_assignment PIN_AE15 -to user_led[4]
+set_location_assignment PIN_AC17 -to user_led[5]
+set_location_assignment PIN_AG19 -to user_led[6]
+set_location_assignment PIN_AF19 -to user_led[7]
+set_location_assignment PIN_AC14 -to user_dipsw[0] -disable
+set_location_assignment PIN_AD18 -to user_dipsw[1] -disable
+set_location_assignment PIN_AG23 -to user_dipsw[2] -disable
+set_location_assignment PIN_AC19 -to user_dipsw[3] -disable
+set_location_assignment PIN_AD14 -to user_dipsw[4] -disable
+set_location_assignment PIN_G20 -to user_dipsw[5] -disable
+set_location_assignment PIN_AB15 -to user_dipsw[6] -disable
+set_location_assignment PIN_AF25 -to user_dipsw[7] -disable
+set_location_assignment EDGE_BOTTOM -to fsa
+set_location_assignment EDGE_TOP -to fsd
+set_location_assignment PIN_AB4 -to enet_rx_dv
+set_location_assignment PIN_AD2 -to enet_resetn
+set_location_assignment PIN_Y16 -to flash_cen
+set_location_assignment PIN_AG25 -to flash_rdybsyn -disable
+set_location_assignment PIN_AB20 -to flash_resetn
+set_location_assignment PIN_T21 -to cpu_reset_n
+set_location_assignment PIN_AC11 -to fsa[1]
+set_location_assignment PIN_AH10 -to fsa[2]
+set_location_assignment PIN_AA13 -to fsa[3]
+set_location_assignment PIN_AC10 -to fsa[4]
+set_location_assignment PIN_Y15 -to fsa[5]
+set_location_assignment PIN_AF22 -to fsa[6]
+set_location_assignment PIN_AF26 -to fsa[7]
+set_location_assignment PIN_AF4 -to fsa[8]
+set_location_assignment PIN_AD8 -to fsa[9]
+set_location_assignment PIN_AG26 -to fsa[10]
+set_location_assignment PIN_AH6 -to fsa[11]
+set_location_assignment PIN_AD24 -to fsa[12]
+set_location_assignment PIN_AF9 -to fsa[13]
+set_location_assignment PIN_AA8 -to fsa[14]
+set_location_assignment PIN_AC22 -to fsa[15]
+set_location_assignment PIN_AE8 -to fsa[16]
+set_location_assignment PIN_AF13 -to fsa[17]
+set_location_assignment PIN_AB14 -to fsa[18]
+set_location_assignment PIN_AF23 -to fsa[19]
+set_location_assignment PIN_AG12 -to fsa[20]
+set_location_assignment PIN_AB18 -to fsa[21]
+set_location_assignment PIN_Y19 -to fsa[22]
+set_location_assignment PIN_AG3 -to fsa[23]
+set_location_assignment PIN_AE16 -to fsa[24]
+set_location_assignment PIN_J14 -to fsd[0]
+set_location_assignment PIN_D6 -to fsd[1]
+set_location_assignment PIN_J17 -to fsd[2]
+set_location_assignment PIN_G7 -to fsd[3]
+set_location_assignment PIN_F18 -to fsd[4]
+set_location_assignment PIN_C6 -to fsd[5]
+set_location_assignment PIN_H17 -to fsd[6]
+set_location_assignment PIN_C18 -to fsd[7]
+set_location_assignment PIN_D18 -to fsd[8]
+set_location_assignment PIN_G16 -to fsd[9]
+set_location_assignment PIN_G22 -to fsd[10]
+set_location_assignment PIN_F12 -to fsd[11]
+set_location_assignment PIN_D11 -to fsd[12]
+set_location_assignment PIN_E24 -to fsd[13]
+set_location_assignment PIN_H21 -to fsd[14]
+set_location_assignment PIN_G9 -to fsd[15]
+set_location_assignment PIN_A4 -to fsd[16]
+set_location_assignment PIN_G13 -to fsd[17]
+set_location_assignment PIN_H14 -to fsd[18]
+set_location_assignment PIN_B8 -to fsd[19]
+set_location_assignment PIN_C8 -to fsd[20]
+set_location_assignment PIN_F7 -to fsd[21]
+set_location_assignment PIN_B11 -to fsd[22]
+set_location_assignment PIN_B22 -to fsd[23]
+set_location_assignment PIN_A18 -to fsd[24]
+set_location_assignment PIN_G8 -to fsd[25]
+set_location_assignment PIN_J12 -to fsd[26]
+set_location_assignment PIN_D9 -to fsd[27]
+set_location_assignment PIN_C9 -to fsd[28]
+set_location_assignment PIN_E7 -to fsd[29]
+set_location_assignment PIN_H10 -to fsd[30]
+set_location_assignment PIN_J10 -to fsd[31]
+set_location_assignment PIN_AC25 -to enet_led_link1000
+set_location_assignment PIN_AA4 -to LCD_data[0]
+set_location_assignment PIN_AD1 -to LCD_data[1]
+set_location_assignment PIN_V8 -to LCD_data[2]
+set_location_assignment PIN_AB5 -to LCD_data[3]
+set_location_assignment PIN_AE2 -to LCD_data[4]
+set_location_assignment PIN_V5 -to LCD_data[5]
+set_location_assignment PIN_V6 -to LCD_data[6]
+set_location_assignment PIN_AB3 -to LCD_data[7]
+set_location_assignment PIN_D27 -to LCD_RS
+set_location_assignment PIN_AC4 -to LCD_RW
+set_location_assignment PIN_AC24 -to LCD_E
+set_instance_assignment -name OUTPUT_ENABLE_GROUP 1381242028 -to fsd
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_cen
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_rdybsyn -disable
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_resetn
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsa
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsd
+set_instance_assignment -name IO_STANDARD "1.8 V" -to sram_csn
+set_instance_assignment -name IO_STANDARD "1.8 V" -to clkin_125 -disable
+set_instance_assignment -name IO_STANDARD "1.8 V" -to clkin_50
+set_instance_assignment -name IO_STANDARD "1.8 V" -to sram_wen
+set_instance_assignment -name IO_STANDARD "1.8 V" -to enet_rx_clk
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_dipsw -disable
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_led
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_pb -disable
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_oen
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_wen
+set_instance_assignment -name IO_STANDARD "1.8 V" -to sram_ben
+set_instance_assignment -name IO_STANDARD "1.8 V" -to sram_oen
+set_instance_assignment -name IO_STANDARD "2.5 V" -to enet_led_link1000
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LCD_data[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LCD_data[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LCD_data[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LCD_data[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LCD_data[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LCD_data[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LCD_data[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LCD_data[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LCD_RS
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LCD_RW
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LCD_E
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to enet_resetn
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to cpu_reset_n
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to flash_resetn
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to user_dipsw -disable
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to user_pb -disable
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to enet_mdc
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to enet_mdio
+set_global_assignment -name TOP_LEVEL_ENTITY bup_3c120_fpga
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 2147039 -section_id Top
+set_global_assignment -name CYCLONEII_OPTIMIZATION_TECHNIQUE SPEED
+set_global_assignment -name STATE_MACHINE_PROCESSING "ONE-HOT"
+set_global_assignment -name MUX_RESTRUCTURE OFF
+set_global_assignment -name ADV_NETLIST_OPT_SYNTH_WYSIWYG_REMAP ON
+set_global_assignment -name ADV_NETLIST_OPT_SYNTH_GATE_RETIME ON
+set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
+set_global_assignment -name PHYSICAL_SYNTHESIS_COMBO_LOGIC ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_REGISTER_DUPLICATION ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_ASYNCHRONOUS_SIGNAL_PIPELINING ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_REGISTER_RETIMING ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_EFFORT EXTRA
+set_global_assignment -name PHYSICAL_SYNTHESIS_COMBO_LOGIC_FOR_AREA ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_MAP_LOGIC_TO_MEMORY_FOR_AREA OFF
+set_global_assignment -name NUM_PARALLEL_PROCESSORS ALL
+set_global_assignment -name OPTIMIZE_MULTI_CORNER_TIMING ON
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to top_m_rx_col_to_the_tse_mac
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to top_m_rx_crs_to_the_tse_mac
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to top_m_rx_d_to_the_tse_mac
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to top_m_rx_en_to_the_tse_mac
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to top_m_rx_err_to_the_tse_mac
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to top_m_tx_d_from_the_tse_mac
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to top_m_tx_en_from_the_tse_mac
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to top_m_tx_err_from_the_tse_mac
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to top_rx_control_to_the_tse_mac
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to top_rgmii_in_to_the_tse_mac
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to top_tx_control_from_the_tse_mac
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to top_rgmii_out_from_the_tse_mac
+set_instance_assignment -name CLOCK_SETTINGS top_rx_clk_to_the_tse_mac -to top_rx_clk_to_the_tse_mac
+set_global_assignment -name FMAX_REQUIREMENT "125 MHz" -section_id top_rx_clk_to_the_tse_mac
+set_global_assignment -name INCLUDE_EXTERNAL_PIN_DELAYS_IN_FMAX_CALCULATIONS OFF -section_id top_rx_clk_to_the_tse_mac
+set_instance_assignment -name CLOCK_SETTINGS top_tx_clk_to_the_tse_mac -to top_tx_clk_to_the_tse_mac
+set_global_assignment -name FMAX_REQUIREMENT "125 MHz" -section_id top_tx_clk_to_the_tse_mac
+set_global_assignment -name INCLUDE_EXTERNAL_PIN_DELAYS_IN_FMAX_CALCULATIONS OFF -section_id top_tx_clk_to_the_tse_mac
+set_instance_assignment -name MULTICYCLE 5 -from "*|altera_tse_top_w_fifo:U_MAC|altera_tse_tx_min_ff:U_TXFF|altera_tse_altsyncram_dpm_fifo:U_RTSM|altsyncram*" -to *
+set_instance_assignment -name MULTICYCLE 5 -from "*|altera_tse_top_w_fifo:U_MAC|altera_tse_tx_min_ff:U_TXFF|altera_tse_retransmit_cntl:U_RETR|*" -to *
+set_instance_assignment -name MULTICYCLE 5 -from * -to "*|altera_tse_top_w_fifo:U_MAC|altera_tse_tx_min_ff:U_TXFF|altera_tse_retransmit_cntl:U_RETR|*"
+set_instance_assignment -name MULTICYCLE 5 -from "*|altera_tse_top_w_fifo:U_MAC|altera_tse_tx_min_ff:U_TXFF|half_duplex_ena_reg2" -to *
+set_instance_assignment -name TPD_REQUIREMENT "7 ns" -from "*|altera_tse_top_w_fifo:U_MAC|altera_tse_tx_min_ff:U_TXFF|dout_reg_sft" -to "*|altera_tse_top_w_fifo:U_MAC|altera_tse_top_1geth:U_GETH|altera_tse_mac_tx:U_TX|*"
+set_instance_assignment -name TPD_REQUIREMENT "7 ns" -from "*|altera_tse_top_w_fifo:U_MAC|altera_tse_tx_min_ff:U_TXFF|eop_sft" -to "*|altera_tse_top_w_fifo:U_MAC|altera_tse_top_1geth:U_GETH|altera_tse_mac_tx:U_TX|*"
+set_instance_assignment -name TPD_REQUIREMENT "7 ns" -from "*|altera_tse_top_w_fifo:U_MAC|altera_tse_tx_min_ff:U_TXFF|sop_reg" -to "*|altera_tse_top_w_fifo:U_MAC|altera_tse_top_1geth:U_GETH|altera_tse_mac_tx:U_TX|*"
+set_global_assignment -name TIMEQUEST_DO_REPORT_TIMING ON
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name STRATIXIII_UPDATE_MODE STANDARD
+set_global_assignment -name FORCE_CONFIGURATION_VCCIO ON
+set_global_assignment -name RESERVE_DATA7_THROUGH_DATA2_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_OTHER_AP_PINS_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_DATA0_AFTER_CONFIGURATION "AS INPUT TRI-STATED"
+set_global_assignment -name RESERVE_DATA1_AFTER_CONFIGURATION "AS INPUT TRI-STATED"
+set_global_assignment -name RESERVE_FLASH_NCE_AFTER_CONFIGURATION "AS INPUT TRI-STATED"
+set_global_assignment -name ENABLE_SIGNALTAP OFF
+set_global_assignment -name USE_SIGNALTAP_FILE max2.stp
+set_global_assignment -name ENABLE_DEVICE_WIDE_RESET OFF
+set_location_assignment PIN_AE6 -to ss_data[6] -disable
+set_location_assignment PIN_AD5 -to ss_data[0] -disable
+set_location_assignment PIN_A3 -to ss_data[1] -disable
+set_location_assignment PIN_C4 -to ss_data[2] -disable
+set_location_assignment PIN_D4 -to ss_data[3] -disable
+set_location_assignment PIN_E5 -to ss_data[4] -disable
+set_location_assignment PIN_D5 -to ss_data[5] -disable
+set_instance_assignment -name IO_STANDARD "1.8 V" -to ss_data[6] -disable
+set_instance_assignment -name IO_STANDARD "1.8 V" -to ss_data[0] -disable
+set_instance_assignment -name IO_STANDARD "1.8 V" -to ss_data[5] -disable
+set_instance_assignment -name IO_STANDARD "1.8 V" -to ss_data[4] -disable
+set_instance_assignment -name IO_STANDARD "1.8 V" -to ss_data[3] -disable
+set_instance_assignment -name IO_STANDARD "1.8 V" -to ss_data[2] -disable
+set_instance_assignment -name IO_STANDARD "1.8 V" -to ss_data[1] -disable
+set_instance_assignment -name IO_STANDARD "1.8 V" -to ss_sel[1] -disable
+set_instance_assignment -name IO_STANDARD "1.8 V" -to ss_sel[2] -disable
+set_instance_assignment -name IO_STANDARD "1.8 V" -to ss_sel[3] -disable
+set_instance_assignment -name IO_STANDARD "1.8 V" -to ss_sel[4] -disable
+set_location_assignment PIN_B3 -to ss_sel[1] -disable
+set_location_assignment PIN_C5 -to ss_sel[2] -disable
+set_location_assignment PIN_E4 -to ss_sel[3] -disable
+set_location_assignment PIN_C3 -to ss_sel[4] -disable
+set_global_assignment -name SMART_RECOMPILE ON
+set_global_assignment -name SEARCH_PATH Cyclone3_Dev_Host/c3_board_update_portal/ -tag from_archive
+set_global_assignment -name SEARCH_PATH ip/sseg_controller/ -tag from_archive
+set_global_assignment -name SEARCH_PATH ip/ssram32/ -tag from_archive
+set_global_assignment -name SEARCH_PATH "triple_speed_ethernet-library/" -tag from_archive
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to rx_control
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to rgmii_in
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to tx_control
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to rgmii_out
+set_location_assignment PIN_AB7 -to fsa[25]
+set_global_assignment -name ENABLE_DRC_SETTINGS ON
+set_global_assignment -name ROUTER_TIMING_OPTIMIZATION_LEVEL MAXIMUM
+set_global_assignment -name AUTO_PACKED_REGISTERS_STRATIXII NORMAL
+set_global_assignment -name AUTO_PACKED_REGISTERS_MAXII NORMAL
+set_global_assignment -name AUTO_PACKED_REGISTERS_CYCLONE NORMAL
+set_global_assignment -name AUTO_PACKED_REGISTERS NORMAL
+set_global_assignment -name AUTO_PACKED_REGISTERS_STRATIX NORMAL
+set_instance_assignment -name GLOBAL_SIGNAL "GLOBAL CLOCK" -from clk_50 -to *
+set_global_assignment -name DO_COMBINED_ANALYSIS ON
+set_global_assignment -name SYNCHRONIZATION_REGISTER_CHAIN_LENGTH 3
+set_global_assignment -name SAVE_DISK_SPACE OFF
+set_global_assignment -name ALLOW_POWER_UP_DONT_CARE OFF
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_location_assignment PIN_AC12 -to fsa[0]
+set_global_assignment -name MISC_FILE bup_3c120_fpga.dpf
+set_global_assignment -name MISC_FILE Cyclone3_Dev_Host/c3_board_update_portal/bup_3c120_fpga.dpf
+set_global_assignment -name SDC_FILE bup_3c120_fpga.sdc
+set_global_assignment -name QIP_FILE bup_3c120_fpga_sopc.qip
+set_global_assignment -name QIP_FILE tx_clk_pll.qip
+set_global_assignment -name QIP_FILE ddr_o.qip
+set_global_assignment -name SEARCH_PATH 10.1/quartus/libraries/vhdl/ieee/ -tag from_archive
+set_global_assignment -name SEARCH_PATH megafunctions/ -tag from_archive
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

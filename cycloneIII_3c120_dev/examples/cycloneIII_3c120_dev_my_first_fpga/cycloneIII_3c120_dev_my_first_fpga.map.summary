@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Oct 31 02:28:44 2011
+Quartus II 64-Bit Version : 11.1 Build 171 10/19/2011 SJ Full Version
+Revision Name : cycloneIII_3c120_dev_my_first_fpga
+Top-level Entity Name : cycloneIII_3c120_dev_my_first_fpga_top
+Family : Cyclone III
+Total logic elements : 39
+    Total combinational functions : 39
+    Dedicated logic registers : 31
+Total registers : 31
+Total pins : 10
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

@@ -1,0 +1,64 @@
+# clk
+# clk_125
+# pll
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) pll.sdc]
+# cpu
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) cpu.sdc]
+set_global_assignment -name SOURCE_FILE [file join $::quartus(qip_path) cpu.ocp]
+# descriptor_memory
+# pipeline_bridge_before_tristate_bridge
+# flash_tristate_bridge
+# ext_flash
+# max2
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) ip/cycloneIII_3c120_devkit_maxII_interface/cycloneIII_3c120_devkit_maxII_interface_hw.tcl]
+# sdhc_ddr_clock_bridge
+# ddr2_sdram
+# ddr2_sdram_1
+# cpu_ddr_clock_bridge
+# cpu_ddr_1_clock_bridge
+# slow_peripheral_bridge
+# tse_ddr_clock_bridge
+# sgdma_tx
+# sgdma_rx
+# lcd_sgdma
+# tse_mac
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) tse_mac_constraints.sdc]
+set_global_assignment -name QIP_FILE [file join $::quartus(qip_path) tse_mac.qip]
+# sys_clk_timer
+# high_res_timer
+# sysid
+# performance_counter
+# jtag_uart
+# uart1
+# button_pio
+# led_pio
+# pio_id_eeprom_scl
+# lcd_i2c_scl
+# lcd_i2c_en
+# pio_id_eeprom_dat
+# lcd_i2c_sdat
+# touch_panel_pen_irq_n
+# touch_panel_spi
+# lcd_ta_sgdma_to_fifo
+# lcd_pixel_fifo
+# lcd_ta_fifo_to_dfa
+# lcd_64_to_32_bits_dfa
+# lcd_pixel_converter
+set_global_assignment -name TCL_FILE [file join $::quartus(ip_rootpath) altera/sopc_builder_ip/altera_avalon_pixel_converter/altera_avalon_pixel_converter_hw.tcl]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(ip_rootpath) altera/sopc_builder_ip/altera_avalon_pixel_converter/altera_avalon_pixel_converter.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) lcd_pixel_converter.v]
+# lcd_32_to_8_bits_dfa
+# lcd_sync_generator
+set_global_assignment -name TCL_FILE [file join $::quartus(ip_rootpath) altera/sopc_builder_ip/altera_avalon_video_sync_generator/altera_avalon_video_sync_generator_hw.tcl]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(ip_rootpath) altera/sopc_builder_ip/altera_avalon_video_sync_generator/altera_avalon_video_sync_generator.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) lcd_sync_generator.v]
+# sls_sdhc
+set_global_assignment -name TCL_FILE [file join $::quartus(ip_rootpath) sls/sdhc/hardware/component/sls_sdhc_top_hw.tcl]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(ip_rootpath) sls/sdhc/hardware/component/hdl/sls_sdhc_top.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(ip_rootpath) sls/sdhc/hardware/component/hdl/sls_sdhc_rx_fifo.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(ip_rootpath) sls/sdhc/hardware/component/hdl/sls_sdhc_tx_fifo.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) sls_sdhc.v]
+# null
+set_global_assignment -name SDC_FILE [file join $::quartus(ip_rootpath) altera/sopc_builder_ip/altera_avalon_clock_adapter/altera_avalon_clock_adapter.sdc]
+set_global_assignment -name SOPC_BUILDER_SIGNATURE_ID 002564B596210000012CEDD6D058 
+ 

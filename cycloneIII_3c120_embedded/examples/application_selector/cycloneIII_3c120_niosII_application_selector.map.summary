@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Sep 28 10:57:00 2011
+Quartus II 64-Bit Version : 11.0 Build 157 04/27/2011 SJ Full Version
+Revision Name : cycloneIII_3c120_niosII_application_selector
+Top-level Entity Name : cycloneIII_3c120_niosII_application_selector
+Family : Cyclone III
+Total logic elements : 31,111
+    Total combinational functions : 23,334
+    Dedicated logic registers : 19,218
+Total registers : 19398
+Total pins : 212
+Total virtual pins : 0
+Total memory bits : 854,860
+Embedded Multiplier 9-bit elements : 4
+Total PLLs : 3

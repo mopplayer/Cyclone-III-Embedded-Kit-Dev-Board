@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Sep 15 17:24:08 2011
+Quartus II 64-Bit Version : 11.0 Build 157 04/27/2011 SJ Full Version
+Revision Name : cycloneIII_3c120_niosII_standard
+Top-level Entity Name : cycloneIII_3c120_niosII_standard
+Family : Cyclone III
+Device : EP3C120F780C7
+Timing Models : Final
+Total logic elements : 17,962 / 119,088 ( 15 % )
+    Total combinational functions : 14,200 / 119,088 ( 12 % )
+    Dedicated logic registers : 10,703 / 119,088 ( 9 % )
+Total registers : 10948
+Total pins : 139 / 532 ( 26 % )
+Total virtual pins : 0
+Total memory bits : 702,072 / 3,981,312 ( 18 % )
+Embedded Multiplier 9-bit elements : 4 / 576 ( 1 % )
+Total PLLs : 4 / 4 ( 100 % )

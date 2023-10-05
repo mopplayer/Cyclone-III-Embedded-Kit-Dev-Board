@@ -1,0 +1,64 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 0 0 200 152)
+	(text "mux_zero" (rect 70 0 144 21)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 133 25 148)(font "Arial" ))
+	(port
+		(pt 0 64)
+		(input)
+		(text "data0x[7..0]" (rect 0 0 67 18)(font "Arial" (font_size 8)))
+		(text "data0x[7..0]" (rect 4 46 58 63)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 72 64)(line_width 3))
+	)
+	(port
+		(pt 0 88)
+		(input)
+		(text "data1x[7..0]" (rect 0 0 67 18)(font "Arial" (font_size 8)))
+		(text "data1x[7..0]" (rect 4 70 58 87)(font "Arial" (font_size 8)))
+		(line (pt 0 88)(pt 72 88)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "sel" (rect 0 0 16 18)(font "Arial" (font_size 8)))
+		(text "sel" (rect 4 94 16 111)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 72 112))
+	)
+	(port
+		(pt 200 64)
+		(output)
+		(text "result[7..0]" (rect 0 0 60 18)(font "Arial" (font_size 8)))
+		(text "result[7..0]" (rect 146 46 193 63)(font "Arial" (font_size 8)))
+		(line (pt 200 64)(pt 136 64)(line_width 3))
+	)
+	(drawing
+		(line (pt 0 0)(pt 202 0))
+		(line (pt 202 0)(pt 202 154))
+		(line (pt 0 154)(pt 202 154))
+		(line (pt 0 0)(pt 0 154))
+		(line (pt 72 40)(pt 136 40))
+		(line (pt 136 40)(pt 136 136))
+		(line (pt 72 136)(pt 136 136))
+		(line (pt 72 40)(pt 72 136))
+	)
+)

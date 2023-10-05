@@ -1,0 +1,262 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2010 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
+# Date created = 13:22:20  April 19, 2010
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		C3_BTS_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C120F780C8
+set_global_assignment -name TOP_LEVEL_ENTITY bts_glcd
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:22:20  APRIL 19, 2010"
+set_global_assignment -name LAST_QUARTUS_VERSION 11.1
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name SEARCH_PATH ./
+set_global_assignment -name SEARCH_PATH "triple_speed_ethernet-library/"
+set_global_assignment -name CYCLONEII_OPTIMIZATION_TECHNIQUE SPEED
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name LL_ROOT_REGION ON -entity C3_BTS -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -entity C3_BTS -section_id "Root Region"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_AC11 -to fsm_a[1]
+set_location_assignment PIN_AH10 -to fsm_a[2]
+set_location_assignment PIN_AA13 -to fsm_a[3]
+set_location_assignment PIN_AC10 -to fsm_a[4]
+set_location_assignment PIN_Y15 -to fsm_a[5]
+set_location_assignment PIN_AF22 -to fsm_a[6]
+set_location_assignment PIN_AF26 -to fsm_a[7]
+set_location_assignment PIN_AF4 -to fsm_a[8]
+set_location_assignment PIN_AD8 -to fsm_a[9]
+set_location_assignment PIN_AG26 -to fsm_a[10]
+set_location_assignment PIN_AH6 -to fsm_a[11]
+set_location_assignment PIN_AD24 -to fsm_a[12]
+set_location_assignment PIN_AF9 -to fsm_a[13]
+set_location_assignment PIN_AA8 -to fsm_a[14]
+set_location_assignment PIN_AC22 -to fsm_a[15]
+set_location_assignment PIN_AE8 -to fsm_a[16]
+set_location_assignment PIN_AF13 -to fsm_a[17]
+set_location_assignment PIN_AB14 -to fsm_a[18]
+set_location_assignment PIN_AF23 -to fsm_a[19]
+set_location_assignment PIN_AG12 -to fsm_a[20]
+set_location_assignment PIN_AB18 -to fsm_a[21]
+set_location_assignment PIN_Y19 -to fsm_a[22]
+set_location_assignment PIN_AG3 -to fsm_a[23]
+set_location_assignment PIN_AE16 -to fsm_a[24]
+set_location_assignment PIN_AB7 -to fsm_a[25]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[1]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[2]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[3]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[4]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[5]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[6]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[7]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[8]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[9]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[10]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[11]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[12]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[13]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[14]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[15]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[16]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[17]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[18]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[19]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[20]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[21]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[22]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[23]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[24]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_a[25]
+set_location_assignment PIN_Y16 -to flash_cen
+set_location_assignment PIN_Y17 -to flash_oen
+set_location_assignment PIN_AA21 -to flash_wen
+set_location_assignment PIN_AC14 -to user_dip[0]
+set_location_assignment PIN_AD18 -to user_dip[1]
+set_location_assignment PIN_AG23 -to user_dip[2]
+set_location_assignment PIN_AC19 -to user_dip[3]
+set_location_assignment PIN_AD14 -to user_dip[4]
+set_location_assignment PIN_G20 -to user_dip[5]
+set_location_assignment PIN_AB15 -to user_dip[6]
+set_location_assignment PIN_AF25 -to user_dip[7]
+set_location_assignment PIN_AD7 -to user_pb[0]
+set_location_assignment PIN_AC12 -to user_pb[1]
+set_location_assignment PIN_AH3 -to user_pb[2]
+set_location_assignment PIN_AA12 -to user_pb[3]
+set_location_assignment PIN_AB24 -to lcd_csn
+set_location_assignment PIN_D27 -to lcd_d_cn
+set_location_assignment PIN_AA4 -to lcd_data[0]
+set_location_assignment PIN_AD1 -to lcd_data[1]
+set_location_assignment PIN_V8 -to lcd_data[2]
+set_location_assignment PIN_AB5 -to lcd_data[3]
+set_location_assignment PIN_AE2 -to lcd_data[4]
+set_location_assignment PIN_V5 -to lcd_data[5]
+set_location_assignment PIN_V6 -to lcd_data[6]
+set_location_assignment PIN_AB3 -to lcd_data[7]
+set_location_assignment PIN_V7 -to lcd_e_rdn
+set_location_assignment PIN_AC24 -to lcd_en
+set_location_assignment PIN_H7 -to lcd_rstn
+set_location_assignment PIN_AC4 -to lcd_wen
+set_location_assignment PIN_AD15 -to user_led[0]
+set_location_assignment PIN_AE20 -to user_led[1]
+set_location_assignment PIN_AF18 -to user_led[2]
+set_location_assignment PIN_AD19 -to user_led[3]
+set_location_assignment PIN_AE15 -to user_led[4]
+set_location_assignment PIN_AC17 -to user_led[5]
+set_location_assignment PIN_AG19 -to user_led[6]
+set_location_assignment PIN_AF19 -to user_led[7]
+set_location_assignment PIN_AF20 -to ssram_bwn[0]
+set_location_assignment PIN_AH26 -to ssram_bwn[1]
+set_location_assignment PIN_AE22 -to ssram_bwn[2]
+set_location_assignment PIN_AB21 -to ssram_bwn[3]
+set_location_assignment PIN_AB19 -to ssram_cen
+set_location_assignment PIN_AD25 -to ssram_oen
+set_location_assignment PIN_AE25 -to ssram_wen
+set_location_assignment PIN_J14 -to fsm_d[0]
+set_location_assignment PIN_D6 -to fsm_d[1]
+set_location_assignment PIN_J17 -to fsm_d[2]
+set_location_assignment PIN_G7 -to fsm_d[3]
+set_location_assignment PIN_F18 -to fsm_d[4]
+set_location_assignment PIN_C6 -to fsm_d[5]
+set_location_assignment PIN_H17 -to fsm_d[6]
+set_location_assignment PIN_C18 -to fsm_d[7]
+set_location_assignment PIN_D18 -to fsm_d[8]
+set_location_assignment PIN_G16 -to fsm_d[9]
+set_location_assignment PIN_G22 -to fsm_d[10]
+set_location_assignment PIN_F12 -to fsm_d[11]
+set_location_assignment PIN_D11 -to fsm_d[12]
+set_location_assignment PIN_E24 -to fsm_d[13]
+set_location_assignment PIN_H21 -to fsm_d[14]
+set_location_assignment PIN_G9 -to fsm_d[15]
+set_location_assignment PIN_A4 -to fsm_d[16]
+set_location_assignment PIN_G13 -to fsm_d[17]
+set_location_assignment PIN_H14 -to fsm_d[18]
+set_location_assignment PIN_B8 -to fsm_d[19]
+set_location_assignment PIN_C8 -to fsm_d[20]
+set_location_assignment PIN_F7 -to fsm_d[21]
+set_location_assignment PIN_B11 -to fsm_d[22]
+set_location_assignment PIN_B22 -to fsm_d[23]
+set_location_assignment PIN_A18 -to fsm_d[24]
+set_location_assignment PIN_G8 -to fsm_d[25]
+set_location_assignment PIN_J12 -to fsm_d[26]
+set_location_assignment PIN_D9 -to fsm_d[27]
+set_location_assignment PIN_C9 -to fsm_d[28]
+set_location_assignment PIN_E7 -to fsm_d[29]
+set_location_assignment PIN_H10 -to fsm_d[30]
+set_location_assignment PIN_J10 -to fsm_d[31]
+set_location_assignment PIN_AH15 -to clkin_sys
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_dip[0]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_dip[4]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_pb[1]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_pb[2]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_pb[3]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to clkin_sys
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_cen
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_oen
+set_instance_assignment -name IO_STANDARD "1.8 V" -to flash_wen
+set_instance_assignment -name IO_STANDARD "1.8 V" -to ssram_bwn[0]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to ssram_bwn[1]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to ssram_bwn[2]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to ssram_bwn[3]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to ssram_cen
+set_instance_assignment -name IO_STANDARD "1.8 V" -to ssram_oen
+set_instance_assignment -name IO_STANDARD "1.8 V" -to ssram_wen
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_dip[1]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_dip[2]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_dip[3]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_dip[6]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_dip[7]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_led[0]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_led[1]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_led[2]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_led[3]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_led[4]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_led[5]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_led[6]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_led[7]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_pb[0]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[2]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[4]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[6]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[7]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[8]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[9]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[10]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[13]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[14]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[23]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[24]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_dip[5]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[0]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[1]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[3]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[5]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[11]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[12]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[15]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[16]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[17]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[18]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[19]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[20]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[21]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[22]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[25]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[26]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[27]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[28]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[29]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[30]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to fsm_d[31]
+set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS ON
+set_global_assignment -name TIMEQUEST_DO_CCPP_REMOVAL ON
+set_global_assignment -name SMART_RECOMPILE ON
+set_global_assignment -name QIP_FILE bts_glcd_sopc.qip
+set_global_assignment -name MISC_FILE C3_BTS.dpf
+set_global_assignment -name VERILOG_FILE bts_glcd.v
+set_global_assignment -name SEARCH_PATH ip/lcd_driver/ -tag from_archive
+set_global_assignment -name SEARCH_PATH ip/product_information/ -tag from_archive
+set_global_assignment -name SEARCH_PATH ip/sseg_controller/ -tag from_archive
+set_global_assignment -name SEARCH_PATH ip/ssram32/ -tag from_archive
+set_global_assignment -name SEARCH_PATH ip/system_console_interface/ -tag from_archive
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name QIP_FILE altpllpll.qip
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

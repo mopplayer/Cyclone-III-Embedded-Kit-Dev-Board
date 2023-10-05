@@ -1,0 +1,3 @@
+project_open -current_revision "D:/Board_Design/Regression_Test/CycloneIII_3C120_dev_kit/11.1 Format/For Testing/c3_3c120_dev/cycloneiii_3c120_dev_niosii_standard/cycloneIII_3c120_dev_niosII_standard.qpf"
+set_global_assignment -name QIP_FILE "cycloneIII_3c120_dev_niosII_standard_sopc.qip"
+project_close

@@ -1,0 +1,40 @@
+Quartus II Archive log --	D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/cycloneIII_3c120_dev_my_first_fpga.qarlog
+
+Archive:	D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/cycloneIII_3c120_dev_my_first_fpga.qar
+Date:		Wed May 19 17:08:22 2010
+Quartus II		9.1 Build 350 03/24/2010 SP 2 SJ Full Version
+
+	=========== Files Selected: ===========
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/cycloneIII_3c120_dev_my_first_fpga.flow.rpt
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/cycloneIII_3c120_dev_my_first_fpga.map.rpt
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/cycloneIII_3c120_dev_my_first_fpga.map.summary
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/cycloneIII_3c120_dev_my_first_fpga.qpf
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/cycloneIII_3c120_dev_my_first_fpga.qsf
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/cycloneIII_3c120_dev_my_first_fpga.sdc
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/cycloneIII_3c120_dev_my_first_fpga.sof
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/cycloneIII_3c120_dev_my_first_fpga_assignment_defaults.qdf
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/cycloneIII_3c120_dev_my_first_fpga_top.bdf
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/lpm_inv0.bsf
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/lpm_inv0.cmp
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/lpm_inv0.inc
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/lpm_inv0.qip
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/lpm_inv0.v
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/lpm_inv0_bb.v
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/lpm_inv0_inst.v
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/mux_zero.bsf
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/mux_zero.qip
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/mux_zero.v
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/mux_zero_bb.v
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/pll.bsf
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/pll.cmp
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/pll.inc
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/pll.ppf
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/pll.qip
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/pll.v
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/pll_bb.v
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/pll_inst.v
+D:/_Kits_Dev_Val/cycloneIII_3c120_dev_91SP2/cycloneIII_3c120_dev/examples/cycloneIII_3c120_dev_my_first_fpga/simple_counter.v
+	======= Total: 29 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

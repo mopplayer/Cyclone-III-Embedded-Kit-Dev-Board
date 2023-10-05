@@ -1,0 +1,305 @@
+//IP Functional Simulation Model
+//VERSION_BEGIN 10.1 cbx_mgl 2010:11:29:22:19:52:SJ cbx_simgen 2010:11:29:22:18:02:SJ  VERSION_END
+// synthesis VERILOG_INPUT_VERSION VERILOG_2001
+// altera message_off 10463
+
+
+
+// Copyright (C) 1991-2010 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// You may only use these simulation model output files for simulation
+// purposes and expressly not for synthesis or any other purposes (in which
+// event Altera disclaims all warranties of any kind).
+
+
+//synopsys translate_off
+
+//synthesis_resources = altsyncram 1 lut 9 mux21 15 oper_add 3 oper_less_than 1 
+`timescale 1 ps / 1 ps
+module  lcd_ta_fifo_to_dfa
+	( 
+	clk,
+	in_data,
+	in_empty,
+	in_endofpacket,
+	in_ready,
+	in_startofpacket,
+	in_valid,
+	out_data,
+	out_empty,
+	out_endofpacket,
+	out_ready,
+	out_startofpacket,
+	out_valid,
+	reset_n) /* synthesis synthesis_clearbox=1 */;
+	input   clk;
+	input   [63:0]  in_data;
+	input   [2:0]  in_empty;
+	input   in_endofpacket;
+	output   in_ready;
+	input   in_startofpacket;
+	input   in_valid;
+	output   [63:0]  out_data;
+	output   [2:0]  out_empty;
+	output   out_endofpacket;
+	input   out_ready;
+	output   out_startofpacket;
+	output   out_valid;
+	input   reset_n;
+
+	wire  [68:0]   wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943_q_b;
+	reg	lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_empty_340q;
+	reg	lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_341q;
+	reg	lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_out_valid_418q;
+	reg	lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_0_339q;
+	reg	lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_1_338q;
+	reg	lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_2_337q;
+	reg	lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_0_336q;
+	reg	lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_1_335q;
+	reg	lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_2_334q;
+	wire	wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_empty_320m_dataout;
+	wire	wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_empty_325m_dataout;
+	wire	wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_empty_328m_dataout;
+	wire	wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_fill_level_0_307m_dataout;
+	wire	wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_fill_level_1_306m_dataout;
+	wire	wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_fill_level_2_305m_dataout;
+	wire	wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_316m_dataout;
+	wire	wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_321m_dataout;
+	wire	wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_327m_dataout;
+	wire	wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_629m_dataout;
+	wire	wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_mem_rd_addr_0_344m_dataout;
+	wire	wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_mem_rd_addr_1_343m_dataout;
+	wire	wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_mem_rd_addr_2_342m_dataout;
+	wire	wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_out_valid_326m_dataout;
+	wire	wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_out_valid_329m_dataout;
+	wire  [2:0]   wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add0_298_o;
+	wire  [2:0]   wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add1_299_o;
+	wire  [3:0]   wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add2_303_o;
+	wire  wire_lcd_ta_fifo_to_dfa_lessthan0_2_o;
+	wire  s_wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_always1_311_dataout;
+	wire  s_wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_always1_322_dataout;
+	wire  s_wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_always1_331_dataout;
+	wire  s_wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_empty_0_639_dataout;
+	wire  s_wire_vcc;
+
+	altsyncram   lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943
+	( 
+	.address_a({lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_2_334q, lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_1_335q, lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_0_336q}),
+	.address_b({wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_mem_rd_addr_2_342m_dataout, wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_mem_rd_addr_1_343m_dataout, wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_mem_rd_addr_0_344m_dataout}),
+	.clock0(clk),
+	.data_a({in_data[63:0], in_startofpacket, in_endofpacket, in_empty[2:0]}),
+	.eccstatus(),
+	.q_a(),
+	.q_b(wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943_q_b),
+	.wren_a(s_wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_always1_311_dataout),
+	.aclr0(),
+	.aclr1(),
+	.addressstall_a(),
+	.addressstall_b(),
+	.byteena_a(),
+	.byteena_b(),
+	.clock1(),
+	.clocken0(),
+	.clocken1(),
+	.clocken2(),
+	.clocken3(),
+	.data_b(),
+	.rden_a(),
+	.rden_b(),
+	.wren_b()
+	);
+	defparam
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.address_aclr_a = "NONE",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.address_aclr_b = "NONE",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.address_reg_b = "CLOCK0",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.byte_size = 8,
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.byteena_aclr_a = "NONE",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.byteena_aclr_b = "NONE",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.byteena_reg_b = "CLOCK1",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.clock_enable_core_a = "USE_INPUT_CLKEN",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.clock_enable_core_b = "USE_INPUT_CLKEN",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.clock_enable_input_a = "NORMAL",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.clock_enable_input_b = "NORMAL",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.clock_enable_output_a = "NORMAL",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.clock_enable_output_b = "NORMAL",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.enable_ecc = "FALSE",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.indata_aclr_a = "NONE",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.indata_aclr_b = "NONE",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.indata_reg_b = "CLOCK1",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.init_file_layout = "PORT_A",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.intended_device_family = "Stratix II",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.numwords_a = 8,
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.numwords_b = 8,
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.operation_mode = "DUAL_PORT",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.outdata_aclr_a = "NONE",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.outdata_aclr_b = "NONE",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.outdata_reg_a = "UNREGISTERED",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.outdata_reg_b = "UNREGISTERED",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.ram_block_type = "AUTO",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.rdcontrol_aclr_b = "NONE",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.rdcontrol_reg_b = "CLOCK1",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.read_during_write_mode_mixed_ports = "OLD_DATA",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.read_during_write_mode_port_a = "NEW_DATA_NO_NBE_READ",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.read_during_write_mode_port_b = "NEW_DATA_NO_NBE_READ",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.width_a = 69,
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.width_b = 69,
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.width_byteena_a = 1,
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.width_byteena_b = 1,
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.width_eccstatus = 3,
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.widthad_a = 3,
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.widthad_b = 3,
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.wrcontrol_aclr_a = "NONE",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.wrcontrol_aclr_b = "NONE",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.wrcontrol_wraddress_reg_b = "CLOCK1",
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943.lpm_hint = "WIDTH_BYTEENA=1";
+	initial
+	begin
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_empty_340q = 0;
+	end
+	always @ ( posedge clk or  negedge reset_n)
+	begin
+		if (reset_n == 1'b0) 
+		begin
+			lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_empty_340q <= 1;
+		end
+		else if  (s_wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_always1_331_dataout == 1'b0) 
+		begin
+			lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_empty_340q <= wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_empty_328m_dataout;
+		end
+	end
+	initial
+	begin
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_341q = 0;
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_out_valid_418q = 0;
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_0_339q = 0;
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_1_338q = 0;
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_2_337q = 0;
+	end
+	always @ ( posedge clk or  negedge reset_n)
+	begin
+		if (reset_n == 1'b0) 
+		begin
+			lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_341q <= 0;
+			lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_out_valid_418q <= 0;
+			lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_0_339q <= 0;
+			lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_1_338q <= 0;
+			lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_2_337q <= 0;
+		end
+		else 
+		begin
+			lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_341q <= wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_629m_dataout;
+			lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_out_valid_418q <= wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_out_valid_329m_dataout;
+			lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_0_339q <= wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_mem_rd_addr_0_344m_dataout;
+			lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_1_338q <= wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_mem_rd_addr_1_343m_dataout;
+			lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_2_337q <= wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_mem_rd_addr_2_342m_dataout;
+		end
+	end
+	initial
+	begin
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_0_336q = 0;
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_1_335q = 0;
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_2_334q = 0;
+	end
+	always @ ( posedge clk or  negedge reset_n)
+	begin
+		if (reset_n == 1'b0) 
+		begin
+			lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_0_336q <= 0;
+			lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_1_335q <= 0;
+			lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_2_334q <= 0;
+		end
+		else if  (s_wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_always1_311_dataout == 1'b1) 
+		begin
+			lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_0_336q <= wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add0_298_o[0];
+			lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_1_335q <= wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add0_298_o[1];
+			lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_2_334q <= wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add0_298_o[2];
+		end
+	end
+	and(wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_empty_320m_dataout, lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_empty_340q, ~(s_wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_always1_311_dataout));
+	or(wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_empty_325m_dataout, wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_empty_320m_dataout, s_wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_empty_0_639_dataout);
+	assign		wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_empty_328m_dataout = (s_wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_always1_322_dataout === 1'b1) ? wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_empty_325m_dataout : wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_empty_320m_dataout;
+	and(wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_fill_level_0_307m_dataout, wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add2_303_o[1], ~(lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_341q));
+	and(wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_fill_level_1_306m_dataout, wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add2_303_o[2], ~(lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_341q));
+	and(wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_fill_level_2_305m_dataout, wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add2_303_o[3], ~(lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_341q));
+	or(wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_316m_dataout, lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_341q, (((~ (wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add0_298_o[0] ^ lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_0_339q)) & (~ (wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add0_298_o[1] ^ lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_1_338q))) & (~ (wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add0_298_o[2] ^ lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_2_337q))));
+	assign		wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_321m_dataout = (s_wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_always1_311_dataout === 1'b1) ? wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_316m_dataout : lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_341q;
+	and(wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_327m_dataout, wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_321m_dataout, ~(s_wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_always1_322_dataout));
+	assign		wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_629m_dataout = ((~ s_wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_always1_331_dataout) === 1'b1) ? wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_327m_dataout : lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_341q;
+	assign		wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_mem_rd_addr_0_344m_dataout = (s_wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_always1_322_dataout === 1'b1) ? wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add1_299_o[0] : lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_0_339q;
+	assign		wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_mem_rd_addr_1_343m_dataout = (s_wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_always1_322_dataout === 1'b1) ? wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add1_299_o[1] : lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_1_338q;
+	assign		wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_mem_rd_addr_2_342m_dataout = (s_wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_always1_322_dataout === 1'b1) ? wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add1_299_o[2] : lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_2_337q;
+	and(wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_out_valid_326m_dataout, (~ lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_empty_340q), ~(s_wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_empty_0_639_dataout));
+	assign		wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_out_valid_329m_dataout = (s_wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_always1_322_dataout === 1'b1) ? wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_out_valid_326m_dataout : (~ lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_empty_340q);
+	oper_add   lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add0_298
+	( 
+	.a({lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_2_334q, lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_1_335q, lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_0_336q}),
+	.b({{2{1'b0}}, 1'b1}),
+	.cin(1'b0),
+	.cout(),
+	.o(wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add0_298_o));
+	defparam
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add0_298.sgate_representation = 0,
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add0_298.width_a = 3,
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add0_298.width_b = 3,
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add0_298.width_o = 3;
+	oper_add   lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add1_299
+	( 
+	.a({lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_2_337q, lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_1_338q, lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_0_339q}),
+	.b({{2{1'b0}}, 1'b1}),
+	.cin(1'b0),
+	.cout(),
+	.o(wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add1_299_o));
+	defparam
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add1_299.sgate_representation = 0,
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add1_299.width_a = 3,
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add1_299.width_b = 3,
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add1_299.width_o = 3;
+	oper_add   lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add2_303
+	( 
+	.a({lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_2_334q, lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_1_335q, lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_0_336q, 1'b1}),
+	.b({(~ lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_2_337q), (~ lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_1_338q), (~ lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_rd_addr_0_339q), 1'b1}),
+	.cin(1'b0),
+	.cout(),
+	.o(wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add2_303_o));
+	defparam
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add2_303.sgate_representation = 0,
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add2_303.width_a = 4,
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add2_303.width_b = 4,
+		lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add2_303.width_o = 4;
+	oper_less_than   lcd_ta_fifo_to_dfa_lessthan0_2
+	( 
+	.a({lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_341q, wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_fill_level_2_305m_dataout, wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_fill_level_1_306m_dataout, wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_fill_level_0_307m_dataout}),
+	.b({1'b0, 1'b1, {2{1'b0}}}),
+	.cin(1'b0),
+	.o(wire_lcd_ta_fifo_to_dfa_lessthan0_2_o));
+	defparam
+		lcd_ta_fifo_to_dfa_lessthan0_2.sgate_representation = 0,
+		lcd_ta_fifo_to_dfa_lessthan0_2.width_a = 4,
+		lcd_ta_fifo_to_dfa_lessthan0_2.width_b = 4;
+	assign
+		in_ready = wire_lcd_ta_fifo_to_dfa_lessthan0_2_o,
+		out_data = {wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943_q_b[68:5]},
+		out_empty = {wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943_q_b[2:0]},
+		out_endofpacket = wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943_q_b[3],
+		out_startofpacket = wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_altsyncram_mem_943_q_b[4],
+		out_valid = lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_out_valid_418q,
+		s_wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_always1_311_dataout = (in_valid & (~ lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_341q)),
+		s_wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_always1_322_dataout = (out_ready & lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_out_valid_418q),
+		s_wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_always1_331_dataout = (in_valid & (s_wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_always1_322_dataout & (~ lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_full_341q))),
+		s_wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_empty_0_639_dataout = (((~ (wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add1_299_o[0] ^ lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_0_336q)) & (~ (wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add1_299_o[1] ^ lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_1_335q))) & (~ (wire_lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_add1_299_o[2] ^ lcd_ta_fifo_to_dfa_lcd_ta_fifo_to_dfa_fifo_lcd_ta_fifo_to_dfa_fifo_wr_addr_2_334q))),
+		s_wire_vcc = 1'b1;
+endmodule //lcd_ta_fifo_to_dfa
+//synopsys translate_on
+//VALID FILE

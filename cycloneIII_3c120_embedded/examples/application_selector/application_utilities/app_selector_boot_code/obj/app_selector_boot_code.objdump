@@ -1,0 +1,161 @@
+
+./obj/app_selector_boot_code.elf:     file format elf32-littlenios2
+
+
+Disassembly of section .text:
+
+00001054 <_start>:
+reset:
+_start:
+main:
+
+  // Clear the CPU's status-register, thereby disabling interrupts.
+  wrctl   status, zero
+    1054:	0001703a 	wrctl	status,zero
+
+
+  // Flush the instruction cache.
+  movhi   counter,%hi(0x10000)
+    1058:	01800074 	movhi	r6,1
+
+0000105c <cache_flush_loop>:
+cache_flush_loop:
+  initi   counter
+    105c:	3001483a 	initi	r6
+  addi    counter, counter,-32
+    1060:	31bff804 	addi	r6,r6,-32
+  bne     counter, zero, cache_flush_loop
+    1064:	303ffd1e 	bne	r6,zero,105c <cache_flush_loop>
+
+  // Flush the pipeline
+  flushp
+    1068:	0000203a 	flushp
+  
+  // Get our flash base address 
+  // movia uses the linker address, not neccessarily the REAL address, 
+  // so we'll use a combination of nextpc and movia
+  nextpc  temp_data
+    106c:	0010e03a 	nextpc	r8
+
+00001070 <current_code_offset>:
+    1070:	01800034 	movhi	r6,0
+current_code_offset:  
+  movia   counter, current_code_offset
+    1074:	31841c04 	addi	r6,r6,4208
+  sub     flash_base, temp_data, counter 
+    1078:	4197c83a 	sub	r11,r8,r6
+
+  // Load up the address of the sw application
+  movhi   flash_ptr, %hi(SW_APP_CODE)
+    107c:	00800934 	movhi	r2,36
+  ori     flash_ptr, flash_ptr, %lo(SW_APP_CODE)
+    1080:	10800934 	orhi	r2,r2,36
+  add     flash_ptr, flash_ptr, flash_base
+    1084:	12c5883a 	add	r2,r2,r11
+
+  callr   flash_ptr
+    1088:	103ee83a 	callr	r2
+
+0000108c <loop_forever>:
+
+ // This is where we end up if the application ever returns.
+loop_forever:
+  br      loop_forever
+    108c:	003fff06 	br	108c <loop_forever>
+
+Disassembly of section .debug_aranges:
+
+00000000 <.debug_aranges>:
+   0:	0000001c 	xori	zero,zero,0
+   4:	00000002 	0x2
+   8:	00040000 	call	4000 <__bss_start+0x1f70>
+   c:	00000000 	call	0 <_start-0x1054>
+  10:	00001054 	movui	zero,65
+  14:	0000003c 	xorhi	zero,zero,0
+	...
+
+Disassembly of section .debug_info:
+
+00000000 <.debug_info>:
+   0:	000000af 	ldhio	zero,2(zero)
+   4:	00000002 	0x2
+   8:	01040000 	call	104000 <_gp+0xf9f80>
+   c:	00000000 	call	0 <_start-0x1054>
+  10:	00001054 	movui	zero,65
+  14:	00001090 	cmplti	zero,zero,66
+  18:	5f707061 	0x5f707061
+  1c:	656c6573 	initd	-20075(r12)
+  20:	726f7463 	ldbuio	r9,-16943(r14)
+  24:	6f6f625f 	ldl	ea,-17015(r13)
+  28:	6f635f74 	orhi	ea,r13,36221
+  2c:	732e6564 	muli	r12,r14,-18027
+  30:	5c3a6400 	call	5c3a640 <_gp+0x5c305c0>
+  34:	312e3031 	0x312e3031
+  38:	726f665f 	ldl	r9,-16999(r14)
+  3c:	5c74616d 	sthio	r17,-11899(r11)
+  40:	6c637963 	ldbuio	r17,-29211(r13)
+  44:	49656e6f 	ldhio	r5,-27207(r9)
+  48:	335f4949 	0x335f4949
+  4c:	30323163 	ldbuio	zero,-14139(r6)
+  50:	626d655f 	ldl	r9,-19051(r12)
+  54:	65646465 	stbio	r21,-28271(r12)
+  58:	78655c64 	muli	at,r15,-27279
+  5c:	6c706d61 	0x6c706d61
+  60:	615c7365 	stbio	r5,29133(r12)
+  64:	696c7070 	cmpltui	r5,r13,45505
+  68:	69746163 	ldbuio	r5,-11899(r13)
+  6c:	735f6e6f 	ldhio	r13,32185(r14)
+  70:	63656c65 	stbio	r13,-27215(r12)
+  74:	5c726f74 	orhi	r17,r11,51645
+  78:	6c707061 	0x6c707061
+  7c:	74616369 	0x74616369
+  80:	5f6e6f69 	0x5f6e6f69
+  84:	6c697475 	stwio	r17,-23087(r13)
+  88:	65697469 	0x65697469
+  8c:	70615c73 	initd	-31375(r14)
+  90:	65735f70 	cmpltui	r21,r12,52605
+  94:	7463656c 	andhi	r17,r14,36245
+  98:	625f726f 	ldhio	r9,32201(r12)
+  9c:	5f746f6f 	ldhio	ea,-11843(r11)
+  a0:	65646f63 	ldbuio	r21,-28227(r12)
+  a4:	554e4700 	call	554e470 <_gp+0x55443f0>
+  a8:	20534120 	cmpeqi	at,r4,19716
+  ac:	30322e32 	custom	184,c25,c6,c0
+  b0:	Address 0x000000b0 is out of bounds.
+
+
+Disassembly of section .debug_abbrev:
+
+00000000 <.debug_abbrev>:
+   0:	10001101 	jmpi	1000110 <_gp+0xff6090>
+   4:	12011106 	br	44c <_start-0xc08>
+   8:	1b080301 	jmpi	1b08030 <_gp+0x1afdfb0>
+   c:	13082508 	cmpgei	r12,r2,8340
+  10:	00000005 	stb	zero,0(zero)
+
+Disassembly of section .debug_line:
+
+00000000 <.debug_line>:
+   0:	00000051 	0x51
+   4:	002f0002 	0x2f0002
+   8:	01010000 	call	101000 <_gp+0xf6f80>
+   c:	000d0efb 	flushd	13371(zero)
+  10:	01010101 	jmpi	101010 <_gp+0xf6f90>
+  14:	01000000 	call	100000 <_gp+0xf5f80>
+  18:	00010000 	call	1000 <_start-0x54>
+  1c:	5f707061 	0x5f707061
+  20:	656c6573 	initd	-20075(r12)
+  24:	726f7463 	ldbuio	r9,-16943(r14)
+  28:	6f6f625f 	ldl	ea,-17015(r13)
+  2c:	6f635f74 	orhi	ea,r13,36221
+  30:	732e6564 	muli	r12,r14,-18027
+  34:	00000000 	call	0 <_start-0x1054>
+  38:	02050000 	call	205000 <_gp+0x1faf80>
+  3c:	00001054 	movui	zero,65
+  40:	4e013803 	ldbu	et,1248(r9)
+  44:	4d4b4b4c 	andi	r21,r9,11565
+  48:	4d4b844f 	ldh	r21,11793(r9)
+  4c:	4e4c4b4b 	ldhu	bt,12589(r9)
+  50:	01000402 	0x1000402
+  54:	Address 0x00000054 is out of bounds.
+

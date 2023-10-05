@@ -1,0 +1,246 @@
+#AFI afi generate sequencer: hdl/sequencer/seq/alt_mem_phy_seq alt_mem_phy_seq
+#AFI generate sequencer wrapper: hdl/datapath/common/alt_mem_phy_seq_wrapper ddr2_sdram_phy alt_mem_phy_seq_wrapper
+ALTMEMPHY Returning list of Ports to IPTB
+[pll_ref_clk, global_reset_n, soft_reset_n, reset_request_n, ctl_clk, ctl_reset_n, ctl_dqs_burst[3..0], ctl_wdata_valid[3..0], ctl_wdata[63..0], ctl_dm[7..0], ctl_wlat[4..0], ctl_addr[25..0], ctl_ba[3..0], ctl_cas_n[1..0], ctl_cke[1..0], ctl_cs_n[1..0], ctl_odt[1..0], ctl_ras_n[1..0], ctl_we_n[1..0], ctl_rst_n[1..0], ctl_mem_clk_disable[0..0], ctl_doing_rd[3..0], ctl_rdata[63..0], ctl_rdata_valid[1..0], ctl_rlat[4..0], ctl_cal_req, ctl_cal_byte_lane_sel_n[1..0], ctl_cal_success, ctl_cal_fail, ctl_cal_warning, mem_addr[12..0], mem_ba[1..0], mem_cas_n, mem_cke[0..0], mem_cs_n[0..0], mem_dm[1..0], mem_odt[0..0], mem_ras_n, mem_we_n, mem_reset_n, mem_clk[0..0], mem_clk_n[0..0], mem_dq[15..0], mem_dqs[1..0], mem_dqs_n[1..0], dbg_clk, dbg_reset_n, dbg_addr[12..0], dbg_wr, dbg_rd, dbg_cs, dbg_wr_data[31..0], dbg_rd_data[31..0], dbg_waitrequest, aux_half_rate_clk, aux_full_rate_clk]
+Generating MegaCore function top-level...
+MSG NF-1 Added project file "ddr2_sdram_phy.v" Location = 2
+Generating QIP file ...
+MSG NF-1 Added project file "ddr2_sdram_phy_alt_mem_phy_seq_wrapper.v" Location = 2
+MSG NF-1 Added project file "ddr2_sdram_phy_alt_mem_phy_seq.vhd" Location = 2
+MSG NF-1 Added project file "ddr2_sdram_phy.v" Location = 2
+MSG NF-1 Added project file "ddr2_sdram_phy_alt_mem_phy.v" Location = 2
+MSG NF-1 Added project file "ddr2_sdram_phy_alt_mem_phy_pll.v" Location = 2
+MSG APF-6: Processing ddr2_sdram_phy_alt_mem_phy_seq_wrapper.v
+MSG QIP-2: Adding Verilog file ddr2_sdram_phy_alt_mem_phy_seq_wrapper.v
+MSG APF-6: Processing ddr2_sdram_phy_alt_mem_phy_seq.vhd
+MSG QIP-1: Adding VHDL file ddr2_sdram_phy_alt_mem_phy_seq.vhd
+MSG APF-6: Processing ddr2_sdram_phy.v
+MSG QIP-2: Adding Verilog file ddr2_sdram_phy.v
+MSG APF-6: Processing ddr2_sdram_phy_alt_mem_phy.v
+MSG QIP-2: Adding Verilog file ddr2_sdram_phy_alt_mem_phy.v
+MSG APF-6: Processing ddr2_sdram_phy_alt_mem_phy_pll.v
+MSG QIP-2: Adding Verilog file ddr2_sdram_phy_alt_mem_phy_pll.v
+Adding design files to Quartus II project ...
+MSG BRT-7: Copying quartus.ini to quartus.ini
+MSG NF-1 Added project file "ddr2_sdram_phy_alt_mem_phy_seq_wrapper.v" Location = 2
+MSG NF-1 Added project file "ddr2_sdram_phy_alt_mem_phy_seq.vhd" Location = 2
+MSG NF-1 Added project file "ddr2_sdram_phy.v" Location = 2
+MSG NF-1 Added project file "ddr2_sdram_phy_alt_mem_phy.v" Location = 2
+MSG NF-1 Added project file "ddr2_sdram_phy_alt_mem_phy_pll.v" Location = 2
+MSG APF-8: Processing ddr2_sdram_phy_alt_mem_phy_seq_wrapper.v
+MSG APF-1: Adding Tcl file ddr2_sdram_phy_alt_mem_phy_seq_wrapper.v
+MSG APF-1: Adding Tcl file ddr2_sdram_phy_alt_mem_phy_seq_wrapper.v
+MSG APF-8: Processing ddr2_sdram_phy_alt_mem_phy_seq.vhd
+MSG APF-1: Adding Tcl file ddr2_sdram_phy_alt_mem_phy_seq.vhd
+MSG APF-1: Adding Tcl file ddr2_sdram_phy_alt_mem_phy_seq.vhd
+MSG APF-8: Processing ddr2_sdram_phy.v
+MSG APF-1: Adding Tcl file ddr2_sdram_phy.v
+MSG APF-1: Adding Tcl file ddr2_sdram_phy.v
+MSG APF-8: Processing ddr2_sdram_phy_alt_mem_phy.v
+MSG APF-1: Adding Tcl file ddr2_sdram_phy_alt_mem_phy.v
+MSG APF-1: Adding Tcl file ddr2_sdram_phy_alt_mem_phy.v
+MSG APF-8: Processing ddr2_sdram_phy_alt_mem_phy_pll.v
+MSG APF-1: Adding Tcl file ddr2_sdram_phy_alt_mem_phy_pll.v
+MSG APF-1: Adding Tcl file ddr2_sdram_phy_alt_mem_phy_pll.v
+ALTMEMPHY Returning list of Ports to IPTB
+[pll_ref_clk, global_reset_n, soft_reset_n, reset_request_n, ctl_clk, ctl_reset_n, ctl_dqs_burst[3..0], ctl_wdata_valid[3..0], ctl_wdata[63..0], ctl_dm[7..0], ctl_wlat[4..0], ctl_addr[25..0], ctl_ba[3..0], ctl_cas_n[1..0], ctl_cke[1..0], ctl_cs_n[1..0], ctl_odt[1..0], ctl_ras_n[1..0], ctl_we_n[1..0], ctl_rst_n[1..0], ctl_mem_clk_disable[0..0], ctl_doing_rd[3..0], ctl_rdata[63..0], ctl_rdata_valid[1..0], ctl_rlat[4..0], ctl_cal_req, ctl_cal_byte_lane_sel_n[1..0], ctl_cal_success, ctl_cal_fail, ctl_cal_warning, mem_addr[12..0], mem_ba[1..0], mem_cas_n, mem_cke[0..0], mem_cs_n[0..0], mem_dm[1..0], mem_odt[0..0], mem_ras_n, mem_we_n, mem_reset_n, mem_clk[0..0], mem_clk_n[0..0], mem_dq[15..0], mem_dqs[1..0], mem_dqs_n[1..0], dbg_clk, dbg_reset_n, dbg_addr[12..0], dbg_wr, dbg_rd, dbg_cs, dbg_wr_data[31..0], dbg_rd_data[31..0], dbg_waitrequest, aux_half_rate_clk, aux_full_rate_clk]
+MegaCore Function Generation successful.
+MSG FMP-1: Posting close event for IP Toolbench. Application will exit now with code 4
+MSG FMP-2: Calling windowClosing. Application will exit now with the code 4
+DDR2 SDRAM Controller with ALTMEMPHY 11.0
+Date Stamp: Thu Sep 15 16:05:49 SGT 2011
+Entity Name: ddr2_sdram_1_controller_phy	Vendor: Altera Corporation
+Variation Name: ddr2_sdram_1	Variation Language: Verilog HDL
+Working Directory: D:\11.0_format\For Testing\cycloneIII_3c120_embedded\examples\lcd
+DDR_HP Returning list of Ports to IPTB
+[local_address[23..0], local_write_req, local_read_req, local_burstbegin, local_ready, local_rdata[31..0], local_rdata_valid, local_wdata[31..0], local_be[3..0], local_size[1..0], local_rdata_error, local_refresh_ack, local_refresh_req, local_wdata_req, local_init_done, reset_phy_clk_n, oct_ctl_rs_value[13..0], oct_ctl_rt_value[13..0], dqs_delay_ctrl_import[5..0], dll_reference_clk, dqs_delay_ctrl_export[5..0], dqs_offset_delay_ctrl[5..0], hc_scan_enable_access, hc_scan_enable_dq[15..0], hc_scan_enable_dm[1..0], hc_scan_enable_dqs[1..0], hc_scan_enable_dqs_config[1..0], hc_scan_din[1..0], hc_scan_update[1..0], hc_scan_ck, hc_scan_dout[15..0], pll_reconfig_busy, pll_reconfig_clk, pll_reconfig_reset, pll_reconfig_write_param, pll_reconfig_read_param, pll_reconfig, pll_reconfig_counter_type[3..0], pll_reconfig_counter_param[2..0], pll_reconfig_soft_reset_en_n, pll_reconfig_data_out[8..0], pll_reconfig_data_in[8..0], pll_phasecounterselect[3..0], pll_phaseupdown, pll_phasestep, pll_phase_done, pll_reconfig_enable, aux_scan_clk_reset_n, aux_scan_clk, local_autopch_req, local_self_rfsh_req, local_self_rfsh_ack, local_powerdn_req, local_powerdn_ack, mem_odt[0..0], mem_clk[0..0], mem_clk_n[0..0], mem_cs_n[0..0], mem_cke[0..0], mem_addr[12..0], mem_ba[1..0], mem_ras_n, mem_cas_n, mem_we_n, mem_dq[15..0], mem_dqs[1..0], mem_dqsn[1..0], mem_dm[1..0], mem_reset_n, global_reset_n, pll_ref_clk, phy_clk, aux_full_rate_clk, aux_half_rate_clk, soft_reset_n, reset_request_n]
+Generating MegaCore function top-level...
+MSG NF-1 Added project file "ddr2_sdram_1.v" Location = 2
+Generating QIP file ...
+######## D:\11.0_format\For Testing\cycloneIII_3c120_embedded\examples\lcd\auk_ddr_hp_controller.vhd to D:\11.0_format\For Testing\cycloneIII_3c120_embedded\examples\lcd\iptb_ddr2_high_performance_controller_temp2572121426842013736\auk_ddr_hp_controller.vhd
+MSG NF-1 Added project file "auk_ddr_hp_controller.vhd" Location = 2
+MSG NF-1 Added project file "ddr2_sdram_1_auk_ddr_hp_controller_wrapper.v" Location = 2
+MSG NF-1 Added project file "ddr2_sdram_1.v" Location = 2
+MSG APF-6: Processing ddr2_sdram_1.v
+MSG QIP-2: Adding Verilog file ddr2_sdram_1.v
+MSG APF-6: Processing ddr2_sdram_1_auk_ddr_hp_controller_wrapper.v
+MSG QIP-2: Adding Verilog file ddr2_sdram_1_auk_ddr_hp_controller_wrapper.v
+MSG APF-6: Processing auk_ddr_hp_controller.vhd
+MSG QIP-1: Adding VHDL file auk_ddr_hp_controller.vhd
+Adding design files to Quartus II project ...
+MSG BRT-7: Copying quartus.ini to quartus.ini
+######## D:\11.0_format\For Testing\cycloneIII_3c120_embedded\examples\lcd\auk_ddr_hp_controller.vhd to D:\11.0_format\For Testing\cycloneIII_3c120_embedded\examples\lcd\iptb_ddr2_high_performance_controller_temp2572121426842013736\auk_ddr_hp_controller.vhd
+MSG NF-1 Added project file "auk_ddr_hp_controller.vhd" Location = 2
+MSG NF-1 Added project file "ddr2_sdram_1_auk_ddr_hp_controller_wrapper.v" Location = 2
+MSG NF-1 Added project file "ddr2_sdram_1.v" Location = 2
+MSG APF-8: Processing ddr2_sdram_1.v
+MSG APF-1: Adding Tcl file ddr2_sdram_1.v
+MSG APF-1: Adding Tcl file ddr2_sdram_1.v
+MSG APF-8: Processing ddr2_sdram_1_auk_ddr_hp_controller_wrapper.v
+MSG APF-1: Adding Tcl file ddr2_sdram_1_auk_ddr_hp_controller_wrapper.v
+MSG APF-1: Adding Tcl file ddr2_sdram_1_auk_ddr_hp_controller_wrapper.v
+MSG APF-8: Processing auk_ddr_hp_controller.vhd
+MSG APF-1: Adding Tcl file auk_ddr_hp_controller.vhd
+MSG APF-1: Adding Tcl file auk_ddr_hp_controller.vhd
+DDR_HP Returning list of Ports to IPTB
+[local_address[23..0], local_write_req, local_read_req, local_burstbegin, local_ready, local_rdata[31..0], local_rdata_valid, local_wdata[31..0], local_be[3..0], local_size[1..0], local_rdata_error, local_refresh_ack, local_refresh_req, local_wdata_req, local_init_done, reset_phy_clk_n, oct_ctl_rs_value[13..0], oct_ctl_rt_value[13..0], dqs_delay_ctrl_import[5..0], dll_reference_clk, dqs_delay_ctrl_export[5..0], dqs_offset_delay_ctrl[5..0], hc_scan_enable_access, hc_scan_enable_dq[15..0], hc_scan_enable_dm[1..0], hc_scan_enable_dqs[1..0], hc_scan_enable_dqs_config[1..0], hc_scan_din[1..0], hc_scan_update[1..0], hc_scan_ck, hc_scan_dout[15..0], pll_reconfig_busy, pll_reconfig_clk, pll_reconfig_reset, pll_reconfig_write_param, pll_reconfig_read_param, pll_reconfig, pll_reconfig_counter_type[3..0], pll_reconfig_counter_param[2..0], pll_reconfig_soft_reset_en_n, pll_reconfig_data_out[8..0], pll_reconfig_data_in[8..0], pll_phasecounterselect[3..0], pll_phaseupdown, pll_phasestep, pll_phase_done, pll_reconfig_enable, aux_scan_clk_reset_n, aux_scan_clk, local_autopch_req, local_self_rfsh_req, local_self_rfsh_ack, local_powerdn_req, local_powerdn_ack, mem_odt[0..0], mem_clk[0..0], mem_clk_n[0..0], mem_cs_n[0..0], mem_cke[0..0], mem_addr[12..0], mem_ba[1..0], mem_ras_n, mem_cas_n, mem_we_n, mem_dq[15..0], mem_dqs[1..0], mem_dqsn[1..0], mem_dm[1..0], mem_reset_n, global_reset_n, pll_ref_clk, phy_clk, aux_full_rate_clk, aux_half_rate_clk, soft_reset_n, reset_request_n]
+MegaCore Function Generation successful.
+MSG FMP-1: Posting close event for IP Toolbench. Application will exit now with code 4
+MSG FMP-2: Calling windowClosing. Application will exit now with the code 4
+#AFI afi generate sequencer: hdl/sequencer/seq/alt_mem_phy_seq alt_mem_phy_seq
+#AFI generate sequencer wrapper: hdl/datapath/common/alt_mem_phy_seq_wrapper ddr2_sdram_1_phy alt_mem_phy_seq_wrapper
+ALTMEMPHY Returning list of Ports to IPTB
+[pll_ref_clk, global_reset_n, soft_reset_n, reset_request_n, ctl_clk, ctl_reset_n, ctl_dqs_burst[1..0], ctl_wdata_valid[1..0], ctl_wdata[31..0], ctl_dm[3..0], ctl_wlat[4..0], ctl_addr[12..0], ctl_ba[1..0], ctl_cas_n[0..0], ctl_cke[0..0], ctl_cs_n[0..0], ctl_odt[0..0], ctl_ras_n[0..0], ctl_we_n[0..0], ctl_rst_n[0..0], ctl_mem_clk_disable[0..0], ctl_doing_rd[1..0], ctl_rdata[31..0], ctl_rdata_valid[0..0], ctl_rlat[4..0], ctl_cal_req, ctl_cal_byte_lane_sel_n[1..0], ctl_cal_success, ctl_cal_fail, ctl_cal_warning, mem_addr[12..0], mem_ba[1..0], mem_cas_n, mem_cke[0..0], mem_cs_n[0..0], mem_dm[1..0], mem_odt[0..0], mem_ras_n, mem_we_n, mem_reset_n, mem_clk[0..0], mem_clk_n[0..0], mem_dq[15..0], mem_dqs[1..0], mem_dqs_n[1..0], dbg_clk, dbg_reset_n, dbg_addr[12..0], dbg_wr, dbg_rd, dbg_cs, dbg_wr_data[31..0], dbg_rd_data[31..0], dbg_waitrequest, aux_half_rate_clk, aux_full_rate_clk]
+Generating MegaCore function top-level...
+MSG NF-1 Added project file "ddr2_sdram_1_phy.v" Location = 2
+Generating QIP file ...
+MSG NF-1 Added project file "ddr2_sdram_1_phy_alt_mem_phy_seq_wrapper.v" Location = 2
+MSG NF-1 Added project file "ddr2_sdram_1_phy_alt_mem_phy_seq.vhd" Location = 2
+MSG NF-1 Added project file "ddr2_sdram_1_phy.v" Location = 2
+MSG NF-1 Added project file "ddr2_sdram_1_phy_alt_mem_phy.v" Location = 2
+MSG NF-1 Added project file "ddr2_sdram_1_phy_alt_mem_phy_pll.v" Location = 2
+MSG APF-6: Processing ddr2_sdram_1_phy_alt_mem_phy_seq_wrapper.v
+MSG QIP-2: Adding Verilog file ddr2_sdram_1_phy_alt_mem_phy_seq_wrapper.v
+MSG APF-6: Processing ddr2_sdram_1_phy_alt_mem_phy_seq.vhd
+MSG QIP-1: Adding VHDL file ddr2_sdram_1_phy_alt_mem_phy_seq.vhd
+MSG APF-6: Processing ddr2_sdram_1_phy.v
+MSG QIP-2: Adding Verilog file ddr2_sdram_1_phy.v
+MSG APF-6: Processing ddr2_sdram_1_phy_alt_mem_phy.v
+MSG QIP-2: Adding Verilog file ddr2_sdram_1_phy_alt_mem_phy.v
+MSG APF-6: Processing ddr2_sdram_1_phy_alt_mem_phy_pll.v
+MSG QIP-2: Adding Verilog file ddr2_sdram_1_phy_alt_mem_phy_pll.v
+Adding design files to Quartus II project ...
+MSG BRT-7: Copying quartus.ini to quartus.ini
+MSG NF-1 Added project file "ddr2_sdram_1_phy_alt_mem_phy_seq_wrapper.v" Location = 2
+MSG NF-1 Added project file "ddr2_sdram_1_phy_alt_mem_phy_seq.vhd" Location = 2
+MSG NF-1 Added project file "ddr2_sdram_1_phy.v" Location = 2
+MSG NF-1 Added project file "ddr2_sdram_1_phy_alt_mem_phy.v" Location = 2
+MSG NF-1 Added project file "ddr2_sdram_1_phy_alt_mem_phy_pll.v" Location = 2
+MSG APF-8: Processing ddr2_sdram_1_phy_alt_mem_phy_seq_wrapper.v
+MSG APF-1: Adding Tcl file ddr2_sdram_1_phy_alt_mem_phy_seq_wrapper.v
+MSG APF-1: Adding Tcl file ddr2_sdram_1_phy_alt_mem_phy_seq_wrapper.v
+MSG APF-8: Processing ddr2_sdram_1_phy_alt_mem_phy_seq.vhd
+MSG APF-1: Adding Tcl file ddr2_sdram_1_phy_alt_mem_phy_seq.vhd
+MSG APF-1: Adding Tcl file ddr2_sdram_1_phy_alt_mem_phy_seq.vhd
+MSG APF-8: Processing ddr2_sdram_1_phy.v
+MSG APF-1: Adding Tcl file ddr2_sdram_1_phy.v
+MSG APF-1: Adding Tcl file ddr2_sdram_1_phy.v
+MSG APF-8: Processing ddr2_sdram_1_phy_alt_mem_phy.v
+MSG APF-1: Adding Tcl file ddr2_sdram_1_phy_alt_mem_phy.v
+MSG APF-1: Adding Tcl file ddr2_sdram_1_phy_alt_mem_phy.v
+MSG APF-8: Processing ddr2_sdram_1_phy_alt_mem_phy_pll.v
+MSG APF-1: Adding Tcl file ddr2_sdram_1_phy_alt_mem_phy_pll.v
+MSG APF-1: Adding Tcl file ddr2_sdram_1_phy_alt_mem_phy_pll.v
+ALTMEMPHY Returning list of Ports to IPTB
+[pll_ref_clk, global_reset_n, soft_reset_n, reset_request_n, ctl_clk, ctl_reset_n, ctl_dqs_burst[1..0], ctl_wdata_valid[1..0], ctl_wdata[31..0], ctl_dm[3..0], ctl_wlat[4..0], ctl_addr[12..0], ctl_ba[1..0], ctl_cas_n[0..0], ctl_cke[0..0], ctl_cs_n[0..0], ctl_odt[0..0], ctl_ras_n[0..0], ctl_we_n[0..0], ctl_rst_n[0..0], ctl_mem_clk_disable[0..0], ctl_doing_rd[1..0], ctl_rdata[31..0], ctl_rdata_valid[0..0], ctl_rlat[4..0], ctl_cal_req, ctl_cal_byte_lane_sel_n[1..0], ctl_cal_success, ctl_cal_fail, ctl_cal_warning, mem_addr[12..0], mem_ba[1..0], mem_cas_n, mem_cke[0..0], mem_cs_n[0..0], mem_dm[1..0], mem_odt[0..0], mem_ras_n, mem_we_n, mem_reset_n, mem_clk[0..0], mem_clk_n[0..0], mem_dq[15..0], mem_dqs[1..0], mem_dqs_n[1..0], dbg_clk, dbg_reset_n, dbg_addr[12..0], dbg_wr, dbg_rd, dbg_cs, dbg_wr_data[31..0], dbg_rd_data[31..0], dbg_waitrequest, aux_half_rate_clk, aux_full_rate_clk]
+MegaCore Function Generation successful.
+MSG FMP-1: Posting close event for IP Toolbench. Application will exit now with code 4
+MSG FMP-2: Calling windowClosing. Application will exit now with the code 4
+Generating MegaCore function top-level...
+MSG NF-1 Added project file "tse_mac.v" Location = 2
+orgval - :H:16:b00:V, outputType - VERILOG
+orgval - :D:8:1:V, outputType - VERILOG
+orgval - :D:8:0:V, outputType - VERILOG
+-->java.runtime.name=Java(TM) SE Runtime Environment
+-->sun.boot.library.path=c:\altera\11.0\quartus\bin\jre\bin
+-->java.vm.version=19.0-b09
+-->java.vm.vendor=Sun Microsystems Inc.
+-->java.vendor.url=http://java.sun.com/
+-->path.separator=;
+-->java.vm.name=Java HotSpot(TM) Client VM
+-->file.encoding.pkg=sun.io
+-->sun.java.launcher=SUN_STANDARD
+-->user.country=US
+-->sun.os.patch.level=
+-->java.vm.specification.name=Java Virtual Machine Specification
+-->user.dir=c:\altera\11.0\quartus\bin64
+-->java.runtime.version=1.6.0_23-b05
+-->java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+-->java.endorsed.dirs=c:\altera\11.0\quartus\bin\jre\lib\endorsed
+-->os.arch=x86
+-->java.io.tmpdir=C:\Users\lmong\AppData\Local\Temp\
+-->line.separator=
+
+-->java.vm.specification.vendor=Sun Microsystems Inc.
+-->user.variant=
+-->os.name=Windows 7
+-->sun.jnu.encoding=Cp1252
+-->java.library.path=c:\altera\11.0\quartus\bin\jre\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\altera\11.0\quartus\bin64\;C:\altera\81\quartus;C:\Cadence\SPB_16.3\tools\fet\bin;C:\Cadence\SPB_16.3\tools\pcb\bin;C:\Cadence\SPB_16.3\tools\specctra\bin;C:\Cadence\SPB_16.3\tools\PSpice;C:\Cadence\SPB_16.3\tools\PSpice\Library;C:\Cadence\SPB_16.3\tools\Capture;C:\Cadence\SPB_16.3\OpenAccess\bin\win32\opt;C:\MentorGraphics\9.3PADS\SDD_HOME\common\win32\bin;C:\MentorGraphics\9.3PADS\SDD_HOME\common\win32\lib;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Enterprise Vault\EVClient\;C:/MentorGraphics/9.3PADS/MGC_HOME.ixn/bin;C:/MentorGraphics/9.3PADS/MGC_HOME.ixn/lib;C:\MentorGraphics\9.3PADS\MGC_HOME.ixn\bin;C:\MentorGraphics\9.3PADS\MGC_HOME.ixn\lib;C:\MENTOR~1\LICENS~1;C:\Cadence\SPB_16.3\tools\bin;C:\Cadence\SPB_16.3\tools\libutil\bin;C:\altera\11.0\quartus\bin;C:\altera\81\modelsim_ae\win32aloem;c:\altera\11.1\modelsim_ase\win32aloem;c:\altera\11.0\modelsim_ase\win32aloem;c:/altera/11.0/quartus/\bin
+-->java.specification.name=Java Platform API Specification
+-->java.class.version=50.0
+-->sun.management.compiler=HotSpot Client Compiler
+-->os.version=6.1
+-->user.home=C:\Users\lmong
+-->user.timezone=Asia/Singapore
+-->java.awt.printerjob=sun.awt.windows.WPrinterJob
+-->file.encoding=Cp1252
+-->java.specification.version=1.6
+-->java.class.path=c:/altera/11.0/quartus//sopc_builder/model/lib/com.altera.sopceditor.jar
+-->user.name=lmong
+-->java.vm.specification.version=1.0
+-->java.home=c:\altera\11.0\quartus\bin\jre
+-->sun.arch.data.model=32
+-->user.language=en
+-->java.specification.vendor=Sun Microsystems Inc.
+-->awt.toolkit=sun.awt.windows.WToolkit
+-->java.vm.info=mixed mode
+-->java.version=1.6.0_23
+-->java.ext.dirs=c:\altera\11.0\quartus\bin\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+-->sun.boot.class.path=c:\altera\11.0\quartus\bin\jre\lib\resources.jar;c:\altera\11.0\quartus\bin\jre\lib\rt.jar;c:\altera\11.0\quartus\bin\jre\lib\sunrsasign.jar;c:\altera\11.0\quartus\bin\jre\lib\jsse.jar;c:\altera\11.0\quartus\bin\jre\lib\jce.jar;c:\altera\11.0\quartus\bin\jre\lib\charsets.jar;c:\altera\11.0\quartus\bin\jre\lib\modules\jdk.boot.jar;c:\altera\11.0\quartus\bin\jre\classes
+-->java.vendor=Sun Microsystems Inc.
+-->file.separator=\
+-->java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi
+-->sun.io.unicode.encoding=UnicodeLittle
+-->sun.cpu.endian=little
+-->sun.desktop=windows
+-->sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+OUTPUT>Command : --VARIATION_NAME=tse_mac 
+OUTPUT>C:\altera\11.0\ip\altera\triple_speed_ethernet\lib\ip_toolbench\..\..\testbench\loopback_modules\generate_loopback_module.pl:Info: module processing argument "VARIATION_NAME=tse_mac"
+OUTPUT>Command : --IS_VERILOG=1 
+OUTPUT>C:\altera\11.0\ip\altera\triple_speed_ethernet\lib\ip_toolbench\..\..\testbench\loopback_modules\generate_loopback_module.pl:Info: module processing argument "IS_VERILOG=1"
+OUTPUT>Command : --NUMBER_OF_CHANNEL=1 
+OUTPUT>C:\altera\11.0\ip\altera\triple_speed_ethernet\lib\ip_toolbench\..\..\testbench\loopback_modules\generate_loopback_module.pl:Info: module processing argument "NUMBER_OF_CHANNEL=1"
+OUTPUT>Command : --IS_FIFOLESS=0 
+OUTPUT>C:\altera\11.0\ip\altera\triple_speed_ethernet\lib\ip_toolbench\..\..\testbench\loopback_modules\generate_loopback_module.pl:Info: module processing argument "IS_FIFOLESS=0"
+OUTPUT>Command : --IS_MAC=1 
+OUTPUT>C:\altera\11.0\ip\altera\triple_speed_ethernet\lib\ip_toolbench\..\..\testbench\loopback_modules\generate_loopback_module.pl:Info: module processing argument "IS_MAC=1"
+OUTPUT>Command : --IS_PCS=0 
+OUTPUT>C:\altera\11.0\ip\altera\triple_speed_ethernet\lib\ip_toolbench\..\..\testbench\loopback_modules\generate_loopback_module.pl:Info: module processing argument "IS_PCS=0"
+OUTPUT>Command : --IS_PMA=0 
+OUTPUT>C:\altera\11.0\ip\altera\triple_speed_ethernet\lib\ip_toolbench\..\..\testbench\loopback_modules\generate_loopback_module.pl:Info: module processing argument "IS_PMA=0"
+OUTPUT>Command : --IS_GMII=1 
+OUTPUT>C:\altera\11.0\ip\altera\triple_speed_ethernet\lib\ip_toolbench\..\..\testbench\loopback_modules\generate_loopback_module.pl:Info: module processing argument "IS_GMII=1"
+OUTPUT>Command : --IS_POWERDOWN=0 
+OUTPUT>C:\altera\11.0\ip\altera\triple_speed_ethernet\lib\ip_toolbench\..\..\testbench\loopback_modules\generate_loopback_module.pl:Info: module processing argument "IS_POWERDOWN=0"
+OUTPUT>Command : --IS_SMALLMAC=0 
+OUTPUT>C:\altera\11.0\ip\altera\triple_speed_ethernet\lib\ip_toolbench\..\..\testbench\loopback_modules\generate_loopback_module.pl:Info: module processing argument "IS_SMALLMAC=0"
+OUTPUT>Command : --IS_SMALLMAC_GIGE=0 
+OUTPUT>C:\altera\11.0\ip\altera\triple_speed_ethernet\lib\ip_toolbench\..\..\testbench\loopback_modules\generate_loopback_module.pl:Info: module processing argument "IS_SMALLMAC_GIGE=0"
+OUTPUT>Command : --IS_HALFDUPLEX=1 
+OUTPUT>C:\altera\11.0\ip\altera\triple_speed_ethernet\lib\ip_toolbench\..\..\testbench\loopback_modules\generate_loopback_module.pl:Info: module processing argument "IS_HALFDUPLEX=1"
+OUTPUT>Command : --IS_GXB=0 
+OUTPUT>C:\altera\11.0\ip\altera\triple_speed_ethernet\lib\ip_toolbench\..\..\testbench\loopback_modules\generate_loopback_module.pl:Info: module processing argument "IS_GXB=0"
+OUTPUT>Command : --IS_ALT_RECONFIG=0 
+OUTPUT>C:\altera\11.0\ip\altera\triple_speed_ethernet\lib\ip_toolbench\..\..\testbench\loopback_modules\generate_loopback_module.pl:Info: module processing argument "IS_ALT_RECONFIG=0"
+OUTPUT>Command : --OUTPUT_DIRECTORY= 
+OUTPUT>C:\altera\11.0\ip\altera\triple_speed_ethernet\lib\ip_toolbench\..\..\testbench\loopback_modules\generate_loopback_module.pl:Info: module processing argument "OUTPUT_DIRECTORY="
+OUTPUT>Command : --IS_PHYIP=0 
+OUTPUT>C:\altera\11.0\ip\altera\triple_speed_ethernet\lib\ip_toolbench\..\..\testbench\loopback_modules\generate_loopback_module.pl:Info: module processing argument "IS_PHYIP=0"
+ExitValue: 0
+Generating QIP file ...
+MSG NF-1 Added project file "tse_mac.v" Location = 2
+MSG NF-1 Added project file "altera_tse_mac.v" Location = 2
+MSG APF-6: Processing tse_mac.v
+MSG QIP-2: Adding Verilog file tse_mac.v
+MSG APF-6: Processing altera_tse_mac.v
+Adding design files to Quartus II project ...
+MSG BRT-7: Copying quartus.ini to quartus.ini
+MSG NF-1 Added project file "tse_mac.v" Location = 2
+MSG NF-1 Added project file "altera_tse_mac.v" Location = 2
+MSG APF-8: Processing tse_mac.v
+MSG APF-1: Adding Tcl file tse_mac.v
+MSG APF-1: Adding Tcl file tse_mac.v
+MSG APF-8: Processing altera_tse_mac.v
+MegaCore Function Generation successful.
+MSG FMP-1: Posting close event for IP Toolbench. Application will exit now with code 4
+MSG FMP-2: Calling windowClosing. Application will exit now with the code 4

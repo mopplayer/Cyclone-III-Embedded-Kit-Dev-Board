@@ -1,0 +1,169 @@
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 11.1 Build 171 10/19/2011 SJ Full Version
+    Info: Copyright (C) 1991-2011 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, Altera MegaCore Function License 
+    Info: Agreement, or other applicable license agreement, including, 
+    Info: without limitation, that your use is for the sole purpose of 
+    Info: programming logic devices manufactured by Altera and sold by 
+    Info: Altera or its authorized distributors.  Please refer to the 
+    Info: applicable agreement for further details.
+    Info: Processing started: Mon Oct 31 02:29:59 2011
+Info: Command: quartus_sta -t timequest_validate.tcl
+system_name = bup_3c120_fpga.qpf
+
+Warning (125092): Tcl Script File ddr_o.qip not found
+    Info (125063): set_global_assignment -name QIP_FILE ddr_o.qip
+Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Info (332164): Evaluating HDL-embedded SDC commands
+    Info (332165): Entity alt_jtag_atlantic
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|jupdate}] -to [get_registers {*|alt_jtag_atlantic:*|jupdate1*}] 
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|rdata[*]}] -to [get_registers {*|alt_jtag_atlantic*|td_shift[*]}]
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|rdata[*]}] -to [get_registers {*|alt_jtag_atlantic*|td_shift[*]}]
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|rdata[*]}] -to [get_registers {*|alt_jtag_atlantic*|td_shift[*]}]
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|rdata[*]}] -to [get_registers {*|alt_jtag_atlantic*|td_shift[*]}]
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|rdata[*]}] -to [get_registers {*|alt_jtag_atlantic*|td_shift[*]}]
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|rdata[*]}] -to [get_registers {*|alt_jtag_atlantic*|td_shift[*]}]
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|rdata[*]}] -to [get_registers {*|alt_jtag_atlantic*|td_shift[*]}]
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|rdata[*]}] -to [get_registers {*|alt_jtag_atlantic*|td_shift[*]}]
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|read}] -to [get_registers {*|alt_jtag_atlantic:*|read1*}] 
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|read_req}]
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|rvalid}] -to [get_registers {*|alt_jtag_atlantic*|td_shift[*]}]
+        Info (332166): set_false_path -from [get_registers {*|t_dav}] -to [get_registers {*|alt_jtag_atlantic:*|tck_t_dav}]
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|user_saw_rvalid}] -to [get_registers {*|alt_jtag_atlantic:*|rvalid0*}]
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|wdata[*]}] -to [get_registers {*}]
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|wdata[*]}] -to [get_registers {*}]
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|wdata[*]}] -to [get_registers {*}]
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|wdata[*]}] -to [get_registers {*}]
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|wdata[*]}] -to [get_registers {*}]
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|wdata[*]}] -to [get_registers {*}]
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|wdata[*]}] -to [get_registers {*}]
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|wdata[*]}] -to [get_registers {*}]
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|write}] -to [get_registers {*|alt_jtag_atlantic:*|write1*}] 
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|write_stalled}] -to [get_registers {*|alt_jtag_atlantic:*|t_ena*}]
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|write_stalled}] -to [get_registers {*|alt_jtag_atlantic:*|t_pause*}]
+        Info (332166): set_false_path -from [get_registers {*|alt_jtag_atlantic:*|write_valid}]
+    Info (332165): Entity altera_std_synchronizer
+        Info (332166): set_false_path -to [get_keepers {*altera_std_synchronizer:*|din_s1}]
+    Info (332165): Entity altera_tse_reset_synchronizer
+        Info (332166):  set_false_path -to [get_pins -compatibility_mode -nocase *altera_tse_reset_synchronizer_chain*|aclr]; set_false_path -to [get_pins -compatibility_mode -nocase *altera_tse_reset_synchronizer_chain*|clrn] 
+        Info (332166):  set_false_path -to [get_pins -compatibility_mode -nocase *altera_tse_reset_synchronizer_chain*|aclr]; set_false_path -to [get_pins -compatibility_mode -nocase *altera_tse_reset_synchronizer_chain*|clrn] 
+    Info (332165): Entity sld_hub
+        Info (332166): create_clock -period 10MHz -name altera_reserved_tck [get_ports {altera_reserved_tck}]
+        Info (332166): set_clock_groups -asynchronous -group {altera_reserved_tck}
+Warning (332174): Ignored filter at timequest_validate.tcl(5): *altera_tse_reset_synchronizer_chain*|aclr could not be matched with a pin
+Warning (332049): Ignored set_false_path at timequest_validate.tcl(5): Argument <to> is an empty collection
+    Info (332050): read_sdc
+Warning (332049): Ignored set_false_path at timequest_validate.tcl(5): Argument <to> is an empty collection
+    Info (332050): read_sdc
+Info (332104): Reading SDC File: 'bup_3c120_fpga.sdc'
+Info (332110): Deriving PLL Clocks
+    Info (332110): create_generated_clock -source {tx_clk_inst|altpll_component|auto_generated|pll1|inclk[0]} -divide_by 2 -multiply_by 5 -duty_cycle 50.00 -name {tx_clk_inst|altpll_component|auto_generated|pll1|clk[0]} {tx_clk_inst|altpll_component|auto_generated|pll1|clk[0]}
+    Info (332110): create_generated_clock -source {tx_clk_inst|altpll_component|auto_generated|pll1|inclk[0]} -divide_by 2 -duty_cycle 50.00 -name {tx_clk_inst|altpll_component|auto_generated|pll1|clk[1]} {tx_clk_inst|altpll_component|auto_generated|pll1|clk[1]}
+    Info (332110): create_generated_clock -source {tx_clk_inst|altpll_component|auto_generated|pll1|inclk[0]} -divide_by 20 -duty_cycle 50.00 -name {tx_clk_inst|altpll_component|auto_generated|pll1|clk[2]} {tx_clk_inst|altpll_component|auto_generated|pll1|clk[2]}
+Info (332151): Clock uncertainty calculation is delayed until the next update_timing_netlist call
+Info (332104): Reading SDC File: 'cpu.sdc'
+Info (332104): Reading SDC File: 'tse_mac_constraints.sdc'
+Warning (332174): Ignored filter at tse_mac_constraints.sdc(155): clk could not be matched with a port
+Warning (332049): Ignored create_clock at tse_mac_constraints.sdc(155): Argument <targets> is an empty collection
+    Info (332050): create_clock -period "$DEFAULT_SYSTEM_CLOCK_SPEED" -name altera_tse_${CLK}_$TO_THE_VARIATION_NAME [ get_ports  $CLK]
+Warning (332174): Ignored filter at tse_mac_constraints.sdc(158): ff_tx_clk could not be matched with a port
+Warning (332049): Ignored create_clock at tse_mac_constraints.sdc(158): Argument <targets> is an empty collection
+    Info (332050): create_clock -period "$FIFO_CLOCK_FREQUENCY" -name altera_tse_${FF_TX_CLK}_$TO_THE_VARIATION_NAME [ get_ports $FF_TX_CLK]
+Warning (332174): Ignored filter at tse_mac_constraints.sdc(159): ff_rx_clk could not be matched with a port
+Warning (332049): Ignored create_clock at tse_mac_constraints.sdc(159): Argument <targets> is an empty collection
+    Info (332050): create_clock -period "$FIFO_CLOCK_FREQUENCY" -name altera_tse_${FF_RX_CLK}_$TO_THE_VARIATION_NAME [ get_ports $FF_RX_CLK]
+Warning (332174): Ignored filter at tse_mac_constraints.sdc(162): tx_clk could not be matched with a port
+Warning (332049): Ignored create_clock at tse_mac_constraints.sdc(162): Argument <targets> is an empty collection
+    Info (332050): create_clock -period "$TSE_CLOCK_FREQUENCY" -name altera_tse_${TX_CLK}_$TO_THE_VARIATION_NAME [ get_ports $TX_CLK]
+Warning (332174): Ignored filter at tse_mac_constraints.sdc(163): rx_clk could not be matched with a port
+Warning (332049): Ignored create_clock at tse_mac_constraints.sdc(163): Argument <targets> is an empty collection
+    Info (332050): create_clock -period "$TSE_CLOCK_FREQUENCY" -name altera_tse_${RX_CLK}_$TO_THE_VARIATION_NAME [ get_ports $RX_CLK]
+Info (332123): Deriving Clock Uncertainty
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_125}] -rise_to [get_clocks {tx_clk_125}] -setup 0.030
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_125}] -fall_to [get_clocks {tx_clk_125}] -setup 0.030
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_125}] -rise_to [get_clocks {tx_clk_125}] -setup 0.030
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_125}] -fall_to [get_clocks {tx_clk_125}] -setup 0.030
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_125}] -rise_to [get_clocks {tx_clk_125}] -hold 0.030
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_125}] -fall_to [get_clocks {tx_clk_125}] -hold 0.030
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_125}] -rise_to [get_clocks {tx_clk_125}] -hold 0.030
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_125}] -fall_to [get_clocks {tx_clk_125}] -hold 0.030
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_125}] -rise_to [get_clocks {enet_gtx_clk_125}] -setup 0.110
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_125}] -fall_to [get_clocks {enet_gtx_clk_125}] -setup 0.110
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_125}] -rise_to [get_clocks {enet_gtx_clk_125}] -setup 0.110
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_125}] -fall_to [get_clocks {enet_gtx_clk_125}] -setup 0.110
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_125}] -rise_to [get_clocks {enet_gtx_clk_125}] -hold 0.110
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_125}] -fall_to [get_clocks {enet_gtx_clk_125}] -hold 0.110
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_125}] -rise_to [get_clocks {enet_gtx_clk_125}] -hold 0.110
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_125}] -fall_to [get_clocks {enet_gtx_clk_125}] -hold 0.110
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_25}] -rise_to [get_clocks {tx_clk_25}] -setup 0.030
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_25}] -fall_to [get_clocks {tx_clk_25}] -setup 0.030
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_25}] -rise_to [get_clocks {tx_clk_25}] -setup 0.030
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_25}] -fall_to [get_clocks {tx_clk_25}] -setup 0.030
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_25}] -rise_to [get_clocks {tx_clk_25}] -hold 0.030
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_25}] -fall_to [get_clocks {tx_clk_25}] -hold 0.030
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_25}] -rise_to [get_clocks {tx_clk_25}] -hold 0.030
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_25}] -fall_to [get_clocks {tx_clk_25}] -hold 0.030
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_25}] -rise_to [get_clocks {enet_gtx_clk_25}] -setup 0.110
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_25}] -fall_to [get_clocks {enet_gtx_clk_25}] -setup 0.110
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_25}] -rise_to [get_clocks {enet_gtx_clk_25}] -setup 0.110
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_25}] -fall_to [get_clocks {enet_gtx_clk_25}] -setup 0.110
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_25}] -rise_to [get_clocks {enet_gtx_clk_25}] -hold 0.110
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_25}] -fall_to [get_clocks {enet_gtx_clk_25}] -hold 0.110
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_25}] -rise_to [get_clocks {enet_gtx_clk_25}] -hold 0.110
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_25}] -fall_to [get_clocks {enet_gtx_clk_25}] -hold 0.110
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_2p5}] -rise_to [get_clocks {tx_clk_2p5}] -setup 0.030
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_2p5}] -fall_to [get_clocks {tx_clk_2p5}] -setup 0.030
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_2p5}] -rise_to [get_clocks {tx_clk_2p5}] -setup 0.030
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_2p5}] -fall_to [get_clocks {tx_clk_2p5}] -setup 0.030
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_2p5}] -rise_to [get_clocks {tx_clk_2p5}] -hold 0.030
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_2p5}] -fall_to [get_clocks {tx_clk_2p5}] -hold 0.030
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_2p5}] -rise_to [get_clocks {tx_clk_2p5}] -hold 0.030
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_2p5}] -fall_to [get_clocks {tx_clk_2p5}] -hold 0.030
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_2p5}] -rise_to [get_clocks {enet_gtx_clk_2p5}] -setup 0.110
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_2p5}] -fall_to [get_clocks {enet_gtx_clk_2p5}] -setup 0.110
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_2p5}] -rise_to [get_clocks {enet_gtx_clk_2p5}] -setup 0.110
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_2p5}] -fall_to [get_clocks {enet_gtx_clk_2p5}] -setup 0.110
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_2p5}] -rise_to [get_clocks {enet_gtx_clk_2p5}] -hold 0.110
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {tx_clk_2p5}] -fall_to [get_clocks {enet_gtx_clk_2p5}] -hold 0.110
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_2p5}] -rise_to [get_clocks {enet_gtx_clk_2p5}] -hold 0.110
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {tx_clk_2p5}] -fall_to [get_clocks {enet_gtx_clk_2p5}] -hold 0.110
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {enet_rx_clk}] -rise_to [get_clocks {enet_rx_clk}] -setup 0.020
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {enet_rx_clk}] -fall_to [get_clocks {enet_rx_clk}] -setup 0.020
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {enet_rx_clk}] -rise_to [get_clocks {enet_rx_clk}] -setup 0.020
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {enet_rx_clk}] -fall_to [get_clocks {enet_rx_clk}] -setup 0.020
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {enet_rx_clk}] -rise_to [get_clocks {enet_rx_clk}] -hold 0.020
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {enet_rx_clk}] -fall_to [get_clocks {enet_rx_clk}] -hold 0.020
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {enet_rx_clk}] -rise_to [get_clocks {enet_rx_clk}] -hold 0.020
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {enet_rx_clk}] -fall_to [get_clocks {enet_rx_clk}] -hold 0.020
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {clkin_50}] -rise_to [get_clocks {clkin_50}] -setup 0.020
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {clkin_50}] -fall_to [get_clocks {clkin_50}] -setup 0.020
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {clkin_50}] -rise_to [get_clocks {clkin_50}] -setup 0.020
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {clkin_50}] -fall_to [get_clocks {clkin_50}] -setup 0.020
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {clkin_50}] -rise_to [get_clocks {clkin_50}] -hold 0.020
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {clkin_50}] -fall_to [get_clocks {clkin_50}] -hold 0.020
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {clkin_50}] -rise_to [get_clocks {clkin_50}] -hold 0.020
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {clkin_50}] -fall_to [get_clocks {clkin_50}] -hold 0.020
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {altera_reserved_tck}] -rise_to [get_clocks {altera_reserved_tck}] -setup 0.020
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {altera_reserved_tck}] -fall_to [get_clocks {altera_reserved_tck}] -setup 0.020
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {altera_reserved_tck}] -rise_to [get_clocks {altera_reserved_tck}] -setup 0.020
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {altera_reserved_tck}] -fall_to [get_clocks {altera_reserved_tck}] -setup 0.020
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {altera_reserved_tck}] -rise_to [get_clocks {altera_reserved_tck}] -hold 0.020
+    Info (332123): set_clock_uncertainty -rise_from [get_clocks {altera_reserved_tck}] -fall_to [get_clocks {altera_reserved_tck}] -hold 0.020
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {altera_reserved_tck}] -rise_to [get_clocks {altera_reserved_tck}] -hold 0.020
+    Info (332123): set_clock_uncertainty -fall_from [get_clocks {altera_reserved_tck}] -fall_to [get_clocks {altera_reserved_tck}] -hold 0.020
+Info: No failing paths found
+Info (23030): Evaluation of Tcl script timequest_validate.tcl was successful
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 14 warnings
+    Info: Peak virtual memory: 552 megabytes
+    Info: Processing ended: Mon Oct 31 02:30:12 2011
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:05

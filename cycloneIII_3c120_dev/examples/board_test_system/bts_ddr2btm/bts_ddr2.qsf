@@ -1,0 +1,247 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2010 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
+# Date created = 18:23:16  April 30, 2010
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		bts_ddr2_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C120F780C8
+set_global_assignment -name TOP_LEVEL_ENTITY bts_ddr2
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "18:23:16  APRIL 30, 2010"
+set_global_assignment -name LAST_QUARTUS_VERSION 11.1
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name CYCLONEII_OPTIMIZATION_TECHNIQUE SPEED
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name OPTIMIZE_MULTI_CORNER_TIMING ON
+set_global_assignment -name SMART_RECOMPILE ON
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name ENABLE_SIGNALTAP OFF
+set_global_assignment -name USE_SIGNALTAP_FILE bts_ddr2_2.stp
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_location_assignment PIN_AG22 -to ddr2_dq[0]
+set_location_assignment PIN_AH21 -to ddr2_dq[1]
+set_location_assignment PIN_AH22 -to ddr2_dq[2]
+set_location_assignment PIN_AG21 -to ddr2_dq[3]
+set_location_assignment PIN_AD17 -to ddr2_dq[4]
+set_location_assignment PIN_AH23 -to ddr2_dq[5]
+set_location_assignment PIN_AE19 -to ddr2_dq[6]
+set_location_assignment PIN_AF24 -to ddr2_dq[7]
+set_location_assignment PIN_AG18 -to ddr2_dq[8]
+set_location_assignment PIN_AG17 -to ddr2_dq[9]
+set_location_assignment PIN_AH18 -to ddr2_dq[10]
+set_location_assignment PIN_AH17 -to ddr2_dq[11]
+set_location_assignment PIN_AF15 -to ddr2_dq[12]
+set_location_assignment PIN_AE17 -to ddr2_dq[13]
+set_location_assignment PIN_AF16 -to ddr2_dq[14]
+set_location_assignment PIN_AB16 -to ddr2_dq[15]
+set_location_assignment PIN_AE11 -to ddr2_dq[16]
+set_location_assignment PIN_AG11 -to ddr2_dq[17]
+set_location_assignment PIN_AG10 -to ddr2_dq[18]
+set_location_assignment PIN_AH11 -to ddr2_dq[19]
+set_location_assignment PIN_AE9 -to ddr2_dq[20]
+set_location_assignment PIN_AE12 -to ddr2_dq[21]
+set_location_assignment PIN_AF10 -to ddr2_dq[22]
+set_location_assignment PIN_AE13 -to ddr2_dq[23]
+set_location_assignment PIN_AC8 -to ddr2_dq[24]
+set_location_assignment PIN_AH7 -to ddr2_dq[25]
+set_location_assignment PIN_AG8 -to ddr2_dq[26]
+set_location_assignment PIN_AH8 -to ddr2_dq[27]
+set_location_assignment PIN_AG7 -to ddr2_dq[28]
+set_location_assignment PIN_AA10 -to ddr2_dq[29]
+set_location_assignment PIN_AF7 -to ddr2_dq[30]
+set_location_assignment PIN_AD10 -to ddr2_dq[31]
+set_location_assignment PIN_AE18 -to ddr2_dqs[0]
+set_location_assignment PIN_AF17 -to ddr2_dqs[1]
+set_location_assignment PIN_AF11 -to ddr2_dqs[2]
+set_location_assignment PIN_AE10 -to ddr2_dqs[3]
+set_location_assignment PIN_AH19 -to ddr2_dm[0]
+set_location_assignment PIN_AC15 -to ddr2_dm[1]
+set_location_assignment PIN_AF8 -to ddr2_dm[2]
+set_location_assignment PIN_AB9 -to ddr2_dm[3]
+set_location_assignment PIN_A14 -to clkin_125
+set_location_assignment PIN_AH15 -to clkin_50
+set_location_assignment PIN_AD7 -to user_pb[0]
+set_location_assignment PIN_AC12 -to user_pb[1]
+set_location_assignment PIN_AH3 -to user_pb[2]
+set_location_assignment PIN_AA12 -to user_pb[3]
+set_location_assignment PIN_AC14 -to user_dipsw[0]
+set_location_assignment PIN_AD18 -to user_dipsw[1]
+set_location_assignment PIN_AG23 -to user_dipsw[2]
+set_location_assignment PIN_AC19 -to user_dipsw[3]
+set_location_assignment PIN_AD15 -to user_led[0]
+set_location_assignment PIN_AE20 -to user_led[1]
+set_location_assignment PIN_AF18 -to user_led[2]
+set_location_assignment PIN_AD19 -to user_led[3]
+set_location_assignment PIN_AF25 -to cpu_resetn
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dm[3]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dm[2]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dm[1]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dm[0]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[12]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[11]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[10]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[9]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[8]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[7]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[6]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[5]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[4]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[3]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[2]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[1]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[0]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[31]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[30]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[29]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[28]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[27]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[26]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[25]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[24]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[23]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[22]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[21]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[20]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[19]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[18]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[17]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[16]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[15]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[14]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dq[13]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dqs[3]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dqs[2]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dqs[1]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_dqs[0]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_dipsw[0]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_pb[3]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_pb[2]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_pb[1]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_pb[0]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_led[3]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_led[2]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_led[1]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_led[0]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_dipsw[3]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_dipsw[2]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to user_dipsw[1]
+set_instance_assignment -name IO_STANDARD "1.8 V" -to clkin_50
+set_instance_assignment -name IO_STANDARD "1.8 V" -to cpu_resetn
+set_instance_assignment -name IO_STANDARD "1.8 V" -to clkin_125
+set_global_assignment -name SEARCH_PATH .
+set_global_assignment -name SEARCH_PATH "ddr2_high_performance_controller-library"
+set_global_assignment -name SEARCH_PATH "altmemphy-library"
+set_global_assignment -name SEARCH_PATH "ddr2_high_performance_controller-library/" -tag from_archive
+set_global_assignment -name SEARCH_PATH ./
+set_global_assignment -name SEARCH_PATH testbench/
+set_global_assignment -name SEARCH_PATH pld/bts/bts_mem/lib/hw/ip/ -tag from_archive
+set_global_assignment -name SEARCH_PATH pld/bts/bts_mem/lib/hw/ports/ -tag from_archive
+set_global_assignment -name SEARCH_PATH pld/bts/lib/hw/ip/ -tag from_archive
+set_global_assignment -name SEARCH_PATH bts_gui_comp/ -tag from_archive
+set_global_assignment -name SEARCH_PATH "altmemphy-library/" -tag from_archive
+set_location_assignment PIN_AB22 -to ddr2_a[0]
+set_location_assignment PIN_AG6 -to ddr2_a[1]
+set_location_assignment PIN_Y13 -to ddr2_a[2]
+set_location_assignment PIN_AE7 -to ddr2_a[3]
+set_location_assignment PIN_AB12 -to ddr2_a[4]
+set_location_assignment PIN_AC7 -to ddr2_a[5]
+set_location_assignment PIN_AD12 -to ddr2_a[6]
+set_location_assignment PIN_AB8 -to ddr2_a[7]
+set_location_assignment PIN_AH12 -to ddr2_a[8]
+set_location_assignment PIN_AB10 -to ddr2_a[9]
+set_location_assignment PIN_AE4 -to ddr2_a[10]
+set_location_assignment PIN_AF21 -to ddr2_a[11]
+set_location_assignment PIN_Y12 -to ddr2_a[12]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_a[0]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_a[1]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_a[2]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_a[3]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_a[4]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_a[5]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_a[6]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_a[7]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_a[8]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_a[9]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_a[10]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_a[11]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_a[12]
+set_location_assignment PIN_AF3 -to ddr2_ba[0]
+set_location_assignment PIN_AF5 -to ddr2_ba[1]
+set_location_assignment PIN_AD21 -to ddr2_casn
+set_location_assignment PIN_AG4 -to ddr2_cke[0]
+set_location_assignment PIN_AE14 -to ddr2_clk[0]
+set_location_assignment PIN_AF14 -to ddr2_clk_n[0]
+set_location_assignment PIN_AC21 -to ddr2_csn[0]
+set_location_assignment PIN_AE24 -to ddr2_odt[0]
+set_location_assignment PIN_AE21 -to ddr2_rasn
+set_location_assignment PIN_AE5 -to ddr2_wen
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_csn[0]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_clk_n[0]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_clk[0]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_cke[0]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_casn
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_ba[0]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_ba[1]
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_wen
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_rasn
+set_instance_assignment -name IO_STANDARD "SSTL-18 CLASS I" -to ddr2_odt[0]
+set_global_assignment -name MISC_FILE bts_ddr2.dpf
+set_global_assignment -name SDC_FILE cpu_0.sdc
+set_global_assignment -name SDC_FILE ddr2_btm_phy_ddr_timing.sdc
+set_global_assignment -name VERILOG_FILE bts_ddr2.v
+set_global_assignment -name VHDL_FILE ddr2_btm_example_top.vhd
+set_global_assignment -name QIP_FILE ddr2_btm.qip
+set_global_assignment -name QIP_FILE nios_bts.qip
+set_global_assignment -name VHDL_FILE bts_gui_comp/sc_inf.vhd
+set_global_assignment -name VHDL_FILE bts_gui_comp/heartbeat.vhd
+set_global_assignment -name VHDL_FILE bts_gui_comp/product_info.vhd
+set_global_assignment -name SEARCH_PATH altera/91sp2/ip/altera/primitives/altera_avalon_st_clock_crosser/ -tag from_archive
+set_global_assignment -name SEARCH_PATH altera/91sp2/ip/altera/primitives/altera_avalon_st_pipeline_stage/ -tag from_archive
+set_global_assignment -name SEARCH_PATH altera/91sp2/ip/altera/sopc_builder_ip/altera_avalon_jtag_phy/ -tag from_archive
+set_global_assignment -name SEARCH_PATH altera/91sp2/ip/altera/sopc_builder_ip/altera_avalon_packets_to_master/ -tag from_archive
+set_global_assignment -name SEARCH_PATH altera/91sp2/ip/altera/sopc_builder_ip/altera_avalon_sc_fifo/ -tag from_archive
+set_global_assignment -name SEARCH_PATH altera/91sp2/ip/altera/sopc_builder_ip/altera_avalon_st_bytes_to_packets/ -tag from_archive
+set_global_assignment -name SEARCH_PATH altera/91sp2/ip/altera/sopc_builder_ip/altera_avalon_st_idle_inserter/ -tag from_archive
+set_global_assignment -name SEARCH_PATH altera/91sp2/ip/altera/sopc_builder_ip/altera_avalon_st_idle_remover/ -tag from_archive
+set_global_assignment -name SEARCH_PATH altera/91sp2/ip/altera/sopc_builder_ip/altera_avalon_st_packets_to_bytes/ -tag from_archive
+set_global_assignment -name SEARCH_PATH altera/91sp2/ip/altera/sopc_builder_ip/altera_jtag_avalon_master/ -tag from_archive
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

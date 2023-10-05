@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Oct 31 02:32:25 2011
+Quartus II 64-Bit Version : 11.1 Build 171 10/19/2011 SJ Full Version
+Revision Name : cycloneIII_3c120_dev_pfl
+Top-level Entity Name : cycloneIII_3c120_dev_pfl_top
+Family : Cyclone III
+Total logic elements : 276
+    Total combinational functions : 264
+    Dedicated logic registers : 181
+Total registers : 181
+Total pins : 45
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

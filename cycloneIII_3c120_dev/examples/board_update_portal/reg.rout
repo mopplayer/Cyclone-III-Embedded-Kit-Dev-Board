@@ -1,0 +1,9 @@
+-------------------------------------------------------------
+SOPC--->check the system has SOPC? is starting....
+SOPC--->complete checking whether the system has SOPC
+-------------------------------------------------------------
+COMPILE--->Full Compile design flow is starting....
+COMPILE--->Full Compile design flow PASSED
+-------------------------------------------------------------
+TIMEQUEST--->TimeQuest Analyzer flow is starting....
+TIMEQUEST--->TimeQuest Analyzer flow PASSED
